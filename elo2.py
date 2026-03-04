@@ -243,7 +243,7 @@ df_partidos = df_partidos[[
     'fg3m_away'
 ]]
 
-fecha = '2019-04-05' # 13 partidos esa fecha
+fecha = '2019-04-05' # 13 partidos esa fecha para testeo en v1.py
 # Obtener los ELOs justo antes de esa fecha
 #ELO 1
 df_partidos_elo1 = calcular_elo_nba(df_partidos, df_equipos, fecha)
