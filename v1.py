@@ -6,8 +6,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error
 
 cols_fecha = ['year', 'month', 'day']
-cols_elo = ['elo_h', 'elo_a', 'elo_h_ofg', 'elo_a_ofg', 'elo_h_dfg', 'elo_a_dfg', 
-            'elo_h_ofg3', 'elo_a_ofg3', 'elo_h_dfg3', 'elo_a_dfg3']
+cols_elo = ['elo_h', 'elo_a'#, 'elo_h_ofg', 'elo_a_ofg', 'elo_h_dfg', 'elo_a_dfg', 
+            #'elo_h_ofg3', 'elo_a_ofg3', 'elo_h_dfg3', 'elo_a_dfg3'
+            ]
 cols_equipos = []
 
 #One-Hot Encoding de los equipos 
@@ -115,6 +116,7 @@ def crear_modelo_2(n_input):
 
 def evaluar_precision(modelo, entrada, salida, nombre_modelo):
     predicciones = modelo.predict(entrada)
+    predicciones = np.round(predicciones).astype(float)
         
     mae = mean_absolute_error(salida, predicciones) # (Error promedio en puntos)
         
@@ -130,9 +132,13 @@ def evaluar_precision(modelo, entrada, salida, nombre_modelo):
     return precision, mae
 
 results_base = []
+results_base_2 = []
 results_elo1 = []
+results_elo1_2 = []
 results_elo2 = []
+results_elo2_2 = []
 results_elo3 = []
+results_elo3_2 = []
 
 # Parar el entrenamiento sí la pérdida no mejora despúes de 20 épocas
 
@@ -200,10 +206,38 @@ for i in range(20):
     acc_elo3, mae_elo3 = evaluar_precision(modelo_elo3, data_entrada_elo3_test, data_salida_elo3_test, "Modelo ELO3")
     acc_elo3_2, mae_elo3_2 = evaluar_precision(modelo_elo3_2, data_entrada_elo3_test, data_salida_elo3_test, "Modelo ELO3_2")
 
+    """
+    # Guardar resultados en CSV
+    def guardar_resultados_csv(df, modelo, entrada, nombre_archivo):
+        df = df.copy()
+        df = df_partidos[df_partidos['season_id'].astype(str).str[-4:].astype(int) > 2017]
+        df = df[['season_id', 'game_date', 'team_name_home', 'team_name_away', 'pts_home', 'pts_away']]
+        predicciones = modelo.predict(entrada)
+        predicciones = np.round(predicciones).astype(float)
+        df['pred_pts_home'] = predicciones[:, 0]
+        df['pred_pts_away'] = predicciones[:, 1]
+        df['delta_pts_home'] = df['pts_home'] - df['pred_pts_home']
+        df['delta_pts_away'] = df['pts_away'] - df['pred_pts_away']
+        df.to_csv('resultados/' + nombre_archivo, index=False)
+
+    guardar_resultados_csv(partidos_test, modelo, data_entrada_test, 'resultados_modelo_base.csv')
+    guardar_resultados_csv(partidos_test, modelo_2, data_entrada_test, 'resultados_modelo_base_2.csv')
+    guardar_resultados_csv(partidos_elo1_test, modelo_elo1, data_entrada_elo1_test, 'resultados_modelo_elo1.csv')
+    guardar_resultados_csv(partidos_elo1_test, modelo_elo1_2, data_entrada_elo1_test, 'resultados_modelo_elo1_2.csv')
+    guardar_resultados_csv(partidos_elo2_test, modelo_elo2, data_entrada_elo2_test, 'resultados_modelo_elo2.csv')
+    guardar_resultados_csv(partidos_elo2_test, modelo_elo2_2, data_entrada_elo2_test, 'resultados_modelo_elo2_2.csv')
+    guardar_resultados_csv(partidos_elo3_test, modelo_elo3, data_entrada_elo3_test, 'resultados_modelo_elo3.csv')
+    guardar_resultados_csv(partidos_elo3_test, modelo_elo3_2, data_entrada_elo3_test, 'resultados_modelo_elo3_2.csv')
+    """
+
     results_base.append((acc_base, mae_base))
+    results_base_2.append((acc_base_2, mae_base_2))
     results_elo1.append((acc_elo1, mae_elo1))
+    results_elo1_2.append((acc_elo1_2, mae_elo1_2))
     results_elo2.append((acc_elo2, mae_elo2))
+    results_elo2_2.append((acc_elo2_2, mae_elo2_2))
     results_elo3.append((acc_elo3, mae_elo3))
+    results_elo3_2.append((acc_elo3_2, mae_elo3_2))
 
 # Resultados Promedio
 def calcular_promedios_y_mejor(nombre_modelo, results):
@@ -219,6 +253,11 @@ def calcular_promedios_y_mejor(nombre_modelo, results):
     print(f"Mejor Error (MAE): {best_mae[1]:.2f} puntos")
 
 calcular_promedios_y_mejor("Modelo Base", results_base)
+calcular_promedios_y_mejor("Modelo Base_2", results_base_2)
 calcular_promedios_y_mejor("Modelo ELO1", results_elo1)
+calcular_promedios_y_mejor("Modelo ELO1_2", results_elo1_2)
 calcular_promedios_y_mejor("Modelo ELO2", results_elo2)
+calcular_promedios_y_mejor("Modelo ELO2_2", results_elo2_2)
 calcular_promedios_y_mejor("Modelo ELO3", results_elo3)
+calcular_promedios_y_mejor("Modelo ELO3_2", results_elo3_2)
+pass

@@ -7,7 +7,7 @@ def historial_5temporadas(df, fecha_objetivo):
     
     # Encontrar la temporada del partido más cercano a la fecha
     temp_ref = int(str(df[df['game_date'] <= fecha_obj]['season_id'][-4:].max())[-4:])
-    temp_inicio = temp_ref - 5
+    temp_inicio = temp_ref - 4
     
     mask = (df['season_id'].astype(str).str[-4:].astype(int) >= temp_inicio) & (df['game_date'] <= fecha_obj)
     return df[mask].sort_values('game_date')
@@ -43,7 +43,7 @@ def calcular_elos_fg(df_games, elo_ofensivo, elo_defensivo, i, partido, k, playo
         win_off_h = 0.5
 
     exp_off_h = prob_esperada(elo_ofensivo[id_h], elo_ofensivo[id_a])
-    ajuste_off = k * (win_off_h - exp_off_h) * playoffs_factor
+    ajuste_off = k * (win_off_h - exp_off_h) * playoffs_factor 
     elo_ofensivo[id_h] += ajuste_off
     elo_ofensivo[id_a] -= ajuste_off
 
@@ -53,7 +53,7 @@ def calcular_elos_fg(df_games, elo_ofensivo, elo_defensivo, i, partido, k, playo
     elif partido['fgm_away'] > partido['fgm_home']:
         win_def_h = 0 
     else:
-        # Empate en triples metidos, decidimos por porcentaje permitido
+        # Empate en tiros de campo concedidos, decidimos por porcentaje permitido
         win_def_h = 1 if partido['fg_pct_away'] < partido['fg_pct_home'] else 0  
     # Si empatan en todo, se considera empate defensivo
     if partido['fgm_away'] == partido['fgm_home'] and partido['fg_pct_away'] == partido['fg_pct_home']:
