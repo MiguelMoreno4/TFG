@@ -1,0 +1,1313 @@
+season_id,game_date,team_name_home,team_name_away,pts_home,pts_away,pred_home,pred_away
+22018,2018-10-16,Boston Celtics,Philadelphia 76ers,105.0,87.0,108.02624,106.99192
+22018,2018-10-16,Golden State Warriors,Oklahoma City Thunder,108.0,100.0,111.473114,107.24805
+22018,2018-10-17,Toronto Raptors,Cleveland Cavaliers,116.0,104.0,109.66263,105.21832
+22018,2018-10-17,Charlotte Hornets,Milwaukee Bucks,112.0,113.0,106.532005,106.891174
+22018,2018-10-17,Detroit Pistons,Brooklyn Nets,103.0,100.0,109.02097,108.66554
+22018,2018-10-17,Indiana Pacers,Memphis Grizzlies,111.0,83.0,104.36945,98.89222
+22018,2018-10-17,Orlando Magic,Miami Heat,104.0,101.0,105.23216,107.75929
+22018,2018-10-17,Phoenix Suns,Dallas Mavericks,121.0,100.0,108.0781,109.36891
+22018,2018-10-17,Sacramento Kings,Utah Jazz,117.0,123.0,102.370224,107.18814
+22018,2018-10-17,New York Knicks,Atlanta Hawks,126.0,107.0,104.19631,102.43163
+22018,2018-10-17,LA Clippers,Denver Nuggets,98.0,107.0,112.795975,112.48351
+22018,2018-10-17,San Antonio Spurs,Minnesota Timberwolves,112.0,108.0,107.05232,104.663284
+22018,2018-10-17,Houston Rockets,New Orleans Pelicans,112.0,131.0,114.8546,110.410545
+22018,2018-10-18,Portland Trail Blazers,Los Angeles Lakers,128.0,119.0,109.61161,105.45057
+22018,2018-10-18,Washington Wizards,Miami Heat,112.0,113.0,106.177536,105.53836
+22018,2018-10-18,Philadelphia 76ers,Chicago Bulls,127.0,108.0,106.08932,100.17628
+22018,2018-10-19,New Orleans Pelicans,Sacramento Kings,149.0,129.0,110.69523,105.32828
+22018,2018-10-19,Memphis Grizzlies,Atlanta Hawks,131.0,117.0,101.00232,100.25738
+22018,2018-10-19,Utah Jazz,Golden State Warriors,123.0,124.0,104.719055,103.58396
+22018,2018-10-19,Toronto Raptors,Boston Celtics,113.0,101.0,107.060036,105.02003
+22018,2018-10-19,Minnesota Timberwolves,Cleveland Cavaliers,131.0,123.0,110.85822,110.295616
+22018,2018-10-19,Orlando Magic,Charlotte Hornets,88.0,120.0,103.25104,104.660576
+22018,2018-10-19,Brooklyn Nets,New York Knicks,107.0,105.0,113.67823,111.06076
+22018,2018-10-19,LA Clippers,Oklahoma City Thunder,108.0,92.0,107.85593,109.02513
+22018,2018-10-19,Milwaukee Bucks,Indiana Pacers,118.0,101.0,104.465096,103.61077
+22018,2018-10-20,Washington Wizards,Toronto Raptors,113.0,117.0,108.113075,110.45139
+22018,2018-10-20,Philadelphia 76ers,Orlando Magic,116.0,115.0,106.75392,100.58864
+22018,2018-10-20,Denver Nuggets,Phoenix Suns,119.0,91.0,114.81225,108.713646
+22018,2018-10-20,New York Knicks,Boston Celtics,101.0,103.0,109.848114,112.69856
+22018,2018-10-20,Chicago Bulls,Detroit Pistons,116.0,118.0,104.546005,105.40194
+22018,2018-10-20,Portland Trail Blazers,San Antonio Spurs,121.0,108.0,106.127235,102.40174
+22018,2018-10-20,Dallas Mavericks,Minnesota Timberwolves,140.0,136.0,107.20158,108.54064
+22018,2018-10-20,Indiana Pacers,Brooklyn Nets,132.0,112.0,112.18129,109.99884
+22018,2018-10-20,Los Angeles Lakers,Houston Rockets,115.0,124.0,113.1289,116.80266
+22018,2018-10-20,Miami Heat,Charlotte Hornets,112.0,113.0,105.9992,103.40983
+22018,2018-10-21,Denver Nuggets,Golden State Warriors,100.0,98.0,114.11578,115.22598
+22018,2018-10-21,LA Clippers,Houston Rockets,115.0,112.0,114.711395,119.03619
+22018,2018-10-21,Cleveland Cavaliers,Atlanta Hawks,111.0,133.0,108.52873,103.84021
+22018,2018-10-21,Oklahoma City Thunder,Sacramento Kings,120.0,131.0,110.42638,105.27786
+22018,2018-10-22,Minnesota Timberwolves,Indiana Pacers,101.0,91.0,107.067375,107.27147
+22018,2018-10-22,Utah Jazz,Memphis Grizzlies,84.0,92.0,100.70015,93.47853
+22018,2018-10-22,Boston Celtics,Orlando Magic,90.0,93.0,109.26178,102.9694
+22018,2018-10-22,Golden State Warriors,Phoenix Suns,123.0,103.0,115.65224,106.11722
+22018,2018-10-22,Dallas Mavericks,Chicago Bulls,115.0,109.0,103.20578,101.31747
+22018,2018-10-22,Toronto Raptors,Charlotte Hornets,127.0,106.0,104.68188,99.77314
+22018,2018-10-22,Los Angeles Lakers,San Antonio Spurs,142.0,143.0,106.1932,104.7501
+22018,2018-10-22,Portland Trail Blazers,Washington Wizards,124.0,125.0,111.69807,106.925156
+22018,2018-10-22,Milwaukee Bucks,New York Knicks,124.0,113.0,102.64363,99.34137
+22018,2018-10-23,Denver Nuggets,Sacramento Kings,126.0,112.0,113.12088,109.34423
+22018,2018-10-23,New Orleans Pelicans,LA Clippers,116.0,109.0,111.466866,107.756485
+22018,2018-10-23,Detroit Pistons,Philadelphia 76ers,133.0,132.0,106.15214,107.77013
+22018,2018-10-24,Cleveland Cavaliers,Brooklyn Nets,86.0,102.0,111.016785,109.90152
+22018,2018-10-24,Miami Heat,New York Knicks,110.0,87.0,106.52873,102.77445
+22018,2018-10-24,Golden State Warriors,Washington Wizards,144.0,122.0,114.21213,107.69311
+22018,2018-10-24,Atlanta Hawks,Dallas Mavericks,111.0,104.0,101.291664,100.638695
+22018,2018-10-24,Houston Rockets,Utah Jazz,89.0,100.0,107.841286,105.32238
+22018,2018-10-24,Toronto Raptors,Minnesota Timberwolves,112.0,105.0,109.98774,105.09857
+22018,2018-10-24,Milwaukee Bucks,Philadelphia 76ers,123.0,108.0,104.44217,104.53492
+22018,2018-10-24,Chicago Bulls,Charlotte Hornets,112.0,110.0,100.62985,103.11881
+22018,2018-10-24,Sacramento Kings,Memphis Grizzlies,97.0,92.0,102.831535,101.85936
+22018,2018-10-24,Phoenix Suns,Los Angeles Lakers,113.0,131.0,113.48193,116.46592
+22018,2018-10-24,San Antonio Spurs,Indiana Pacers,96.0,116.0,104.26956,102.59033
+22018,2018-10-25,Los Angeles Lakers,Denver Nuggets,121.0,114.0,114.10759,113.187614
+22018,2018-10-25,Oklahoma City Thunder,Boston Celtics,95.0,101.0,112.23017,111.68695
+22018,2018-10-25,Orlando Magic,Portland Trail Blazers,114.0,128.0,109.12586,112.019165
+22018,2018-10-25,Detroit Pistons,Cleveland Cavaliers,110.0,103.0,106.8066,105.58283
+22018,2018-10-26,Houston Rockets,LA Clippers,113.0,133.0,119.175705,114.14495
+22018,2018-10-26,Charlotte Hornets,Chicago Bulls,135.0,106.0,107.95763,104.781715
+22018,2018-10-26,Sacramento Kings,Washington Wizards,116.0,112.0,108.83377,110.253716
+22018,2018-10-26,Minnesota Timberwolves,Milwaukee Bucks,95.0,125.0,104.689445,105.60957
+22018,2018-10-26,Toronto Raptors,Dallas Mavericks,116.0,107.0,104.26487,97.456055
+22018,2018-10-26,New Orleans Pelicans,Brooklyn Nets,117.0,115.0,112.04321,108.93142
+22018,2018-10-26,New York Knicks,Golden State Warriors,100.0,128.0,109.583145,113.70834
+22018,2018-10-27,New Orleans Pelicans,Utah Jazz,111.0,132.0,102.17145,101.70852
+22018,2018-10-27,Detroit Pistons,Boston Celtics,89.0,109.0,106.62567,108.33594
+22018,2018-10-27,Milwaukee Bucks,Orlando Magic,113.0,91.0,105.893776,99.826225
+22018,2018-10-27,Cleveland Cavaliers,Indiana Pacers,107.0,119.0,109.86784,110.2325
+22018,2018-10-27,Atlanta Hawks,Chicago Bulls,85.0,97.0,105.68582,104.091934
+22018,2018-10-27,Miami Heat,Portland Trail Blazers,120.0,111.0,109.33612,107.383194
+22018,2018-10-27,San Antonio Spurs,Los Angeles Lakers,110.0,106.0,106.0987,104.55922
+22018,2018-10-27,Memphis Grizzlies,Phoenix Suns,117.0,96.0,104.06007,101.5126
+22018,2018-10-27,Philadelphia 76ers,Charlotte Hornets,105.0,103.0,104.665634,101.67945
+22018,2018-10-28,Oklahoma City Thunder,Phoenix Suns,117.0,110.0,112.48235,105.73584
+22018,2018-10-28,LA Clippers,Washington Wizards,136.0,104.0,111.36774,109.46568
+22018,2018-10-28,Brooklyn Nets,Golden State Warriors,114.0,120.0,116.34193,118.64531
+22018,2018-10-28,Dallas Mavericks,Utah Jazz,104.0,113.0,100.359665,104.865456
+22018,2018-10-29,Philadelphia 76ers,Atlanta Hawks,113.0,92.0,104.99907,99.7218
+22018,2018-10-29,Denver Nuggets,New Orleans Pelicans,116.0,111.0,113.47034,113.024475
+22018,2018-10-29,San Antonio Spurs,Dallas Mavericks,113.0,108.0,100.72523,96.52703
+22018,2018-10-29,Minnesota Timberwolves,Los Angeles Lakers,124.0,120.0,109.28136,109.034065
+22018,2018-10-29,Miami Heat,Sacramento Kings,113.0,123.0,109.555214,105.27808
+22018,2018-10-29,Chicago Bulls,Golden State Warriors,124.0,149.0,108.26323,113.60523
+22018,2018-10-29,Milwaukee Bucks,Toronto Raptors,124.0,109.0,102.843994,103.804146
+22018,2018-10-29,New York Knicks,Brooklyn Nets,115.0,96.0,112.4515,113.34751
+22018,2018-10-29,Indiana Pacers,Portland Trail Blazers,93.0,103.0,108.94588,106.86775
+22018,2018-10-30,Memphis Grizzlies,Washington Wizards,107.0,95.0,105.690475,106.056305
+22018,2018-10-30,Orlando Magic,Sacramento Kings,99.0,107.0,108.552284,109.68361
+22018,2018-10-30,Oklahoma City Thunder,LA Clippers,128.0,110.0,114.12614,111.68501
+22018,2018-10-30,Toronto Raptors,Philadelphia 76ers,129.0,112.0,107.01845,104.072815
+22018,2018-10-30,Houston Rockets,Portland Trail Blazers,85.0,104.0,117.24753,113.022865
+22018,2018-10-30,Cleveland Cavaliers,Atlanta Hawks,136.0,114.0,107.68044,104.719475
+22018,2018-10-30,Charlotte Hornets,Miami Heat,125.0,113.0,106.40382,106.39149
+22018,2018-10-30,Boston Celtics,Detroit Pistons,108.0,105.0,109.53466,105.32678
+22018,2018-10-31,Phoenix Suns,San Antonio Spurs,90.0,120.0,109.754654,113.128654
+22018,2018-10-31,Golden State Warriors,New Orleans Pelicans,131.0,121.0,111.58972,107.068756
+22018,2018-10-31,Minnesota Timberwolves,Utah Jazz,128.0,125.0,102.09519,105.27157
+22018,2018-10-31,New York Knicks,Indiana Pacers,101.0,107.0,107.68082,109.20911
+22018,2018-10-31,Brooklyn Nets,Detroit Pistons,120.0,119.0,114.32894,112.35548
+22018,2018-10-31,Chicago Bulls,Denver Nuggets,107.0,108.0,107.400536,110.31441
+22018,2018-10-31,Los Angeles Lakers,Dallas Mavericks,114.0,113.0,104.20527,101.00967
+22018,2018-11-01,Philadelphia 76ers,LA Clippers,122.0,113.0,112.18112,108.7712
+22018,2018-11-01,Atlanta Hawks,Sacramento Kings,115.0,146.0,114.63049,114.20498
+22018,2018-11-01,Charlotte Hornets,Oklahoma City Thunder,107.0,111.0,108.860756,108.38075
+22018,2018-11-01,Boston Celtics,Milwaukee Bucks,117.0,113.0,109.126396,108.01758
+22018,2018-11-01,Portland Trail Blazers,New Orleans Pelicans,132.0,119.0,111.264946,108.44133
+22018,2018-11-01,Cleveland Cavaliers,Denver Nuggets,91.0,110.0,113.39997,113.02367
+22018,2018-11-02,Washington Wizards,Oklahoma City Thunder,111.0,134.0,111.095726,111.002235
+22018,2018-11-02,Orlando Magic,LA Clippers,95.0,120.0,112.24894,114.52216
+22018,2018-11-02,Phoenix Suns,Toronto Raptors,98.0,107.0,115.130035,121.435524
+22018,2018-11-02,Dallas Mavericks,New York Knicks,106.0,118.0,108.28569,106.399216
+22018,2018-11-02,Brooklyn Nets,Houston Rockets,111.0,119.0,115.092674,118.51118
+22018,2018-11-02,Chicago Bulls,Indiana Pacers,105.0,107.0,105.87976,108.99685
+22018,2018-11-02,Golden State Warriors,Minnesota Timberwolves,116.0,99.0,118.10585,110.11274
+22018,2018-11-02,Utah Jazz,Memphis Grizzlies,100.0,110.0,104.58135,97.34009
+22018,2018-11-03,Portland Trail Blazers,Los Angeles Lakers,110.0,114.0,112.09379,107.05237
+22018,2018-11-03,San Antonio Spurs,New Orleans Pelicans,109.0,95.0,108.0163,107.224785
+22018,2018-11-03,Chicago Bulls,Houston Rockets,88.0,96.0,110.36424,116.362625
+22018,2018-11-03,Denver Nuggets,Utah Jazz,103.0,88.0,108.89913,109.296776
+22018,2018-11-03,Charlotte Hornets,Cleveland Cavaliers,126.0,94.0,111.814445,108.58476
+22018,2018-11-03,Philadelphia 76ers,Detroit Pistons,109.0,99.0,109.82323,104.13205
+22018,2018-11-03,Atlanta Hawks,Miami Heat,123.0,118.0,108.28751,110.778534
+22018,2018-11-03,Indiana Pacers,Boston Celtics,102.0,101.0,112.14738,112.01683
+22018,2018-11-04,San Antonio Spurs,Orlando Magic,110.0,117.0,106.793045,100.14055
+22018,2018-11-04,Brooklyn Nets,Philadelphia 76ers,122.0,97.0,113.12335,113.82914
+22018,2018-11-04,Portland Trail Blazers,Minnesota Timberwolves,111.0,81.0,112.47756,107.068855
+22018,2018-11-04,Phoenix Suns,Memphis Grizzlies,102.0,100.0,111.18784,112.82984
+22018,2018-11-04,Washington Wizards,New York Knicks,108.0,95.0,110.646,107.735306
+22018,2018-11-04,Milwaukee Bucks,Sacramento Kings,144.0,109.0,108.83462,104.07402
+22018,2018-11-04,Los Angeles Lakers,Toronto Raptors,107.0,121.0,109.62929,111.42844
+22018,2018-11-05,Utah Jazz,Toronto Raptors,111.0,124.0,103.91816,103.7168
+22018,2018-11-05,Detroit Pistons,Miami Heat,115.0,120.0,103.59673,104.12538
+22018,2018-11-05,Orlando Magic,Cleveland Cavaliers,102.0,100.0,110.28037,110.95042
+22018,2018-11-05,New York Knicks,Chicago Bulls,115.0,116.0,107.6976,105.10043
+22018,2018-11-05,Golden State Warriors,Memphis Grizzlies,117.0,101.0,112.86717,103.52103
+22018,2018-11-05,Oklahoma City Thunder,New Orleans Pelicans,122.0,116.0,113.37638,110.89893
+22018,2018-11-05,Denver Nuggets,Boston Celtics,115.0,107.0,114.58027,114.152626
+22018,2018-11-05,LA Clippers,Minnesota Timberwolves,120.0,109.0,111.5442,108.71773
+22018,2018-11-05,Indiana Pacers,Houston Rockets,94.0,98.0,114.50508,116.03796
+22018,2018-11-06,Dallas Mavericks,Washington Wizards,119.0,100.0,110.32832,109.86186
+22018,2018-11-06,Phoenix Suns,Brooklyn Nets,82.0,104.0,117.87531,122.223206
+22018,2018-11-06,Portland Trail Blazers,Milwaukee Bucks,118.0,103.0,107.58135,105.5474
+22018,2018-11-06,Charlotte Hornets,Atlanta Hawks,113.0,102.0,108.22839,102.93794
+22018,2018-11-07,Miami Heat,San Antonio Spurs,95.0,88.0,107.568665,104.53527
+22018,2018-11-07,Sacramento Kings,Toronto Raptors,105.0,114.0,107.89126,112.82601
+22018,2018-11-07,Orlando Magic,Detroit Pistons,96.0,103.0,108.587494,108.65394
+22018,2018-11-07,Atlanta Hawks,New York Knicks,107.0,112.0,108.104935,107.83716
+22018,2018-11-07,New Orleans Pelicans,Chicago Bulls,107.0,98.0,111.21058,105.41794
+22018,2018-11-07,Utah Jazz,Dallas Mavericks,117.0,102.0,100.59369,94.38578
+22018,2018-11-07,Cleveland Cavaliers,Oklahoma City Thunder,86.0,95.0,109.38745,111.241585
+22018,2018-11-07,Los Angeles Lakers,Minnesota Timberwolves,114.0,110.0,114.050476,111.09977
+22018,2018-11-07,Memphis Grizzlies,Denver Nuggets,89.0,87.0,107.756584,110.06803
+22018,2018-11-07,Indiana Pacers,Philadelphia 76ers,94.0,100.0,109.631355,108.586815
+22018,2018-11-08,Portland Trail Blazers,LA Clippers,116.0,105.0,112.96605,108.41504
+22018,2018-11-08,Phoenix Suns,Boston Celtics,109.0,116.0,116.8712,122.92231
+22018,2018-11-08,Golden State Warriors,Milwaukee Bucks,111.0,134.0,110.37527,105.35277
+22018,2018-11-08,Oklahoma City Thunder,Houston Rockets,98.0,80.0,117.525116,118.21866
+22018,2018-11-09,Miami Heat,Indiana Pacers,102.0,110.0,110.743706,108.40389
+22018,2018-11-09,Denver Nuggets,Brooklyn Nets,110.0,112.0,116.44379,114.256966
+22018,2018-11-09,Philadelphia 76ers,Charlotte Hornets,133.0,132.0,106.83693,104.05397
+22018,2018-11-09,Sacramento Kings,Minnesota Timberwolves,121.0,110.0,109.02285,108.881325
+22018,2018-11-09,Utah Jazz,Boston Celtics,123.0,115.0,105.85196,104.55924
+22018,2018-11-09,Atlanta Hawks,Detroit Pistons,109.0,124.0,108.99506,109.2696
+22018,2018-11-09,Orlando Magic,Washington Wizards,117.0,108.0,107.68443,108.87104
+22018,2018-11-10,Miami Heat,Washington Wizards,110.0,116.0,111.33901,106.65221
+22018,2018-11-10,Memphis Grizzlies,Philadelphia 76ers,112.0,106.0,103.733116,106.32385
+22018,2018-11-10,LA Clippers,Milwaukee Bucks,128.0,126.0,105.80583,107.34191
+22018,2018-11-10,Golden State Warriors,Brooklyn Nets,116.0,100.0,117.836754,111.89234
+22018,2018-11-10,San Antonio Spurs,Houston Rockets,96.0,89.0,110.95797,113.51905
+22018,2018-11-10,Toronto Raptors,New York Knicks,128.0,112.0,108.71844,100.64388
+22018,2018-11-10,New Orleans Pelicans,Phoenix Suns,119.0,99.0,113.86126,105.67051
+22018,2018-11-10,Sacramento Kings,Los Angeles Lakers,86.0,101.0,108.96483,109.741356
+22018,2018-11-10,Chicago Bulls,Cleveland Cavaliers,99.0,98.0,107.59193,107.585175
+22018,2018-11-10,Dallas Mavericks,Oklahoma City Thunder,111.0,96.0,106.24595,109.43583
+22018,2018-11-11,New York Knicks,Orlando Magic,89.0,115.0,106.725296,104.373695
+22018,2018-11-11,Houston Rockets,Indiana Pacers,115.0,103.0,117.77064,113.88944
+22018,2018-11-11,Portland Trail Blazers,Boston Celtics,100.0,94.0,111.109604,108.919716
+22018,2018-11-11,Detroit Pistons,Charlotte Hornets,103.0,113.0,103.56564,103.7282
+22018,2018-11-11,Los Angeles Lakers,Atlanta Hawks,107.0,106.0,109.56806,103.35478
+22018,2018-11-11,Denver Nuggets,Milwaukee Bucks,114.0,121.0,110.6413,110.82047
+22018,2018-11-12,Minnesota Timberwolves,Brooklyn Nets,120.0,113.0,112.92833,113.89617
+22018,2018-11-12,Chicago Bulls,Dallas Mavericks,98.0,103.0,99.32064,100.185265
+22018,2018-11-12,Oklahoma City Thunder,Phoenix Suns,118.0,101.0,115.36046,106.04536
+22018,2018-11-12,Memphis Grizzlies,Utah Jazz,88.0,96.0,98.10993,101.6661
+22018,2018-11-12,LA Clippers,Golden State Warriors,121.0,116.0,112.62158,115.27987
+22018,2018-11-12,Sacramento Kings,San Antonio Spurs,104.0,99.0,103.66239,104.67739
+22018,2018-11-12,Washington Wizards,Orlando Magic,117.0,109.0,110.662735,107.408806
+22018,2018-11-12,Toronto Raptors,New Orleans Pelicans,110.0,126.0,107.69724,102.95241
+22018,2018-11-12,Miami Heat,Philadelphia 76ers,114.0,124.0,107.81576,106.955444
+22018,2018-11-13,Denver Nuggets,Houston Rockets,99.0,109.0,117.30429,118.80017
+22018,2018-11-13,Cleveland Cavaliers,Charlotte Hornets,113.0,89.0,107.08318,108.115036
+22018,2018-11-13,Golden State Warriors,Atlanta Hawks,110.0,103.0,114.79468,104.5403
+22018,2018-11-14,Oklahoma City Thunder,New York Knicks,128.0,103.0,108.74024,102.00385
+22018,2018-11-14,Orlando Magic,Philadelphia 76ers,111.0,106.0,105.841866,109.852135
+22018,2018-11-14,Boston Celtics,Chicago Bulls,111.0,82.0,109.58813,103.493935
+22018,2018-11-14,Dallas Mavericks,Utah Jazz,118.0,68.0,100.841705,104.42464
+22018,2018-11-14,Phoenix Suns,San Antonio Spurs,116.0,96.0,109.5378,113.632355
+22018,2018-11-14,Toronto Raptors,Detroit Pistons,104.0,106.0,107.836464,100.63115
+22018,2018-11-14,Milwaukee Bucks,Memphis Grizzlies,113.0,116.0,102.66949,96.74773
+22018,2018-11-14,Brooklyn Nets,Miami Heat,107.0,120.0,109.734566,108.4505
+22018,2018-11-14,Washington Wizards,Cleveland Cavaliers,119.0,95.0,114.613785,112.01735
+22018,2018-11-14,Los Angeles Lakers,Portland Trail Blazers,126.0,117.0,113.229996,113.01089
+22018,2018-11-14,Minnesota Timberwolves,New Orleans Pelicans,107.0,100.0,108.14144,110.07688
+22018,2018-11-15,Denver Nuggets,Atlanta Hawks,138.0,93.0,112.57911,106.381744
+22018,2018-11-15,Houston Rockets,Golden State Warriors,107.0,86.0,118.59696,116.75944
+22018,2018-11-15,LA Clippers,San Antonio Spurs,116.0,111.0,106.00966,103.24377
+22018,2018-11-16,Washington Wizards,Brooklyn Nets,104.0,115.0,115.644135,114.93705
+22018,2018-11-16,Minnesota Timberwolves,Portland Trail Blazers,112.0,96.0,111.0236,112.64841
+22018,2018-11-16,Memphis Grizzlies,Sacramento Kings,112.0,104.0,104.80431,104.185814
+22018,2018-11-16,Boston Celtics,Toronto Raptors,123.0,116.0,106.29135,107.670044
+22018,2018-11-16,Milwaukee Bucks,Chicago Bulls,123.0,104.0,105.8583,98.79473
+22018,2018-11-16,Philadelphia 76ers,Utah Jazz,113.0,107.0,100.26339,99.532715
+22018,2018-11-16,Indiana Pacers,Miami Heat,99.0,91.0,104.562645,102.46106
+22018,2018-11-16,New Orleans Pelicans,New York Knicks,129.0,124.0,109.446365,103.97539
+22018,2018-11-17,Brooklyn Nets,LA Clippers,119.0,127.0,118.0067,117.32104
+22018,2018-11-17,Boston Celtics,Utah Jazz,86.0,98.0,103.40046,102.29166
+22018,2018-11-17,New Orleans Pelicans,Denver Nuggets,125.0,115.0,112.52646,110.62104
+22018,2018-11-17,Chicago Bulls,Toronto Raptors,83.0,122.0,104.18028,109.84335
+22018,2018-11-17,Phoenix Suns,Oklahoma City Thunder,100.0,110.0,113.42188,118.575325
+22018,2018-11-17,Orlando Magic,Los Angeles Lakers,130.0,117.0,107.4952,110.00736
+22018,2018-11-17,Charlotte Hornets,Philadelphia 76ers,119.0,122.0,107.6764,108.35104
+22018,2018-11-17,Houston Rockets,Sacramento Kings,132.0,112.0,118.7115,112.28193
+22018,2018-11-17,Indiana Pacers,Atlanta Hawks,97.0,89.0,107.59089,100.899414
+22018,2018-11-17,Dallas Mavericks,Golden State Warriors,112.0,109.0,111.2446,114.30285
+22018,2018-11-18,San Antonio Spurs,Golden State Warriors,104.0,92.0,108.32759,110.2255
+22018,2018-11-18,Washington Wizards,Portland Trail Blazers,109.0,119.0,114.3922,114.676315
+22018,2018-11-18,Minnesota Timberwolves,Memphis Grizzlies,87.0,100.0,104.60069,102.63295
+22018,2018-11-18,Orlando Magic,New York Knicks,131.0,117.0,104.61635,103.43774
+22018,2018-11-18,Miami Heat,Los Angeles Lakers,97.0,113.0,108.8651,107.07908
+22018,2018-11-19,Milwaukee Bucks,Denver Nuggets,104.0,98.0,108.73173,105.8937
+22018,2018-11-19,Detroit Pistons,Cleveland Cavaliers,113.0,102.0,108.292786,105.78872
+22018,2018-11-19,Charlotte Hornets,Boston Celtics,117.0,112.0,109.87897,111.465355
+22018,2018-11-19,New Orleans Pelicans,San Antonio Spurs,140.0,126.0,105.80135,102.66316
+22018,2018-11-19,Sacramento Kings,Oklahoma City Thunder,117.0,113.0,106.04138,109.37451
+22018,2018-11-19,Memphis Grizzlies,Dallas Mavericks,98.0,88.0,100.16045,99.453804
+22018,2018-11-19,Atlanta Hawks,LA Clippers,119.0,127.0,112.34569,115.621895
+22018,2018-11-19,Indiana Pacers,Utah Jazz,121.0,94.0,101.93593,101.56684
+22018,2018-11-19,Philadelphia 76ers,Phoenix Suns,119.0,114.0,110.23381,102.09159
+22018,2018-11-20,Washington Wizards,LA Clippers,125.0,118.0,113.56879,113.56024
+22018,2018-11-20,Orlando Magic,Toronto Raptors,91.0,93.0,105.58732,110.53495
+22018,2018-11-20,New York Knicks,Portland Trail Blazers,114.0,118.0,109.53297,112.5191
+22018,2018-11-20,Miami Heat,Brooklyn Nets,92.0,104.0,110.87909,109.44777
+22018,2018-11-21,Minnesota Timberwolves,Denver Nuggets,101.0,103.0,110.51132,111.951294
+22018,2018-11-21,Milwaukee Bucks,Portland Trail Blazers,143.0,100.0,106.92704,104.340744
+22018,2018-11-21,Philadelphia 76ers,New Orleans Pelicans,121.0,120.0,105.47083,103.93436
+22018,2018-11-21,Boston Celtics,New York Knicks,109.0,117.0,108.71967,103.25461
+22018,2018-11-21,Charlotte Hornets,Indiana Pacers,127.0,109.0,107.39331,108.09796
+22018,2018-11-21,Cleveland Cavaliers,Los Angeles Lakers,105.0,109.0,110.39277,111.612816
+22018,2018-11-21,Atlanta Hawks,Toronto Raptors,108.0,124.0,107.90588,114.093414
+22018,2018-11-21,Chicago Bulls,Phoenix Suns,124.0,116.0,105.47915,103.903404
+22018,2018-11-21,Houston Rockets,Detroit Pistons,126.0,124.0,114.80637,108.48028
+22018,2018-11-21,Golden State Warriors,Oklahoma City Thunder,95.0,123.0,111.2002,107.64726
+22018,2018-11-21,San Antonio Spurs,Memphis Grizzlies,103.0,104.0,102.00682,99.37741
+22018,2018-11-21,Utah Jazz,Sacramento Kings,110.0,119.0,104.56141,100.702644
+22018,2018-11-21,Dallas Mavericks,Brooklyn Nets,119.0,113.0,108.3912,109.13696
+22018,2018-11-23,Indiana Pacers,San Antonio Spurs,100.0,111.0,104.56766,101.066475
+22018,2018-11-23,Brooklyn Nets,Minnesota Timberwolves,102.0,112.0,117.09452,114.52348
+22018,2018-11-23,New York Knicks,New Orleans Pelicans,114.0,109.0,106.8921,109.80426
+22018,2018-11-23,Atlanta Hawks,Boston Celtics,96.0,114.0,110.1061,114.841225
+22018,2018-11-23,Golden State Warriors,Portland Trail Blazers,125.0,97.0,114.27254,110.31714
+22018,2018-11-23,Philadelphia 76ers,Cleveland Cavaliers,112.0,121.0,110.74843,105.13443
+22018,2018-11-23,Denver Nuggets,Orlando Magic,112.0,87.0,112.099846,106.82553
+22018,2018-11-23,Milwaukee Bucks,Phoenix Suns,114.0,116.0,109.28679,100.33379
+22018,2018-11-23,Toronto Raptors,Washington Wizards,125.0,107.0,110.02846,102.842064
+22018,2018-11-23,LA Clippers,Memphis Grizzlies,112.0,107.0,106.69587,104.577034
+22018,2018-11-23,Chicago Bulls,Miami Heat,96.0,103.0,99.519745,102.220085
+22018,2018-11-23,Detroit Pistons,Houston Rockets,116.0,111.0,111.06746,115.63275
+22018,2018-11-23,Oklahoma City Thunder,Charlotte Hornets,109.0,104.0,108.34699,104.41654
+22018,2018-11-23,Los Angeles Lakers,Utah Jazz,90.0,83.0,103.29325,103.13294
+22018,2018-11-24,Dallas Mavericks,Boston Celtics,113.0,104.0,106.96535,109.24495
+22018,2018-11-24,Golden State Warriors,Sacramento Kings,117.0,116.0,112.65563,106.56061
+22018,2018-11-24,Oklahoma City Thunder,Denver Nuggets,98.0,105.0,113.361465,110.47186
+22018,2018-11-24,Minnesota Timberwolves,Chicago Bulls,111.0,96.0,107.0589,103.21094
+22018,2018-11-24,Milwaukee Bucks,San Antonio Spurs,135.0,129.0,101.584656,97.04315
+22018,2018-11-24,Cleveland Cavaliers,Houston Rockets,117.0,108.0,114.133224,119.51197
+22018,2018-11-24,Washington Wizards,New Orleans Pelicans,124.0,114.0,110.314674,110.679634
+22018,2018-11-25,Los Angeles Lakers,Orlando Magic,104.0,108.0,109.83357,105.07333
+22018,2018-11-25,Toronto Raptors,Miami Heat,125.0,115.0,103.71015,98.30567
+22018,2018-11-25,Memphis Grizzlies,New York Knicks,98.0,103.0,101.10664,98.484344
+22018,2018-11-25,Portland Trail Blazers,LA Clippers,100.0,104.0,112.26956,109.150314
+22018,2018-11-25,Atlanta Hawks,Charlotte Hornets,124.0,123.0,106.915855,110.821945
+22018,2018-11-25,Sacramento Kings,Utah Jazz,112.0,133.0,100.61727,102.7954
+22018,2018-11-25,Brooklyn Nets,Philadelphia 76ers,125.0,127.0,110.882195,111.77417
+22018,2018-11-25,Detroit Pistons,Phoenix Suns,118.0,107.0,110.476555,104.93479
+22018,2018-11-26,Charlotte Hornets,Milwaukee Bucks,110.0,107.0,106.2781,108.736664
+22018,2018-11-26,Cleveland Cavaliers,Minnesota Timberwolves,95.0,102.0,112.105064,111.48816
+22018,2018-11-26,New Orleans Pelicans,Boston Celtics,107.0,124.0,110.46337,110.58321
+22018,2018-11-26,Utah Jazz,Indiana Pacers,88.0,121.0,104.50582,102.44365
+22018,2018-11-26,Golden State Warriors,Orlando Magic,116.0,110.0,112.319756,104.86559
+22018,2018-11-26,Chicago Bulls,San Antonio Spurs,107.0,108.0,100.239174,103.07085
+22018,2018-11-26,Washington Wizards,Houston Rockets,135.0,131.0,117.625046,121.278694
+22018,2018-11-27,Denver Nuggets,Los Angeles Lakers,117.0,85.0,113.148445,110.302
+22018,2018-11-27,Phoenix Suns,Indiana Pacers,104.0,109.0,112.86203,117.94169
+22018,2018-11-27,Miami Heat,Atlanta Hawks,113.0,115.0,108.02082,102.813446
+22018,2018-11-27,Detroit Pistons,New York Knicks,115.0,108.0,106.06911,103.00317
+22018,2018-11-27,Memphis Grizzlies,Toronto Raptors,114.0,122.0,101.88425,105.91857
+22018,2018-11-28,Minnesota Timberwolves,San Antonio Spurs,128.0,89.0,104.83193,104.12255
+22018,2018-11-28,Oklahoma City Thunder,Cleveland Cavaliers,100.0,83.0,114.80418,108.69787
+22018,2018-11-28,Charlotte Hornets,Atlanta Hawks,108.0,94.0,108.41014,103.20453
+22018,2018-11-28,Brooklyn Nets,Utah Jazz,91.0,101.0,105.67584,106.49668
+22018,2018-11-28,Portland Trail Blazers,Orlando Magic,115.0,112.0,111.044075,105.51606
+22018,2018-11-28,Milwaukee Bucks,Chicago Bulls,116.0,113.0,107.28139,99.522934
+22018,2018-11-28,Philadelphia 76ers,New York Knicks,117.0,91.0,106.779625,101.95262
+22018,2018-11-28,Houston Rockets,Dallas Mavericks,108.0,128.0,108.76358,103.43151
+22018,2018-11-28,LA Clippers,Phoenix Suns,115.0,99.0,112.04446,106.15116
+22018,2018-11-28,New Orleans Pelicans,Washington Wizards,125.0,104.0,111.105774,108.42194
+22018,2018-11-29,Toronto Raptors,Golden State Warriors,131.0,128.0,109.50052,106.55063
+22018,2018-11-29,Los Angeles Lakers,Indiana Pacers,104.0,96.0,109.48441,109.56087
+22018,2018-11-29,Sacramento Kings,LA Clippers,121.0,133.0,109.95931,111.48901
+22018,2018-11-30,Miami Heat,New Orleans Pelicans,106.0,101.0,107.8817,107.072914
+22018,2018-11-30,Portland Trail Blazers,Denver Nuggets,112.0,113.0,112.1227,110.97286
+22018,2018-11-30,Philadelphia 76ers,Washington Wizards,123.0,98.0,109.80922,105.647156
+22018,2018-11-30,Brooklyn Nets,Memphis Grizzlies,125.0,131.0,112.157616,110.49794
+22018,2018-11-30,Detroit Pistons,Chicago Bulls,107.0,88.0,107.454315,102.51626
+22018,2018-11-30,Boston Celtics,Cleveland Cavaliers,128.0,95.0,111.99071,107.10419
+22018,2018-11-30,Charlotte Hornets,Utah Jazz,111.0,119.0,102.84247,103.59406
+22018,2018-11-30,Phoenix Suns,Orlando Magic,85.0,99.0,113.557655,115.35225
+22018,2018-11-30,Oklahoma City Thunder,Atlanta Hawks,124.0,109.0,111.8645,103.72572
+22018,2018-11-30,San Antonio Spurs,Houston Rockets,105.0,136.0,110.42984,113.30747
+22018,2018-11-30,Los Angeles Lakers,Dallas Mavericks,114.0,103.0,105.141754,103.413185
+22018,2018-12-01,Sacramento Kings,Indiana Pacers,111.0,110.0,109.28819,111.524185
+22018,2018-12-01,Washington Wizards,Brooklyn Nets,102.0,88.0,118.03746,117.1401
+22018,2018-12-01,Detroit Pistons,Golden State Warriors,111.0,102.0,111.957596,113.30112
+22018,2018-12-01,Cleveland Cavaliers,Toronto Raptors,95.0,106.0,111.283394,116.23885
+22018,2018-12-01,New York Knicks,Milwaukee Bucks,136.0,134.0,106.704865,111.27134
+22018,2018-12-01,Minnesota Timberwolves,Boston Celtics,109.0,118.0,111.44899,113.045395
+22018,2018-12-01,Houston Rockets,Chicago Bulls,121.0,105.0,118.78982,109.28191
+22018,2018-12-02,Philadelphia 76ers,Memphis Grizzlies,103.0,95.0,108.85096,104.03599
+22018,2018-12-02,Miami Heat,Utah Jazz,102.0,100.0,106.20922,106.01855
+22018,2018-12-02,Los Angeles Lakers,Phoenix Suns,120.0,96.0,116.44269,108.55753
+22018,2018-12-02,Dallas Mavericks,LA Clippers,114.0,110.0,114.45928,113.45835
+22018,2018-12-02,Charlotte Hornets,New Orleans Pelicans,109.0,119.0,111.27999,110.19499
+22018,2018-12-02,San Antonio Spurs,Portland Trail Blazers,131.0,118.0,111.10748,110.72399
+22018,2018-12-03,Detroit Pistons,Oklahoma City Thunder,83.0,110.0,107.82118,108.5031
+22018,2018-12-03,Brooklyn Nets,Cleveland Cavaliers,97.0,99.0,117.06737,113.593025
+22018,2018-12-03,New York Knicks,Washington Wizards,107.0,110.0,109.68621,109.49166
+22018,2018-12-03,Toronto Raptors,Denver Nuggets,103.0,106.0,112.49995,107.81219
+22018,2018-12-03,New Orleans Pelicans,LA Clippers,126.0,129.0,116.14478,114.0501
+22018,2018-12-03,Minnesota Timberwolves,Houston Rockets,103.0,91.0,115.58355,119.47553
+22018,2018-12-03,Atlanta Hawks,Golden State Warriors,111.0,128.0,112.54041,117.86752
+22018,2018-12-04,Dallas Mavericks,Portland Trail Blazers,111.0,102.0,111.92011,110.82641
+22018,2018-12-04,Utah Jazz,San Antonio Spurs,139.0,105.0,103.70764,98.85644
+22018,2018-12-04,Phoenix Suns,Sacramento Kings,105.0,122.0,118.41666,120.992004
+22018,2018-12-04,Miami Heat,Orlando Magic,90.0,105.0,109.93169,106.02181
+22018,2018-12-04,Indiana Pacers,Chicago Bulls,96.0,90.0,110.718094,103.077
+22018,2018-12-05,Toronto Raptors,Philadelphia 76ers,113.0,102.0,108.39663,103.78664
+22018,2018-12-05,Brooklyn Nets,Oklahoma City Thunder,112.0,114.0,114.2175,116.15925
+22018,2018-12-05,Cleveland Cavaliers,Golden State Warriors,105.0,129.0,113.15674,116.84621
+22018,2018-12-05,Orlando Magic,Denver Nuggets,118.0,124.0,109.421196,112.627625
+22018,2018-12-05,New Orleans Pelicans,Dallas Mavericks,132.0,106.0,108.61094,106.05639
+22018,2018-12-05,Atlanta Hawks,Washington Wizards,117.0,131.0,110.17185,112.73235
+22018,2018-12-05,Minnesota Timberwolves,Charlotte Hornets,121.0,104.0,107.40514,106.36874
+22018,2018-12-05,Milwaukee Bucks,Detroit Pistons,115.0,92.0,107.27853,101.96062
+22018,2018-12-05,Memphis Grizzlies,LA Clippers,96.0,86.0,109.36631,109.231445
+22018,2018-12-05,Los Angeles Lakers,San Antonio Spurs,121.0,113.0,107.4477,103.242874
+22018,2018-12-06,Utah Jazz,Houston Rockets,118.0,91.0,110.23575,111.05183
+22018,2018-12-06,Boston Celtics,New York Knicks,128.0,100.0,109.18497,102.83698
+22018,2018-12-06,Portland Trail Blazers,Phoenix Suns,108.0,86.0,114.65727,105.52254
+22018,2018-12-07,Cleveland Cavaliers,Sacramento Kings,110.0,129.0,112.47937,112.22433
+22018,2018-12-07,Phoenix Suns,Miami Heat,98.0,115.0,111.72462,115.60974
+22018,2018-12-07,San Antonio Spurs,Los Angeles Lakers,133.0,120.0,108.74393,108.68147
+22018,2018-12-07,New Orleans Pelicans,Memphis Grizzlies,103.0,107.0,109.65481,106.25353
+22018,2018-12-07,Detroit Pistons,Philadelphia 76ers,111.0,117.0,107.629196,108.81873
+22018,2018-12-07,Charlotte Hornets,Denver Nuggets,113.0,107.0,112.68387,113.88925
+22018,2018-12-07,Milwaukee Bucks,Golden State Warriors,95.0,105.0,108.85102,107.49818
+22018,2018-12-07,Orlando Magic,Indiana Pacers,90.0,112.0,107.62044,109.38325
+22018,2018-12-07,Brooklyn Nets,Toronto Raptors,106.0,105.0,113.39541,117.01533
+22018,2018-12-07,Chicago Bulls,Oklahoma City Thunder,114.0,112.0,105.255936,110.83051
+22018,2018-12-08,Portland Trail Blazers,Minnesota Timberwolves,113.0,105.0,111.91127,108.484406
+22018,2018-12-08,New York Knicks,Brooklyn Nets,104.0,112.0,111.22857,112.89273
+22018,2018-12-08,Chicago Bulls,Boston Celtics,77.0,133.0,106.90981,112.64599
+22018,2018-12-08,Atlanta Hawks,Denver Nuggets,106.0,98.0,113.67139,119.072876
+22018,2018-12-08,LA Clippers,Miami Heat,98.0,121.0,106.37364,104.59489
+22018,2018-12-08,Cleveland Cavaliers,Washington Wizards,116.0,101.0,111.715256,112.650024
+22018,2018-12-08,Dallas Mavericks,Houston Rockets,107.0,104.0,111.51923,114.70668
+22018,2018-12-08,Indiana Pacers,Sacramento Kings,107.0,97.0,111.21592,106.71076
+22018,2018-12-08,Memphis Grizzlies,Los Angeles Lakers,88.0,111.0,106.293335,105.11036
+22018,2018-12-09,New York Knicks,Charlotte Hornets,107.0,119.0,106.14004,108.11259
+22018,2018-12-09,Detroit Pistons,New Orleans Pelicans,108.0,116.0,108.554924,108.67044
+22018,2018-12-09,Toronto Raptors,Milwaukee Bucks,99.0,104.0,105.609856,102.0703
+22018,2018-12-09,San Antonio Spurs,Utah Jazz,110.0,97.0,101.15627,102.96824
+22018,2018-12-10,Dallas Mavericks,Orlando Magic,101.0,76.0,106.56907,103.549576
+22018,2018-12-10,Oklahoma City Thunder,Utah Jazz,122.0,113.0,106.54713,104.30223
+22018,2018-12-10,Chicago Bulls,Sacramento Kings,89.0,108.0,107.01503,109.93849
+22018,2018-12-10,Philadelphia 76ers,Detroit Pistons,116.0,102.0,108.13405,102.859665
+22018,2018-12-10,Milwaukee Bucks,Cleveland Cavaliers,108.0,92.0,112.13167,104.98183
+22018,2018-12-10,Los Angeles Lakers,Miami Heat,108.0,105.0,107.216835,105.42768
+22018,2018-12-10,Golden State Warriors,Minnesota Timberwolves,116.0,108.0,116.54277,110.24888
+22018,2018-12-10,Denver Nuggets,Memphis Grizzlies,105.0,99.0,110.406586,106.26578
+22018,2018-12-10,Phoenix Suns,LA Clippers,119.0,123.0,118.49085,122.90026
+22018,2018-12-10,Indiana Pacers,Washington Wizards,109.0,101.0,110.76961,106.021774
+22018,2018-12-10,Boston Celtics,New Orleans Pelicans,113.0,100.0,109.82301,106.799416
+22018,2018-12-11,LA Clippers,Toronto Raptors,99.0,123.0,107.87389,111.87547
+22018,2018-12-11,Houston Rockets,Portland Trail Blazers,111.0,104.0,117.37626,113.29751
+22018,2018-12-11,San Antonio Spurs,Phoenix Suns,111.0,86.0,110.37688,102.97373
+22018,2018-12-12,Cleveland Cavaliers,New York Knicks,113.0,106.0,108.36226,106.608215
+22018,2018-12-12,Sacramento Kings,Minnesota Timberwolves,141.0,130.0,108.71515,109.33567
+22018,2018-12-12,Indiana Pacers,Milwaukee Bucks,113.0,97.0,105.31858,105.17999
+22018,2018-12-12,Memphis Grizzlies,Portland Trail Blazers,92.0,83.0,105.773026,105.86013
+22018,2018-12-12,Philadelphia 76ers,Brooklyn Nets,124.0,127.0,112.09205,108.25457
+22018,2018-12-12,New Orleans Pelicans,Oklahoma City Thunder,118.0,114.0,109.03678,109.77864
+22018,2018-12-12,Washington Wizards,Boston Celtics,125.0,130.0,113.78845,116.56674
+22018,2018-12-12,Utah Jazz,Miami Heat,111.0,84.0,101.76334,98.745674
+22018,2018-12-12,Golden State Warriors,Toronto Raptors,93.0,113.0,110.75733,109.749466
+22018,2018-12-12,Charlotte Hornets,Detroit Pistons,108.0,107.0,108.3171,105.51683
+22018,2018-12-12,Dallas Mavericks,Atlanta Hawks,114.0,107.0,107.14046,101.078384
+22018,2018-12-13,Orlando Magic,Chicago Bulls,97.0,91.0,105.31401,102.01388
+22018,2018-12-13,San Antonio Spurs,LA Clippers,125.0,87.0,109.40129,107.73753
+22018,2018-12-13,Houston Rockets,Los Angeles Lakers,126.0,111.0,117.13229,113.27018
+22018,2018-12-13,Phoenix Suns,Dallas Mavericks,99.0,89.0,109.219444,113.96871
+22018,2018-12-14,Denver Nuggets,Oklahoma City Thunder,109.0,98.0,110.489555,109.85847
+22018,2018-12-14,Sacramento Kings,Golden State Warriors,125.0,130.0,108.78593,112.34259
+22018,2018-12-14,Brooklyn Nets,Washington Wizards,125.0,118.0,114.19729,112.33255
+22018,2018-12-14,Charlotte Hornets,New York Knicks,124.0,126.0,108.95488,104.20866
+22018,2018-12-14,Memphis Grizzlies,Miami Heat,97.0,100.0,99.72514,99.31626
+22018,2018-12-14,Cleveland Cavaliers,Milwaukee Bucks,102.0,114.0,108.28609,112.21595
+22018,2018-12-14,Portland Trail Blazers,Toronto Raptors,128.0,122.0,107.70693,110.1741
+22018,2018-12-14,Philadelphia 76ers,Indiana Pacers,101.0,113.0,108.91721,107.11507
+22018,2018-12-14,Boston Celtics,Atlanta Hawks,129.0,108.0,111.89761,103.07586
+22018,2018-12-15,Memphis Grizzlies,Houston Rockets,97.0,105.0,108.25017,111.82375
+22018,2018-12-15,San Antonio Spurs,Chicago Bulls,93.0,98.0,106.08845,99.299545
+22018,2018-12-15,Detroit Pistons,Boston Celtics,113.0,104.0,107.723274,111.2511
+22018,2018-12-15,Orlando Magic,Utah Jazz,96.0,89.0,99.28837,103.44552
+22018,2018-12-15,Oklahoma City Thunder,LA Clippers,110.0,104.0,114.579956,109.234344
+22018,2018-12-15,Charlotte Hornets,Los Angeles Lakers,100.0,128.0,109.28711,109.11028
+22018,2018-12-15,Phoenix Suns,Minnesota Timberwolves,107.0,99.0,115.8037,119.98258
+22018,2018-12-16,Indiana Pacers,New York Knicks,110.0,99.0,107.32478,99.90769
+22018,2018-12-16,Brooklyn Nets,Atlanta Hawks,144.0,127.0,111.9342,106.77827
+22018,2018-12-16,Dallas Mavericks,Sacramento Kings,113.0,120.0,108.814766,107.839264
+22018,2018-12-16,Washington Wizards,Los Angeles Lakers,128.0,110.0,111.6901,112.08809
+22018,2018-12-16,Cleveland Cavaliers,Philadelphia 76ers,105.0,128.0,108.799225,112.633095
+22018,2018-12-16,New Orleans Pelicans,Miami Heat,96.0,102.0,106.926476,105.141136
+22018,2018-12-16,Denver Nuggets,Toronto Raptors,95.0,86.0,111.05877,112.39602
+22018,2018-12-17,Golden State Warriors,Memphis Grizzlies,110.0,93.0,109.32991,103.085014
+22018,2018-12-17,LA Clippers,Portland Trail Blazers,127.0,131.0,111.06837,111.50726
+22018,2018-12-17,Minnesota Timberwolves,Sacramento Kings,132.0,105.0,110.41521,109.95554
+22018,2018-12-17,New York Knicks,Phoenix Suns,110.0,128.0,109.589645,106.62059
+22018,2018-12-17,Detroit Pistons,Milwaukee Bucks,104.0,107.0,103.54776,106.09639
+22018,2018-12-17,San Antonio Spurs,Philadelphia 76ers,123.0,96.0,104.57056,105.79263
+22018,2018-12-17,Houston Rockets,Utah Jazz,102.0,97.0,108.27637,106.16701
+22018,2018-12-17,Oklahoma City Thunder,Chicago Bulls,121.0,96.0,112.770966,104.160324
+22018,2018-12-18,Denver Nuggets,Dallas Mavericks,126.0,118.0,109.270424,104.33253
+22018,2018-12-18,Atlanta Hawks,Washington Wizards,118.0,110.0,108.18943,111.46024
+22018,2018-12-18,Indiana Pacers,Cleveland Cavaliers,91.0,92.0,113.02551,105.738235
+22018,2018-12-18,Brooklyn Nets,Los Angeles Lakers,115.0,110.0,114.255745,113.85416
+22018,2018-12-19,Chicago Bulls,Brooklyn Nets,93.0,96.0,107.229744,112.035995
+22018,2018-12-19,Utah Jazz,Golden State Warriors,108.0,103.0,108.25924,107.76333
+22018,2018-12-19,Orlando Magic,San Antonio Spurs,90.0,129.0,103.25085,103.83327
+22018,2018-12-19,Sacramento Kings,Oklahoma City Thunder,113.0,132.0,105.709,108.57848
+22018,2018-12-19,Milwaukee Bucks,New Orleans Pelicans,123.0,115.0,105.53477,102.02613
+22018,2018-12-19,Charlotte Hornets,Cleveland Cavaliers,110.0,99.0,111.39214,107.81969
+22018,2018-12-19,Toronto Raptors,Indiana Pacers,99.0,96.0,108.31099,104.48949
+22018,2018-12-19,Minnesota Timberwolves,Detroit Pistons,123.0,129.0,108.07649,106.194496
+22018,2018-12-19,Houston Rockets,Washington Wizards,136.0,118.0,116.808426,111.401955
+22018,2018-12-19,Boston Celtics,Phoenix Suns,103.0,111.0,114.67765,105.98584
+22018,2018-12-19,Portland Trail Blazers,Memphis Grizzlies,99.0,92.0,106.837135,102.55414
+22018,2018-12-19,Philadelphia 76ers,New York Knicks,131.0,109.0,107.97074,101.206924
+22018,2018-12-20,LA Clippers,Dallas Mavericks,125.0,121.0,105.94012,105.364296
+22018,2018-12-20,Miami Heat,Houston Rockets,101.0,99.0,112.91678,114.60256
+22018,2018-12-21,Los Angeles Lakers,New Orleans Pelicans,112.0,104.0,110.759346,109.239685
+22018,2018-12-21,Sacramento Kings,Memphis Grizzlies,102.0,99.0,102.47833,102.22142
+22018,2018-12-21,Portland Trail Blazers,Utah Jazz,90.0,120.0,102.70296,101.623535
+22018,2018-12-21,Brooklyn Nets,Indiana Pacers,106.0,114.0,115.5324,116.44169
+22018,2018-12-21,Chicago Bulls,Orlando Magic,90.0,80.0,103.15106,105.15108
+22018,2018-12-21,New York Knicks,Atlanta Hawks,107.0,114.0,104.60171,102.91968
+22018,2018-12-21,Toronto Raptors,Cleveland Cavaliers,126.0,110.0,112.85375,103.87821
+22018,2018-12-21,Charlotte Hornets,Detroit Pistons,98.0,86.0,108.83586,107.17119
+22018,2018-12-21,San Antonio Spurs,Minnesota Timberwolves,124.0,98.0,107.74151,105.042114
+22018,2018-12-21,Boston Celtics,Milwaukee Bucks,107.0,120.0,106.151436,106.206825
+22018,2018-12-22,LA Clippers,Denver Nuggets,132.0,111.0,111.696594,114.566185
+22018,2018-12-22,Miami Heat,Milwaukee Bucks,94.0,87.0,105.5149,106.91001
+22018,2018-12-22,Washington Wizards,Phoenix Suns,149.0,146.0,114.30276,108.94766
+22018,2018-12-22,Philadelphia 76ers,Toronto Raptors,126.0,101.0,106.04671,107.68361
+22018,2018-12-22,Golden State Warriors,Dallas Mavericks,120.0,116.0,109.24146,102.93798
+22018,2018-12-22,Houston Rockets,San Antonio Spurs,108.0,101.0,111.8842,107.920265
+22018,2018-12-22,Utah Jazz,Oklahoma City Thunder,106.0,107.0,102.95983,101.9621
+22018,2018-12-23,Brooklyn Nets,Phoenix Suns,111.0,103.0,115.84399,110.581314
+22018,2018-12-23,Cleveland Cavaliers,Chicago Bulls,92.0,112.0,108.712654,106.07095
+22018,2018-12-23,Portland Trail Blazers,Dallas Mavericks,121.0,118.0,105.41824,101.1744
+22018,2018-12-23,Indiana Pacers,Washington Wizards,105.0,89.0,110.487015,105.265396
+22018,2018-12-23,Boston Celtics,Charlotte Hornets,119.0,103.0,106.27532,102.93955
+22018,2018-12-23,Sacramento Kings,New Orleans Pelicans,122.0,117.0,106.35995,107.529625
+22018,2018-12-23,Detroit Pistons,Atlanta Hawks,95.0,98.0,106.76688,101.537674
+22018,2018-12-23,Golden State Warriors,LA Clippers,129.0,127.0,115.90283,109.65199
+22018,2018-12-23,Los Angeles Lakers,Memphis Grizzlies,99.0,107.0,108.03041,104.86673
+22018,2018-12-23,Oklahoma City Thunder,Minnesota Timberwolves,112.0,114.0,113.576416,108.166954
+22018,2018-12-23,Orlando Magic,Miami Heat,91.0,115.0,102.85523,105.58284
+22018,2018-12-25,Houston Rockets,Oklahoma City Thunder,113.0,109.0,114.0996,112.2927
+22018,2018-12-25,New York Knicks,Milwaukee Bucks,95.0,109.0,106.18979,111.77214
+22018,2018-12-25,Golden State Warriors,Los Angeles Lakers,101.0,127.0,112.91819,107.55212
+22018,2018-12-25,Boston Celtics,Philadelphia 76ers,121.0,114.0,107.56987,106.69238
+22018,2018-12-25,Utah Jazz,Portland Trail Blazers,117.0,96.0,106.87715,103.02128
+22018,2018-12-26,Brooklyn Nets,Charlotte Hornets,134.0,132.0,110.84815,109.92824
+22018,2018-12-26,Detroit Pistons,Washington Wizards,106.0,95.0,107.96211,106.47289
+22018,2018-12-26,San Antonio Spurs,Denver Nuggets,111.0,103.0,107.46326,107.619255
+22018,2018-12-26,Miami Heat,Toronto Raptors,104.0,106.0,106.360344,107.79973
+22018,2018-12-26,LA Clippers,Sacramento Kings,127.0,118.0,110.1617,109.3967
+22018,2018-12-26,Orlando Magic,Phoenix Suns,120.0,122.0,109.618835,107.03775
+22018,2018-12-26,Dallas Mavericks,New Orleans Pelicans,122.0,119.0,106.140915,106.99261
+22018,2018-12-26,Atlanta Hawks,Indiana Pacers,121.0,129.0,108.34988,113.772705
+22018,2018-12-26,Chicago Bulls,Minnesota Timberwolves,94.0,119.0,105.61697,108.30583
+22018,2018-12-26,Memphis Grizzlies,Cleveland Cavaliers,95.0,87.0,106.888725,102.97511
+22018,2018-12-27,Golden State Warriors,Portland Trail Blazers,109.0,110.0,114.98019,110.1986
+22018,2018-12-27,Milwaukee Bucks,New York Knicks,112.0,96.0,106.1237,97.97277
+22018,2018-12-27,Utah Jazz,Philadelphia 76ers,97.0,114.0,102.51245,100.74539
+22018,2018-12-27,Sacramento Kings,Los Angeles Lakers,117.0,116.0,108.20771,109.93041
+22018,2018-12-27,Houston Rockets,Boston Celtics,127.0,113.0,113.70303,112.47736
+22018,2018-12-28,Indiana Pacers,Detroit Pistons,125.0,88.0,108.21769,102.9798
+22018,2018-12-28,Minnesota Timberwolves,Atlanta Hawks,120.0,123.0,108.24564,103.42519
+22018,2018-12-28,Denver Nuggets,San Antonio Spurs,102.0,99.0,108.86916,105.91041
+22018,2018-12-28,Phoenix Suns,Oklahoma City Thunder,102.0,118.0,113.44747,118.83441
+22018,2018-12-28,Los Angeles Lakers,LA Clippers,107.0,118.0,113.68793,110.78127
+22018,2018-12-28,Charlotte Hornets,Brooklyn Nets,100.0,87.0,112.77596,113.25267
+22018,2018-12-28,Miami Heat,Cleveland Cavaliers,118.0,94.0,113.73438,107.41127
+22018,2018-12-28,Orlando Magic,Toronto Raptors,116.0,87.0,107.55193,113.28106
+22018,2018-12-28,New Orleans Pelicans,Dallas Mavericks,114.0,112.0,105.76985,103.355095
+22018,2018-12-28,Washington Wizards,Chicago Bulls,92.0,101.0,111.11093,106.39321
+22018,2018-12-29,Memphis Grizzlies,Boston Celtics,103.0,112.0,104.57168,107.03031
+22018,2018-12-29,Portland Trail Blazers,Golden State Warriors,105.0,115.0,111.68891,111.41662
+22018,2018-12-29,Atlanta Hawks,Cleveland Cavaliers,111.0,108.0,110.806595,110.21811
+22018,2018-12-29,Utah Jazz,New York Knicks,129.0,97.0,104.6918,97.46045
+22018,2018-12-29,Phoenix Suns,Denver Nuggets,118.0,122.0,117.17615,122.41327
+22018,2018-12-29,Washington Wizards,Charlotte Hornets,130.0,126.0,108.86409,108.37677
+22018,2018-12-29,Milwaukee Bucks,Brooklyn Nets,129.0,115.0,112.1351,108.19681
+22018,2018-12-29,New Orleans Pelicans,Houston Rockets,104.0,108.0,114.78341,117.92565
+22018,2018-12-29,LA Clippers,San Antonio Spurs,111.0,122.0,105.667885,105.38691
+22018,2018-12-30,Miami Heat,Minnesota Timberwolves,104.0,113.0,113.554825,110.10152
+22018,2018-12-30,Toronto Raptors,Chicago Bulls,95.0,89.0,111.12188,102.639336
+22018,2018-12-30,Orlando Magic,Detroit Pistons,109.0,107.0,108.151596,108.05752
+22018,2018-12-30,Los Angeles Lakers,Sacramento Kings,121.0,114.0,111.33889,108.92461
+22018,2018-12-30,Portland Trail Blazers,Philadelphia 76ers,129.0,95.0,109.83363,110.12599
+22018,2018-12-30,Dallas Mavericks,Oklahoma City Thunder,105.0,103.0,106.11205,109.07927
+22018,2018-12-31,Houston Rockets,Memphis Grizzlies,113.0,101.0,112.89346,107.892715
+22018,2018-12-31,Oklahoma City Thunder,Dallas Mavericks,122.0,102.0,109.056755,104.04231
+22018,2018-12-31,Indiana Pacers,Atlanta Hawks,116.0,108.0,110.17958,102.41555
+22018,2018-12-31,Phoenix Suns,Golden State Warriors,109.0,132.0,115.58265,121.4216
+22018,2018-12-31,San Antonio Spurs,Boston Celtics,120.0,111.0,105.741066,106.475876
+22018,2018-12-31,New Orleans Pelicans,Minnesota Timberwolves,123.0,114.0,111.53,110.01365
+22018,2018-12-31,Charlotte Hornets,Orlando Magic,125.0,100.0,108.90395,106.42041
+22018,2019-01-01,Milwaukee Bucks,Detroit Pistons,121.0,98.0,116.20085,109.827805
+22018,2019-01-01,Toronto Raptors,Utah Jazz,122.0,116.0,110.315155,107.03644
+22018,2019-01-01,Sacramento Kings,Portland Trail Blazers,108.0,113.0,116.80368,117.11311
+22018,2019-01-01,Denver Nuggets,New York Knicks,115.0,108.0,120.853874,112.48839
+22018,2019-01-01,LA Clippers,Philadelphia 76ers,113.0,119.0,116.47598,116.77184
+22018,2019-01-02,Cleveland Cavaliers,Miami Heat,92.0,117.0,110.907875,113.520836
+22018,2019-01-02,Boston Celtics,Minnesota Timberwolves,115.0,102.0,117.89962,112.76992
+22018,2019-01-02,Brooklyn Nets,New Orleans Pelicans,126.0,121.0,115.60737,114.36449
+22018,2019-01-02,Phoenix Suns,Philadelphia 76ers,127.0,132.0,122.4733,127.07488
+22018,2019-01-02,Los Angeles Lakers,Oklahoma City Thunder,100.0,107.0,113.20168,112.35498
+22018,2019-01-02,Washington Wizards,Atlanta Hawks,114.0,98.0,118.106255,112.51243
+22018,2019-01-02,Charlotte Hornets,Dallas Mavericks,84.0,122.0,110.029175,107.166985
+22018,2019-01-02,Chicago Bulls,Orlando Magic,84.0,112.0,112.1576,112.808784
+22018,2019-01-02,Memphis Grizzlies,Detroit Pistons,94.0,101.0,111.13549,108.45046
+22018,2019-01-03,Sacramento Kings,Denver Nuggets,113.0,117.0,117.03264,118.96385
+22018,2019-01-03,San Antonio Spurs,Toronto Raptors,125.0,107.0,109.95823,110.0119
+22018,2019-01-03,Golden State Warriors,Houston Rockets,134.0,135.0,124.69006,122.63205
+22018,2019-01-04,Milwaukee Bucks,Atlanta Hawks,144.0,112.0,117.00397,107.946526
+22018,2019-01-04,Boston Celtics,Dallas Mavericks,114.0,93.0,110.32187,105.32001
+22018,2019-01-04,Minnesota Timberwolves,Orlando Magic,120.0,103.0,116.26306,113.24388
+22018,2019-01-04,Cleveland Cavaliers,Utah Jazz,91.0,117.0,109.910324,114.32993
+22018,2019-01-04,Portland Trail Blazers,Oklahoma City Thunder,109.0,111.0,116.38553,114.8593
+22018,2019-01-04,Phoenix Suns,LA Clippers,111.0,121.0,121.078,123.08923
+22018,2019-01-04,Memphis Grizzlies,Brooklyn Nets,100.0,109.0,116.12617,114.81028
+22018,2019-01-04,Chicago Bulls,Indiana Pacers,116.0,119.0,111.74533,116.58075
+22018,2019-01-04,Miami Heat,Washington Wizards,115.0,109.0,119.004395,113.85939
+22018,2019-01-04,Los Angeles Lakers,New York Knicks,112.0,119.0,116.18298,108.88248
+22018,2019-01-05,Denver Nuggets,Charlotte Hornets,123.0,110.0,117.87152,112.61188
+22018,2019-01-05,San Antonio Spurs,Memphis Grizzlies,108.0,88.0,108.999306,103.82886
+22018,2019-01-05,Sacramento Kings,Golden State Warriors,123.0,127.0,115.84312,118.53469
+22018,2019-01-05,Portland Trail Blazers,Houston Rockets,110.0,101.0,124.65564,124.71449
+22018,2019-01-05,Cleveland Cavaliers,New Orleans Pelicans,98.0,133.0,113.80299,116.4773
+22018,2019-01-05,Philadelphia 76ers,Dallas Mavericks,106.0,100.0,108.62679,103.59721
+22018,2019-01-05,Detroit Pistons,Utah Jazz,105.0,110.0,108.47983,110.05076
+22018,2019-01-05,Milwaukee Bucks,Toronto Raptors,116.0,123.0,111.02583,109.21066
+22018,2019-01-06,Phoenix Suns,Charlotte Hornets,113.0,119.0,116.9151,119.16442
+22018,2019-01-06,LA Clippers,Orlando Magic,106.0,96.0,116.5986,112.46208
+22018,2019-01-06,Chicago Bulls,Brooklyn Nets,100.0,117.0,116.16803,119.94109
+22018,2019-01-06,Oklahoma City Thunder,Washington Wizards,98.0,116.0,120.80754,114.794426
+22018,2019-01-06,Atlanta Hawks,Miami Heat,106.0,82.0,110.1778,113.45919
+22018,2019-01-06,Toronto Raptors,Indiana Pacers,121.0,105.0,113.94656,110.26695
+22018,2019-01-06,Minnesota Timberwolves,Los Angeles Lakers,108.0,86.0,115.30414,114.66743
+22018,2019-01-07,Milwaukee Bucks,Utah Jazz,114.0,102.0,105.861694,104.13308
+22018,2019-01-07,Detroit Pistons,San Antonio Spurs,107.0,119.0,112.177185,111.565216
+22018,2019-01-07,Dallas Mavericks,Los Angeles Lakers,97.0,107.0,113.171326,112.42646
+22018,2019-01-07,Boston Celtics,Brooklyn Nets,116.0,95.0,118.442635,114.58361
+22018,2019-01-07,Houston Rockets,Denver Nuggets,125.0,113.0,122.64402,119.5857
+22018,2019-01-07,Portland Trail Blazers,New York Knicks,111.0,101.0,118.78609,110.55696
+22018,2019-01-07,Sacramento Kings,Orlando Magic,111.0,95.0,115.1294,113.42462
+22018,2019-01-07,New Orleans Pelicans,Memphis Grizzlies,114.0,95.0,112.17331,108.31398
+22018,2019-01-08,Oklahoma City Thunder,Minnesota Timberwolves,117.0,119.0,117.77834,113.113235
+22018,2019-01-08,LA Clippers,Charlotte Hornets,128.0,109.0,113.238815,110.364944
+22018,2019-01-08,Cleveland Cavaliers,Indiana Pacers,115.0,123.0,115.19601,119.40904
+22018,2019-01-08,Philadelphia 76ers,Washington Wizards,132.0,115.0,116.04018,111.10905
+22018,2019-01-08,Toronto Raptors,Atlanta Hawks,104.0,101.0,117.378204,107.94093
+22018,2019-01-08,Phoenix Suns,Sacramento Kings,115.0,111.0,119.9844,122.42186
+22018,2019-01-08,Golden State Warriors,New York Knicks,122.0,95.0,120.62167,110.356415
+22018,2019-01-08,Miami Heat,Denver Nuggets,99.0,103.0,119.12229,117.85641
+22018,2019-01-09,Utah Jazz,Orlando Magic,106.0,93.0,112.33446,105.342964
+22018,2019-01-09,Dallas Mavericks,Phoenix Suns,104.0,94.0,113.96751,108.25515
+22018,2019-01-09,Memphis Grizzlies,San Antonio Spurs,96.0,86.0,106.56857,106.751755
+22018,2019-01-09,Los Angeles Lakers,Detroit Pistons,113.0,100.0,114.411545,110.62084
+22018,2019-01-09,Portland Trail Blazers,Chicago Bulls,124.0,112.0,119.100685,109.98033
+22018,2019-01-09,New Orleans Pelicans,Cleveland Cavaliers,140.0,124.0,121.89158,114.791664
+22018,2019-01-09,Washington Wizards,Philadelphia 76ers,123.0,106.0,119.26093,120.04536
+22018,2019-01-09,Houston Rockets,Milwaukee Bucks,109.0,116.0,118.690506,116.71806
+22018,2019-01-09,Brooklyn Nets,Atlanta Hawks,116.0,100.0,115.368195,110.02234
+22018,2019-01-09,Boston Celtics,Indiana Pacers,135.0,108.0,113.405426,110.60561
+22018,2019-01-10,Denver Nuggets,LA Clippers,121.0,100.0,121.969536,117.26385
+22018,2019-01-10,Sacramento Kings,Detroit Pistons,112.0,102.0,112.04866,111.086136
+22018,2019-01-10,San Antonio Spurs,Oklahoma City Thunder,154.0,147.0,109.92296,107.401794
+22018,2019-01-10,Miami Heat,Boston Celtics,115.0,99.0,115.92816,116.45206
+22018,2019-01-11,New York Knicks,Indiana Pacers,106.0,121.0,112.42379,116.46187
+22018,2019-01-11,Golden State Warriors,Chicago Bulls,146.0,109.0,120.36207,109.27512
+22018,2019-01-11,Toronto Raptors,Brooklyn Nets,122.0,105.0,119.008736,113.78938
+22018,2019-01-11,Houston Rockets,Cleveland Cavaliers,141.0,113.0,126.601364,117.078354
+22018,2019-01-11,Washington Wizards,Milwaukee Bucks,113.0,106.0,111.83427,113.780655
+22018,2019-01-11,Utah Jazz,Los Angeles Lakers,113.0,95.0,111.07931,106.86756
+22018,2019-01-11,Portland Trail Blazers,Charlotte Hornets,127.0,96.0,114.853935,109.79317
+22018,2019-01-11,Philadelphia 76ers,Atlanta Hawks,121.0,123.0,115.29927,107.52157
+22018,2019-01-11,Minnesota Timberwolves,Dallas Mavericks,115.0,119.0,109.40352,106.64548
+22018,2019-01-12,Miami Heat,Memphis Grizzlies,112.0,108.0,111.77028,107.621704
+22018,2019-01-12,Oklahoma City Thunder,San Antonio Spurs,122.0,112.0,114.0449,110.87952
+22018,2019-01-12,Sacramento Kings,Charlotte Hornets,104.0,97.0,110.90869,109.72508
+22018,2019-01-12,Phoenix Suns,Denver Nuggets,102.0,93.0,123.598854,128.63042
+22018,2019-01-12,Utah Jazz,Chicago Bulls,110.0,102.0,112.31477,102.446724
+22018,2019-01-12,Orlando Magic,Boston Celtics,105.0,103.0,114.07438,118.352005
+22018,2019-01-12,Minnesota Timberwolves,New Orleans Pelicans,110.0,106.0,113.19624,112.52657
+22018,2019-01-12,LA Clippers,Detroit Pistons,104.0,109.0,114.490715,111.0684
+22018,2019-01-13,Atlanta Hawks,Milwaukee Bucks,114.0,133.0,109.64418,114.438255
+22018,2019-01-13,Washington Wizards,Toronto Raptors,138.0,140.0,114.34002,115.83721
+22018,2019-01-13,Dallas Mavericks,Golden State Warriors,114.0,119.0,113.748535,115.687965
+22018,2019-01-13,Los Angeles Lakers,Cleveland Cavaliers,95.0,101.0,121.08387,114.14855
+22018,2019-01-13,Denver Nuggets,Portland Trail Blazers,116.0,113.0,119.73736,116.481415
+22018,2019-01-13,Orlando Magic,Houston Rockets,116.0,109.0,120.73415,125.44038
+22018,2019-01-13,New York Knicks,Philadelphia 76ers,105.0,108.0,113.912346,117.900444
+22018,2019-01-14,LA Clippers,New Orleans Pelicans,117.0,121.0,112.447716,111.92476
+22018,2019-01-14,Houston Rockets,Memphis Grizzlies,112.0,94.0,117.863014,112.20411
+22018,2019-01-14,Brooklyn Nets,Boston Celtics,109.0,102.0,114.690315,116.06572
+22018,2019-01-14,Sacramento Kings,Portland Trail Blazers,115.0,107.0,113.95914,115.412575
+22018,2019-01-14,San Antonio Spurs,Charlotte Hornets,93.0,108.0,109.56032,103.84486
+22018,2019-01-14,Utah Jazz,Detroit Pistons,100.0,94.0,108.68112,102.72883
+22018,2019-01-15,Philadelphia 76ers,Minnesota Timberwolves,149.0,107.0,115.262505,111.28345
+22018,2019-01-15,Denver Nuggets,Golden State Warriors,111.0,142.0,118.90991,117.607475
+22018,2019-01-15,Indiana Pacers,Phoenix Suns,131.0,97.0,117.40917,108.91213
+22018,2019-01-15,Los Angeles Lakers,Chicago Bulls,107.0,100.0,114.63121,107.38954
+22018,2019-01-15,Milwaukee Bucks,Miami Heat,124.0,86.0,108.01207,104.35144
+22018,2019-01-15,Atlanta Hawks,Oklahoma City Thunder,142.0,126.0,111.95411,115.46627
+22018,2019-01-16,Memphis Grizzlies,Milwaukee Bucks,101.0,111.0,105.19441,108.45644
+22018,2019-01-16,LA Clippers,Utah Jazz,109.0,129.0,108.276375,109.96991
+22018,2019-01-16,Houston Rockets,Brooklyn Nets,142.0,145.0,122.85552,118.249725
+22018,2019-01-16,Golden State Warriors,New Orleans Pelicans,147.0,140.0,117.0133,110.87538
+22018,2019-01-16,Portland Trail Blazers,Cleveland Cavaliers,129.0,112.0,124.86781,116.641884
+22018,2019-01-16,Boston Celtics,Toronto Raptors,117.0,108.0,110.14188,110.10454
+22018,2019-01-16,Dallas Mavericks,San Antonio Spurs,101.0,105.0,109.07733,108.56749
+22018,2019-01-16,Detroit Pistons,Orlando Magic,120.0,115.0,115.66677,111.81781
+22018,2019-01-17,Toronto Raptors,Phoenix Suns,111.0,109.0,117.91761,107.97611
+22018,2019-01-17,Washington Wizards,New York Knicks,101.0,100.0,116.36998,109.751564
+22018,2019-01-17,Denver Nuggets,Chicago Bulls,135.0,105.0,119.41371,110.402374
+22018,2019-01-17,Oklahoma City Thunder,Los Angeles Lakers,128.0,138.0,117.646866,113.70893
+22018,2019-01-17,Charlotte Hornets,Sacramento Kings,114.0,95.0,115.34554,114.05813
+22018,2019-01-17,Indiana Pacers,Philadelphia 76ers,96.0,120.0,114.680695,112.70812
+22018,2019-01-18,Orlando Magic,Brooklyn Nets,115.0,117.0,117.0892,118.46882
+22018,2019-01-18,Portland Trail Blazers,New Orleans Pelicans,128.0,112.0,115.721405,111.949196
+22018,2019-01-18,Detroit Pistons,Miami Heat,98.0,93.0,109.41356,108.94786
+22018,2019-01-18,Utah Jazz,Cleveland Cavaliers,115.0,99.0,116.987854,107.8352
+22018,2019-01-18,LA Clippers,Golden State Warriors,94.0,112.0,115.10281,118.09866
+22018,2019-01-18,Boston Celtics,Memphis Grizzlies,122.0,116.0,112.04025,106.23993
+22018,2019-01-18,Minnesota Timberwolves,San Antonio Spurs,113.0,116.0,110.37911,109.626
+22018,2019-01-19,Atlanta Hawks,Boston Celtics,105.0,113.0,112.88807,117.21043
+22018,2019-01-19,Philadelphia 76ers,Oklahoma City Thunder,115.0,117.0,112.62809,109.38163
+22018,2019-01-19,Charlotte Hornets,Phoenix Suns,135.0,115.0,115.53733,110.1739
+22018,2019-01-19,Denver Nuggets,Cleveland Cavaliers,124.0,102.0,123.15211,114.65585
+22018,2019-01-19,Indiana Pacers,Dallas Mavericks,111.0,99.0,110.26515,105.15648
+22018,2019-01-19,Toronto Raptors,Memphis Grizzlies,119.0,90.0,112.26249,105.08351
+22018,2019-01-19,Detroit Pistons,Sacramento Kings,101.0,103.0,117.21631,114.82062
+22018,2019-01-19,Orlando Magic,Milwaukee Bucks,108.0,118.0,108.97491,113.515144
+22018,2019-01-19,Houston Rockets,Los Angeles Lakers,138.0,134.0,122.1996,117.090256
+22018,2019-01-19,Chicago Bulls,Miami Heat,103.0,117.0,107.46532,111.44204
+22018,2019-01-20,Indiana Pacers,Charlotte Hornets,120.0,95.0,112.0267,107.39921
+22018,2019-01-20,Minnesota Timberwolves,Phoenix Suns,116.0,114.0,114.714325,108.76551
+22018,2019-01-20,San Antonio Spurs,LA Clippers,95.0,103.0,113.30424,108.0658
+22018,2019-01-21,Boston Celtics,Miami Heat,107.0,99.0,109.56791,106.142204
+22018,2019-01-21,Philadelphia 76ers,Houston Rockets,121.0,93.0,121.31002,120.5271
+22018,2019-01-21,Washington Wizards,Detroit Pistons,101.0,87.0,115.99358,112.26189
+22018,2019-01-21,Atlanta Hawks,Orlando Magic,103.0,122.0,112.13946,111.466805
+22018,2019-01-21,Cleveland Cavaliers,Chicago Bulls,88.0,104.0,112.06785,109.30179
+22018,2019-01-21,Utah Jazz,Portland Trail Blazers,104.0,109.0,109.49312,105.33632
+22018,2019-01-21,New York Knicks,Oklahoma City Thunder,109.0,127.0,113.04885,116.60928
+22018,2019-01-21,Milwaukee Bucks,Dallas Mavericks,116.0,106.0,109.32822,102.87582
+22018,2019-01-21,Los Angeles Lakers,Golden State Warriors,111.0,130.0,115.31004,116.92213
+22018,2019-01-21,Memphis Grizzlies,New Orleans Pelicans,85.0,105.0,108.75233,108.861725
+22018,2019-01-21,Brooklyn Nets,Sacramento Kings,123.0,94.0,117.70508,115.17863
+22018,2019-01-22,Oklahoma City Thunder,Portland Trail Blazers,123.0,114.0,117.94568,114.90393
+22018,2019-01-22,Phoenix Suns,Minnesota Timberwolves,91.0,118.0,118.184395,120.497604
+22018,2019-01-22,Toronto Raptors,Sacramento Kings,120.0,105.0,118.97163,111.86119
+22018,2019-01-22,Dallas Mavericks,LA Clippers,106.0,98.0,114.60202,112.76152
+22018,2019-01-23,New York Knicks,Houston Rockets,110.0,114.0,123.02378,128.60175
+22018,2019-01-23,New Orleans Pelicans,Detroit Pistons,94.0,98.0,115.42239,111.20817
+22018,2019-01-23,Boston Celtics,Cleveland Cavaliers,123.0,103.0,121.04991,111.527336
+22018,2019-01-23,Indiana Pacers,Toronto Raptors,110.0,106.0,110.566895,110.3543
+22018,2019-01-23,Philadelphia 76ers,San Antonio Spurs,122.0,120.0,111.23596,107.179634
+22018,2019-01-23,Memphis Grizzlies,Charlotte Hornets,107.0,118.0,108.20069,107.16321
+22018,2019-01-23,Chicago Bulls,Atlanta Hawks,101.0,121.0,107.6162,107.78824
+22018,2019-01-23,Utah Jazz,Denver Nuggets,114.0,108.0,112.57873,109.31577
+22018,2019-01-23,Brooklyn Nets,Orlando Magic,114.0,110.0,116.44668,112.477905
+22018,2019-01-23,Miami Heat,LA Clippers,99.0,111.0,118.35138,113.77497
+22018,2019-01-24,Oklahoma City Thunder,New Orleans Pelicans,122.0,116.0,116.016884,112.13186
+22018,2019-01-24,Washington Wizards,Golden State Warriors,118.0,126.0,118.25816,119.73329
+22018,2019-01-24,Los Angeles Lakers,Minnesota Timberwolves,105.0,120.0,114.67002,112.14699
+22018,2019-01-24,Phoenix Suns,Portland Trail Blazers,106.0,120.0,120.72448,124.816025
+22018,2019-01-25,Orlando Magic,Washington Wizards,91.0,95.0,114.52091,114.66976
+22018,2019-01-25,Houston Rockets,Toronto Raptors,121.0,119.0,116.24031,114.99658
+22018,2019-01-25,Milwaukee Bucks,Charlotte Hornets,108.0,99.0,110.72035,104.75615
+22018,2019-01-25,Brooklyn Nets,New York Knicks,109.0,99.0,115.495445,109.10868
+22018,2019-01-25,Denver Nuggets,Phoenix Suns,132.0,95.0,120.648094,111.70625
+22018,2019-01-25,Utah Jazz,Minnesota Timberwolves,106.0,102.0,110.73831,105.9752
+22018,2019-01-25,Dallas Mavericks,Detroit Pistons,106.0,101.0,110.267975,107.94068
+22018,2019-01-25,Memphis Grizzlies,Sacramento Kings,96.0,99.0,113.36746,112.54872
+22018,2019-01-25,Chicago Bulls,LA Clippers,101.0,106.0,113.3761,115.7233
+22018,2019-01-25,Cleveland Cavaliers,Miami Heat,94.0,100.0,110.50634,113.88892
+22018,2019-01-26,Portland Trail Blazers,Atlanta Hawks,120.0,111.0,118.065125,110.79191
+22018,2019-01-26,Memphis Grizzlies,Indiana Pacers,106.0,103.0,110.943474,113.034256
+22018,2019-01-26,Denver Nuggets,Philadelphia 76ers,126.0,110.0,117.43048,116.032166
+22018,2019-01-26,Boston Celtics,Golden State Warriors,111.0,115.0,114.48975,114.27585
+22018,2019-01-26,New Orleans Pelicans,San Antonio Spurs,114.0,126.0,111.68418,109.61252
+22018,2019-01-27,LA Clippers,Sacramento Kings,122.0,108.0,116.5638,114.654724
+22018,2019-01-27,Minnesota Timberwolves,Utah Jazz,111.0,125.0,108.456154,109.831505
+22018,2019-01-27,Oklahoma City Thunder,Milwaukee Bucks,118.0,112.0,111.92368,111.404724
+22018,2019-01-27,Chicago Bulls,Cleveland Cavaliers,101.0,104.0,114.36785,113.181015
+22018,2019-01-27,Houston Rockets,Orlando Magic,103.0,98.0,123.825325,117.56691
+22018,2019-01-27,Dallas Mavericks,Toronto Raptors,120.0,123.0,109.17501,111.74848
+22018,2019-01-27,San Antonio Spurs,Washington Wizards,132.0,119.0,114.80174,110.4349
+22018,2019-01-27,Los Angeles Lakers,Phoenix Suns,116.0,102.0,115.86703,109.31031
+22018,2019-01-27,New York Knicks,Miami Heat,97.0,106.0,108.324646,111.24096
+22018,2019-01-28,Charlotte Hornets,New York Knicks,101.0,92.0,112.85485,107.38932
+22018,2019-01-28,Memphis Grizzlies,Denver Nuggets,92.0,95.0,115.49748,117.83964
+22018,2019-01-28,Indiana Pacers,Golden State Warriors,100.0,132.0,113.38931,114.07894
+22018,2019-01-28,LA Clippers,Atlanta Hawks,118.0,123.0,113.42978,109.46783
+22018,2019-01-28,Boston Celtics,Brooklyn Nets,112.0,104.0,117.57956,113.891304
+22018,2019-01-29,San Antonio Spurs,Phoenix Suns,126.0,124.0,112.99777,104.13098
+22018,2019-01-29,Cleveland Cavaliers,Washington Wizards,116.0,113.0,118.70285,120.8422
+22018,2019-01-29,Detroit Pistons,Milwaukee Bucks,105.0,115.0,112.70103,115.28033
+22018,2019-01-29,Los Angeles Lakers,Philadelphia 76ers,105.0,121.0,114.91922,115.41716
+22018,2019-01-29,Orlando Magic,Oklahoma City Thunder,117.0,126.0,113.73544,116.11267
+22018,2019-01-29,Brooklyn Nets,Chicago Bulls,122.0,117.0,117.473366,111.03725
+22018,2019-01-29,Houston Rockets,New Orleans Pelicans,116.0,121.0,120.759285,116.553
+22018,2019-01-30,Minnesota Timberwolves,Memphis Grizzlies,99.0,97.0,111.69396,107.97599
+22018,2019-01-30,Sacramento Kings,Atlanta Hawks,135.0,113.0,111.668755,109.3382
+22018,2019-01-30,Portland Trail Blazers,Utah Jazz,132.0,105.0,109.55559,108.57471
+22018,2019-01-30,Boston Celtics,Charlotte Hornets,126.0,94.0,113.10501,107.71799
+22018,2019-01-30,Washington Wizards,Indiana Pacers,107.0,89.0,116.68893,115.629944
+22018,2019-01-30,New Orleans Pelicans,Denver Nuggets,99.0,105.0,119.6522,119.48383
+22018,2019-01-30,Miami Heat,Chicago Bulls,89.0,105.0,118.179375,109.848305
+22018,2019-01-30,New York Knicks,Dallas Mavericks,90.0,114.0,107.148155,109.14684
+22018,2019-01-31,Orlando Magic,Indiana Pacers,107.0,100.0,113.55745,114.76958
+22018,2019-01-31,Detroit Pistons,Dallas Mavericks,93.0,89.0,106.850105,105.66145
+22018,2019-01-31,Golden State Warriors,Philadelphia 76ers,104.0,113.0,118.83462,113.367645
+22018,2019-01-31,San Antonio Spurs,Brooklyn Nets,117.0,114.0,117.05201,113.97832
+22018,2019-01-31,Toronto Raptors,Milwaukee Bucks,92.0,105.0,109.09534,107.45698
+22018,2019-01-31,LA Clippers,Los Angeles Lakers,120.0,123.0,114.884705,113.667946
+22018,2019-02-01,Utah Jazz,Atlanta Hawks,128.0,112.0,110.83492,102.72869
+22018,2019-02-01,New York Knicks,Boston Celtics,99.0,113.0,116.88645,122.636505
+22018,2019-02-01,Charlotte Hornets,Memphis Grizzlies,100.0,92.0,111.10576,107.22765
+22018,2019-02-01,Denver Nuggets,Houston Rockets,136.0,122.0,125.634315,124.08028
+22018,2019-02-01,Miami Heat,Oklahoma City Thunder,102.0,118.0,115.3857,114.55854
+22018,2019-02-02,Utah Jazz,Houston Rockets,98.0,125.0,115.45387,113.692024
+22018,2019-02-02,Phoenix Suns,Atlanta Hawks,112.0,118.0,117.61484,117.9168
+22018,2019-02-02,Minnesota Timberwolves,Denver Nuggets,106.0,107.0,117.47504,118.383934
+22018,2019-02-02,Miami Heat,Indiana Pacers,88.0,95.0,116.75441,114.65728
+22018,2019-02-02,Golden State Warriors,Los Angeles Lakers,115.0,101.0,122.47385,113.72794
+22018,2019-02-02,Detroit Pistons,LA Clippers,101.0,111.0,120.155716,117.624084
+22018,2019-02-02,Orlando Magic,Brooklyn Nets,102.0,89.0,116.49178,118.28241
+22018,2019-02-02,Washington Wizards,Milwaukee Bucks,115.0,131.0,113.70506,115.64097
+22018,2019-02-02,San Antonio Spurs,New Orleans Pelicans,113.0,108.0,111.57492,107.869255
+22018,2019-02-02,Sacramento Kings,Philadelphia 76ers,115.0,108.0,114.76426,117.43092
+22018,2019-02-02,Charlotte Hornets,Chicago Bulls,125.0,118.0,114.736595,108.40269
+22018,2019-02-02,Cleveland Cavaliers,Dallas Mavericks,98.0,111.0,107.84689,110.09786
+22018,2019-02-03,Boston Celtics,Oklahoma City Thunder,134.0,129.0,113.516266,110.68168
+22018,2019-02-03,New York Knicks,Memphis Grizzlies,84.0,96.0,109.05167,109.59465
+22018,2019-02-03,Toronto Raptors,LA Clippers,121.0,103.0,119.4199,112.66398
+22018,2019-02-04,Phoenix Suns,Houston Rockets,110.0,118.0,129.3996,136.0176
+22018,2019-02-04,New Orleans Pelicans,Indiana Pacers,107.0,109.0,114.779434,113.04749
+22018,2019-02-04,Detroit Pistons,Denver Nuggets,129.0,103.0,119.19724,120.68935
+22018,2019-02-04,Sacramento Kings,San Antonio Spurs,127.0,112.0,111.43579,111.5685
+22018,2019-02-04,Brooklyn Nets,Milwaukee Bucks,94.0,113.0,114.778336,116.64145
+22018,2019-02-04,Washington Wizards,Atlanta Hawks,129.0,137.0,116.73053,111.206924
+22018,2019-02-05,Portland Trail Blazers,Miami Heat,108.0,118.0,113.04968,108.494865
+22018,2019-02-05,Philadelphia 76ers,Toronto Raptors,107.0,119.0,109.7785,108.977295
+22018,2019-02-05,Indiana Pacers,Los Angeles Lakers,136.0,94.0,115.951645,111.725105
+22018,2019-02-05,Oklahoma City Thunder,Orlando Magic,132.0,122.0,118.10434,111.67457
+22018,2019-02-05,Charlotte Hornets,LA Clippers,115.0,117.0,115.79895,113.0972
+22018,2019-02-05,New York Knicks,Detroit Pistons,92.0,105.0,111.865845,114.00957
+22018,2019-02-05,Cleveland Cavaliers,Boston Celtics,96.0,103.0,117.339874,123.26599
+22018,2019-02-05,Memphis Grizzlies,Minnesota Timberwolves,108.0,106.0,112.361084,112.38552
+22018,2019-02-06,Dallas Mavericks,Charlotte Hornets,99.0,93.0,108.722305,106.49519
+22018,2019-02-06,Chicago Bulls,New Orleans Pelicans,120.0,125.0,109.84596,113.609566
+22018,2019-02-06,Brooklyn Nets,Denver Nuggets,135.0,130.0,117.789734,117.87519
+22018,2019-02-06,Sacramento Kings,Houston Rockets,101.0,127.0,120.23051,123.34064
+22018,2019-02-06,Utah Jazz,Phoenix Suns,116.0,88.0,112.58824,102.829704
+22018,2019-02-06,Golden State Warriors,San Antonio Spurs,141.0,102.0,117.23167,109.20283
+22018,2019-02-06,Milwaukee Bucks,Washington Wizards,148.0,129.0,116.11636,109.31885
+22018,2019-02-07,Atlanta Hawks,Toronto Raptors,101.0,119.0,111.084724,115.49469
+22018,2019-02-07,Orlando Magic,Minnesota Timberwolves,122.0,112.0,113.39736,113.39962
+22018,2019-02-07,Indiana Pacers,LA Clippers,116.0,92.0,117.70805,112.723076
+22018,2019-02-07,Portland Trail Blazers,San Antonio Spurs,127.0,118.0,114.55314,110.21256
+22018,2019-02-07,Oklahoma City Thunder,Memphis Grizzlies,117.0,95.0,114.10057,106.74711
+22018,2019-02-07,Boston Celtics,Los Angeles Lakers,128.0,129.0,116.564064,110.056305
+22018,2019-02-08,Phoenix Suns,Golden State Warriors,107.0,117.0,123.499275,130.65627
+22018,2019-02-08,New Orleans Pelicans,Minnesota Timberwolves,122.0,117.0,115.76709,113.05545
+22018,2019-02-08,Philadelphia 76ers,Denver Nuggets,117.0,110.0,116.74411,114.57653
+22018,2019-02-08,Detroit Pistons,New York Knicks,120.0,103.0,113.38081,106.35117
+22018,2019-02-08,Washington Wizards,Cleveland Cavaliers,119.0,106.0,123.23043,116.49532
+22018,2019-02-08,Sacramento Kings,Miami Heat,102.0,96.0,109.02118,109.04284
+22018,2019-02-08,Dallas Mavericks,Milwaukee Bucks,107.0,122.0,109.08801,112.43233
+22018,2019-02-08,Brooklyn Nets,Chicago Bulls,106.0,125.0,115.93759,109.0473
+22018,2019-02-09,Indiana Pacers,Cleveland Cavaliers,105.0,90.0,122.40484,113.63289
+22018,2019-02-09,Milwaukee Bucks,Orlando Magic,83.0,103.0,116.68538,108.99146
+22018,2019-02-09,Atlanta Hawks,Charlotte Hornets,120.0,129.0,109.877846,109.90925
+22018,2019-02-09,Utah Jazz,San Antonio Spurs,125.0,105.0,106.49032,102.07725
+22018,2019-02-09,Boston Celtics,LA Clippers,112.0,123.0,117.90762,111.3672
+22018,2019-02-09,Chicago Bulls,Washington Wizards,125.0,134.0,111.970764,114.77696
+22018,2019-02-09,Houston Rockets,Oklahoma City Thunder,112.0,117.0,121.21385,118.253624
+22018,2019-02-09,Memphis Grizzlies,New Orleans Pelicans,99.0,90.0,108.44128,109.086365
+22018,2019-02-09,New York Knicks,Toronto Raptors,99.0,104.0,114.11009,120.46931
+22018,2019-02-10,Philadelphia 76ers,Los Angeles Lakers,143.0,120.0,114.692154,109.821785
+22018,2019-02-10,Atlanta Hawks,Orlando Magic,108.0,124.0,112.09069,112.50345
+22018,2019-02-10,Golden State Warriors,Miami Heat,120.0,118.0,114.559235,106.87927
+22018,2019-02-10,Dallas Mavericks,Portland Trail Blazers,102.0,101.0,112.50536,112.29177
+22018,2019-02-10,Sacramento Kings,Phoenix Suns,117.0,104.0,115.23622,109.60576
+22018,2019-02-11,Oklahoma City Thunder,Portland Trail Blazers,120.0,111.0,116.560265,112.38101
+22018,2019-02-11,Indiana Pacers,Charlotte Hornets,99.0,90.0,112.89223,108.18465
+22018,2019-02-11,Toronto Raptors,Brooklyn Nets,127.0,125.0,118.46572,112.60175
+22018,2019-02-11,Detroit Pistons,Washington Wizards,121.0,112.0,116.54328,114.30874
+22018,2019-02-11,Chicago Bulls,Milwaukee Bucks,99.0,112.0,109.93216,116.46613
+22018,2019-02-11,Minnesota Timberwolves,LA Clippers,130.0,120.0,116.6485,114.364426
+22018,2019-02-11,Houston Rockets,Dallas Mavericks,120.0,104.0,114.63361,108.637344
+22018,2019-02-11,Cleveland Cavaliers,New York Knicks,107.0,104.0,111.54533,109.20459
+22018,2019-02-11,Denver Nuggets,Miami Heat,103.0,87.0,113.511116,109.820465
+22018,2019-02-12,Memphis Grizzlies,San Antonio Spurs,107.0,108.0,106.37002,106.420845
+22018,2019-02-12,New Orleans Pelicans,Orlando Magic,88.0,118.0,116.95929,114.47786
+22018,2019-02-12,Atlanta Hawks,Los Angeles Lakers,117.0,113.0,112.56202,113.50749
+22018,2019-02-12,Philadelphia 76ers,Boston Celtics,109.0,112.0,112.49496,111.72801
+22018,2019-02-12,Golden State Warriors,Utah Jazz,115.0,108.0,112.48968,106.936295
+22018,2019-02-13,Minnesota Timberwolves,Houston Rockets,121.0,111.0,123.7448,125.942604
+22018,2019-02-13,Toronto Raptors,Washington Wizards,129.0,120.0,117.51036,110.7215
+22018,2019-02-13,New York Knicks,Philadelphia 76ers,111.0,126.0,117.17763,122.229256
+22018,2019-02-13,Boston Celtics,Detroit Pistons,118.0,110.0,113.07702,107.684326
+22018,2019-02-13,Portland Trail Blazers,Golden State Warriors,129.0,107.0,116.18732,117.081024
+22018,2019-02-13,LA Clippers,Phoenix Suns,134.0,107.0,115.199585,108.57264
+22018,2019-02-13,Denver Nuggets,Sacramento Kings,120.0,118.0,120.76279,115.89152
+22018,2019-02-13,Chicago Bulls,Memphis Grizzlies,122.0,110.0,104.55109,106.18922
+22018,2019-02-13,Cleveland Cavaliers,Brooklyn Nets,139.0,148.0,116.36072,119.55313
+22018,2019-02-13,Indiana Pacers,Milwaukee Bucks,97.0,106.0,108.056625,109.089485
+22018,2019-02-13,Dallas Mavericks,Miami Heat,101.0,112.0,105.90483,104.94381
+22018,2019-02-14,Atlanta Hawks,New York Knicks,91.0,106.0,109.68942,105.7656
+22018,2019-02-14,New Orleans Pelicans,Oklahoma City Thunder,131.0,122.0,116.5772,118.16315
+22018,2019-02-14,Orlando Magic,Charlotte Hornets,127.0,89.0,109.90403,108.11628
+22018,2019-02-21,Cleveland Cavaliers,Phoenix Suns,111.0,98.0,115.126305,112.545265
+22018,2019-02-21,Golden State Warriors,Sacramento Kings,125.0,123.0,122.44138,113.79547
+22018,2019-02-21,Los Angeles Lakers,Houston Rockets,111.0,106.0,123.17475,125.51485
+22018,2019-02-21,Milwaukee Bucks,Boston Celtics,98.0,97.0,113.047874,110.26574
+22018,2019-02-21,Philadelphia 76ers,Miami Heat,106.0,102.0,107.93141,104.628654
+22018,2019-02-21,Brooklyn Nets,Portland Trail Blazers,99.0,113.0,116.24182,115.88663
+22018,2019-02-22,Toronto Raptors,San Antonio Spurs,120.0,117.0,111.85524,105.45682
+22018,2019-02-22,Atlanta Hawks,Detroit Pistons,122.0,125.0,109.81484,110.99764
+22018,2019-02-22,Indiana Pacers,New Orleans Pelicans,126.0,111.0,111.45399,107.1391
+22018,2019-02-22,Oklahoma City Thunder,Utah Jazz,148.0,147.0,109.278336,106.526855
+22018,2019-02-22,New York Knicks,Minnesota Timberwolves,104.0,115.0,114.61596,117.33821
+22018,2019-02-22,Dallas Mavericks,Denver Nuggets,104.0,114.0,114.808395,115.72973
+22018,2019-02-22,Orlando Magic,Chicago Bulls,109.0,110.0,112.76719,106.66088
+22018,2019-02-22,Memphis Grizzlies,LA Clippers,106.0,112.0,113.66351,113.096085
+22018,2019-02-22,Charlotte Hornets,Washington Wizards,123.0,110.0,115.57271,113.908936
+22018,2019-02-23,Philadelphia 76ers,Portland Trail Blazers,115.0,130.0,113.86109,111.48619
+22018,2019-02-23,Utah Jazz,Dallas Mavericks,125.0,109.0,100.77076,95.69216
+22018,2019-02-23,Chicago Bulls,Boston Celtics,126.0,116.0,113.29895,118.97595
+22018,2019-02-23,Miami Heat,Detroit Pistons,96.0,119.0,114.084984,110.64254
+22018,2019-02-23,Atlanta Hawks,Phoenix Suns,120.0,112.0,112.28286,108.28168
+22018,2019-02-23,Golden State Warriors,Houston Rockets,112.0,118.0,125.74235,121.17124
+22018,2019-02-23,Washington Wizards,Indiana Pacers,112.0,119.0,116.081696,115.98162
+22018,2019-02-23,Cleveland Cavaliers,Memphis Grizzlies,112.0,107.0,110.364624,110.62395
+22018,2019-02-23,Oklahoma City Thunder,Sacramento Kings,116.0,119.0,116.17746,110.1782
+22018,2019-02-23,Milwaukee Bucks,Minnesota Timberwolves,140.0,128.0,112.63491,106.61634
+22018,2019-02-23,New Orleans Pelicans,Los Angeles Lakers,128.0,115.0,114.86558,112.86332
+22018,2019-02-23,Charlotte Hornets,Brooklyn Nets,115.0,117.0,116.57021,115.43087
+22018,2019-02-24,Denver Nuggets,LA Clippers,123.0,96.0,121.307724,116.09006
+22018,2019-02-24,New York Knicks,San Antonio Spurs,130.0,118.0,110.674164,113.64119
+22018,2019-02-24,Toronto Raptors,Orlando Magic,98.0,113.0,115.65531,109.85677
+22018,2019-02-25,Chicago Bulls,Milwaukee Bucks,106.0,117.0,110.8375,117.218124
+22018,2019-02-25,New Orleans Pelicans,Philadelphia 76ers,110.0,111.0,115.966675,116.6905
+22018,2019-02-25,Houston Rockets,Atlanta Hawks,119.0,111.0,122.179276,113.61109
+22018,2019-02-25,Memphis Grizzlies,Los Angeles Lakers,110.0,105.0,109.62068,109.22903
+22018,2019-02-25,Charlotte Hornets,Golden State Warriors,110.0,121.0,115.456345,118.76385
+22018,2019-02-25,LA Clippers,Dallas Mavericks,121.0,112.0,107.73943,105.54777
+22018,2019-02-25,Minnesota Timberwolves,Sacramento Kings,112.0,105.0,116.42395,114.01002
+22018,2019-02-25,Detroit Pistons,Indiana Pacers,113.0,109.0,115.45181,114.640434
+22018,2019-02-25,Cleveland Cavaliers,Portland Trail Blazers,110.0,123.0,116.39207,120.847275
+22018,2019-02-25,Miami Heat,Phoenix Suns,121.0,124.0,116.528145,109.099464
+22018,2019-02-25,Brooklyn Nets,San Antonio Spurs,101.0,85.0,112.60166,111.30911
+22018,2019-02-26,Denver Nuggets,Oklahoma City Thunder,121.0,112.0,118.0512,115.425705
+22018,2019-02-26,Toronto Raptors,Boston Celtics,118.0,95.0,112.85532,110.58072
+22018,2019-02-26,New York Knicks,Orlando Magic,108.0,103.0,115.43984,118.37141
+22018,2019-02-27,Brooklyn Nets,Washington Wizards,116.0,125.0,117.36901,115.18395
+22018,2019-02-27,Atlanta Hawks,Minnesota Timberwolves,131.0,123.0,112.730774,114.95371
+22018,2019-02-27,Boston Celtics,Portland Trail Blazers,92.0,97.0,114.594185,112.53595
+22018,2019-02-27,Charlotte Hornets,Houston Rockets,113.0,118.0,121.407745,124.43873
+22018,2019-02-27,Miami Heat,Golden State Warriors,126.0,125.0,116.56648,118.66309
+22018,2019-02-27,Dallas Mavericks,Indiana Pacers,110.0,101.0,111.10233,112.519196
+22018,2019-02-27,Utah Jazz,LA Clippers,111.0,105.0,110.68741,105.889145
+22018,2019-02-27,San Antonio Spurs,Detroit Pistons,105.0,93.0,109.54024,106.89652
+22018,2019-02-27,Sacramento Kings,Milwaukee Bucks,140.0,141.0,111.21972,115.80276
+22018,2019-02-27,Memphis Grizzlies,Chicago Bulls,107.0,109.0,110.18898,106.0038
+22018,2019-02-27,Los Angeles Lakers,New Orleans Pelicans,125.0,119.0,113.169044,111.215614
+22018,2019-02-28,Oklahoma City Thunder,Philadelphia 76ers,104.0,108.0,116.03088,113.30826
+22018,2019-02-28,New York Knicks,Cleveland Cavaliers,118.0,125.0,118.22624,115.56794
+22018,2019-02-28,Houston Rockets,Miami Heat,121.0,118.0,118.75785,113.6369
+22018,2019-02-28,Denver Nuggets,Utah Jazz,104.0,111.0,111.5329,109.2621
+22018,2019-02-28,Orlando Magic,Golden State Warriors,103.0,96.0,113.99788,116.315674
+22018,2019-02-28,Indiana Pacers,Minnesota Timberwolves,122.0,115.0,112.93771,109.288635
+22018,2019-03-01,Phoenix Suns,New Orleans Pelicans,116.0,130.0,118.32465,121.44286
+22018,2019-03-01,Los Angeles Lakers,Milwaukee Bucks,120.0,131.0,111.01866,115.23368
+22018,2019-03-01,Brooklyn Nets,Charlotte Hornets,112.0,123.0,112.09559,109.665924
+22018,2019-03-01,Sacramento Kings,LA Clippers,109.0,116.0,116.871216,115.96347
+22018,2019-03-01,Boston Celtics,Washington Wizards,107.0,96.0,117.87826,112.73107
+22018,2019-03-01,Toronto Raptors,Portland Trail Blazers,119.0,117.0,116.47245,112.78748
+22018,2019-03-01,Atlanta Hawks,Chicago Bulls,161.0,168.0,113.44735,110.312195
+22018,2019-03-02,San Antonio Spurs,Oklahoma City Thunder,116.0,102.0,110.7995,110.66584
+22018,2019-03-02,Dallas Mavericks,Memphis Grizzlies,81.0,111.0,108.90117,105.39851
+22018,2019-03-02,Indiana Pacers,Orlando Magic,112.0,117.0,115.578896,112.60517
+22018,2019-03-02,Utah Jazz,Milwaukee Bucks,115.0,111.0,103.910675,104.880936
+22018,2019-03-02,Phoenix Suns,Los Angeles Lakers,118.0,109.0,120.066315,123.19954
+22018,2019-03-02,Cleveland Cavaliers,Detroit Pistons,93.0,129.0,112.501335,114.998
+22018,2019-03-02,Miami Heat,Brooklyn Nets,117.0,88.0,119.38043,117.12629
+22018,2019-03-02,Denver Nuggets,New Orleans Pelicans,112.0,120.0,119.15948,113.59896
+22018,2019-03-02,Philadelphia 76ers,Golden State Warriors,117.0,120.0,114.03523,114.39423
+22018,2019-03-03,Detroit Pistons,Toronto Raptors,112.0,107.0,112.01053,113.29343
+22018,2019-03-03,LA Clippers,New York Knicks,128.0,107.0,113.52832,107.44674
+22018,2019-03-03,Oklahoma City Thunder,Memphis Grizzlies,99.0,95.0,114.38126,107.74207
+22018,2019-03-03,Chicago Bulls,Atlanta Hawks,118.0,123.0,109.184456,108.962776
+22018,2019-03-03,Charlotte Hornets,Portland Trail Blazers,108.0,118.0,114.91256,116.27132
+22018,2019-03-03,Boston Celtics,Houston Rockets,104.0,115.0,120.31861,120.187126
+22018,2019-03-03,Washington Wizards,Minnesota Timberwolves,135.0,121.0,118.971954,116.88769
+22018,2019-03-03,Cleveland Cavaliers,Orlando Magic,107.0,93.0,115.00137,119.15965
+22018,2019-03-04,Miami Heat,Atlanta Hawks,114.0,113.0,116.13797,110.31194
+22018,2019-03-04,Los Angeles Lakers,LA Clippers,105.0,113.0,117.19793,115.735954
+22018,2019-03-04,Utah Jazz,New Orleans Pelicans,112.0,115.0,107.42523,102.2671
+22018,2019-03-04,San Antonio Spurs,Denver Nuggets,104.0,103.0,113.4673,113.05886
+22018,2019-03-04,Phoenix Suns,Milwaukee Bucks,114.0,105.0,119.04045,126.79476
+22018,2019-03-04,Sacramento Kings,New York Knicks,115.0,108.0,112.86097,108.0113
+22018,2019-03-04,Brooklyn Nets,Dallas Mavericks,127.0,88.0,108.520226,106.025024
+22018,2019-03-05,Golden State Warriors,Boston Celtics,95.0,128.0,118.8379,113.86773
+22018,2019-03-05,Philadelphia 76ers,Orlando Magic,114.0,106.0,114.21702,110.87843
+22018,2019-03-05,Toronto Raptors,Houston Rockets,95.0,107.0,118.44944,116.90109
+22018,2019-03-05,Memphis Grizzlies,Portland Trail Blazers,120.0,111.0,111.245926,113.60816
+22018,2019-03-05,Indiana Pacers,Chicago Bulls,105.0,96.0,115.23199,106.69966
+22018,2019-03-05,Minnesota Timberwolves,Oklahoma City Thunder,131.0,120.0,113.799965,114.25714
+22018,2019-03-06,Chicago Bulls,Philadelphia 76ers,108.0,107.0,113.59584,118.54378
+22018,2019-03-06,Detroit Pistons,Minnesota Timberwolves,131.0,114.0,116.64732,113.77668
+22018,2019-03-06,New Orleans Pelicans,Utah Jazz,104.0,114.0,110.125565,111.25764
+22018,2019-03-06,Washington Wizards,Dallas Mavericks,132.0,123.0,111.38906,107.45635
+22018,2019-03-06,Phoenix Suns,New York Knicks,107.0,96.0,117.092926,115.37126
+22018,2019-03-06,Los Angeles Lakers,Denver Nuggets,99.0,115.0,117.67926,118.95995
+22018,2019-03-06,Sacramento Kings,Boston Celtics,109.0,111.0,113.12997,116.736084
+22018,2019-03-06,Brooklyn Nets,Cleveland Cavaliers,113.0,107.0,119.35075,113.68779
+22018,2019-03-06,Atlanta Hawks,San Antonio Spurs,104.0,111.0,110.54782,111.37306
+22018,2019-03-06,Charlotte Hornets,Miami Heat,84.0,91.0,108.93729,108.13861
+22018,2019-03-07,Portland Trail Blazers,Oklahoma City Thunder,121.0,129.0,115.53553,111.95001
+22018,2019-03-07,Milwaukee Bucks,Indiana Pacers,117.0,98.0,112.078545,106.90428
+22018,2019-03-08,Houston Rockets,Philadelphia 76ers,107.0,91.0,121.06078,116.945114
+22018,2019-03-08,New Orleans Pelicans,Toronto Raptors,104.0,127.0,112.415665,114.44116
+22018,2019-03-08,Chicago Bulls,Detroit Pistons,104.0,112.0,109.77035,113.04333
+22018,2019-03-08,Charlotte Hornets,Washington Wizards,112.0,111.0,114.03718,112.819954
+22018,2019-03-08,Golden State Warriors,Denver Nuggets,122.0,105.0,122.32491,117.43767
+22018,2019-03-08,Orlando Magic,Dallas Mavericks,111.0,106.0,107.46717,103.325615
+22018,2019-03-08,Miami Heat,Cleveland Cavaliers,126.0,110.0,123.11334,116.25183
+22018,2019-03-08,LA Clippers,Oklahoma City Thunder,118.0,110.0,111.69368,112.32667
+22018,2019-03-08,Memphis Grizzlies,Utah Jazz,114.0,104.0,104.233955,107.00304
+22018,2019-03-09,Milwaukee Bucks,Charlotte Hornets,131.0,114.0,113.63008,105.85505
+22018,2019-03-09,New York Knicks,Sacramento Kings,94.0,102.0,116.32166,118.82691
+22018,2019-03-09,Los Angeles Lakers,Boston Celtics,107.0,120.0,114.51423,117.6076
+22018,2019-03-09,Atlanta Hawks,Brooklyn Nets,112.0,114.0,114.48018,115.9105
+22018,2019-03-09,Portland Trail Blazers,Phoenix Suns,127.0,120.0,120.06047,109.78878
+22018,2019-03-09,Minnesota Timberwolves,Washington Wizards,135.0,130.0,115.8038,113.588295
+22018,2019-03-10,Atlanta Hawks,New Orleans Pelicans,128.0,116.0,111.1151,112.08165
+22018,2019-03-10,Miami Heat,Toronto Raptors,104.0,125.0,112.16924,113.39494
+22018,2019-03-10,Dallas Mavericks,Houston Rockets,93.0,94.0,117.79778,123.189445
+22018,2019-03-10,Philadelphia 76ers,Indiana Pacers,106.0,89.0,111.99724,109.38107
+22018,2019-03-10,Detroit Pistons,Chicago Bulls,131.0,108.0,114.53699,106.63314
+22018,2019-03-10,San Antonio Spurs,Milwaukee Bucks,121.0,114.0,105.895035,108.86343
+22018,2019-03-10,Minnesota Timberwolves,New York Knicks,103.0,92.0,113.06172,106.20148
+22018,2019-03-10,Memphis Grizzlies,Orlando Magic,105.0,97.0,110.331726,110.66566
+22018,2019-03-10,Golden State Warriors,Phoenix Suns,111.0,115.0,122.69134,110.56651
+22018,2019-03-11,Cleveland Cavaliers,Toronto Raptors,126.0,101.0,113.97456,119.86498
+22018,2019-03-11,Brooklyn Nets,Detroit Pistons,103.0,75.0,112.70577,112.1992
+22018,2019-03-11,LA Clippers,Boston Celtics,140.0,115.0,111.42587,114.039215
+22018,2019-03-11,Houston Rockets,Charlotte Hornets,118.0,106.0,119.559,111.83962
+22018,2019-03-11,Utah Jazz,Oklahoma City Thunder,89.0,98.0,105.54205,102.90739
+22018,2019-03-11,Washington Wizards,Sacramento Kings,121.0,115.0,118.58339,116.19272
+22018,2019-03-12,LA Clippers,Portland Trail Blazers,104.0,125.0,113.74357,114.01158
+22018,2019-03-12,Dallas Mavericks,San Antonio Spurs,105.0,112.0,108.84228,109.07124
+22018,2019-03-12,Philadelphia 76ers,Cleveland Cavaliers,106.0,99.0,119.813805,111.61515
+22018,2019-03-12,New Orleans Pelicans,Milwaukee Bucks,113.0,130.0,110.73094,114.93556
+22018,2019-03-12,Indiana Pacers,New York Knicks,103.0,98.0,114.04423,105.418274
+22018,2019-03-12,Denver Nuggets,Minnesota Timberwolves,133.0,107.0,119.4026,114.84522
+22018,2019-03-12,Chicago Bulls,Los Angeles Lakers,107.0,123.0,109.33732,111.41214
+22018,2019-03-13,Atlanta Hawks,Memphis Grizzlies,132.0,111.0,107.0849,107.22804
+22018,2019-03-13,Phoenix Suns,Utah Jazz,97.0,114.0,114.20313,119.46919
+22018,2019-03-13,Houston Rockets,Golden State Warriors,104.0,106.0,120.51694,117.78104
+22018,2019-03-13,Washington Wizards,Orlando Magic,100.0,90.0,117.754875,116.5961
+22018,2019-03-13,Miami Heat,Detroit Pistons,108.0,74.0,113.28472,111.29716
+22018,2019-03-13,Oklahoma City Thunder,Brooklyn Nets,108.0,96.0,119.17429,114.80796
+22018,2019-03-14,Boston Celtics,Sacramento Kings,126.0,120.0,116.23662,110.5283
+22018,2019-03-14,Toronto Raptors,Los Angeles Lakers,111.0,98.0,115.08984,107.99418
+22018,2019-03-14,Indiana Pacers,Oklahoma City Thunder,108.0,106.0,111.92421,110.84842
+22018,2019-03-14,Utah Jazz,Minnesota Timberwolves,120.0,100.0,110.09017,104.96227
+22018,2019-03-14,Orlando Magic,Cleveland Cavaliers,120.0,91.0,117.37563,111.994736
+22018,2019-03-14,Denver Nuggets,Dallas Mavericks,100.0,99.0,113.784004,107.008896
+22018,2019-03-15,New Orleans Pelicans,Portland Trail Blazers,110.0,122.0,115.34289,116.887405
+22018,2019-03-15,LA Clippers,Chicago Bulls,128.0,121.0,112.35182,105.613625
+22018,2019-03-15,Washington Wizards,Charlotte Hornets,110.0,116.0,113.99881,110.5808
+22018,2019-03-15,Detroit Pistons,Los Angeles Lakers,111.0,97.0,114.57715,110.7926
+22018,2019-03-15,Philadelphia 76ers,Sacramento Kings,123.0,114.0,115.880806,110.82984
+22018,2019-03-15,Houston Rockets,Phoenix Suns,108.0,102.0,127.34722,116.78175
+22018,2019-03-15,Miami Heat,Milwaukee Bucks,98.0,113.0,108.89398,111.82543
+22018,2019-03-15,San Antonio Spurs,New York Knicks,109.0,83.0,110.65526,102.2866
+22018,2019-03-16,Dallas Mavericks,Cleveland Cavaliers,121.0,116.0,114.72512,110.932945
+22018,2019-03-16,Boston Celtics,Atlanta Hawks,129.0,120.0,115.231316,107.30777
+22018,2019-03-16,Washington Wizards,Memphis Grizzlies,135.0,128.0,113.0115,109.33928
+22018,2019-03-16,Denver Nuggets,Indiana Pacers,102.0,100.0,116.06245,112.45594
+22018,2019-03-16,Utah Jazz,Brooklyn Nets,114.0,98.0,110.37556,105.79587
+22018,2019-03-16,Oklahoma City Thunder,Golden State Warriors,88.0,110.0,114.32004,113.25578
+22018,2019-03-16,New Orleans Pelicans,Phoenix Suns,136.0,138.0,115.93745,109.66011
+22018,2019-03-16,San Antonio Spurs,Portland Trail Blazers,108.0,103.0,110.4997,109.88812
+22018,2019-03-17,Detroit Pistons,Toronto Raptors,110.0,107.0,109.91658,110.90422
+22018,2019-03-17,Sacramento Kings,Chicago Bulls,129.0,102.0,111.51936,106.42235
+22018,2019-03-17,Miami Heat,Charlotte Hornets,93.0,75.0,113.7578,110.21881
+22018,2019-03-17,Milwaukee Bucks,Philadelphia 76ers,125.0,130.0,111.5927,107.042496
+22018,2019-03-17,LA Clippers,Brooklyn Nets,119.0,116.0,115.84471,114.81272
+22018,2019-03-17,Orlando Magic,Atlanta Hawks,101.0,91.0,111.11195,106.38139
+22018,2019-03-17,Houston Rockets,Minnesota Timberwolves,117.0,102.0,125.47393,119.49819
+22018,2019-03-17,New York Knicks,Los Angeles Lakers,124.0,123.0,111.733,114.01425
+22018,2019-03-18,Phoenix Suns,Chicago Bulls,101.0,116.0,117.38817,115.247505
+22018,2019-03-18,Oklahoma City Thunder,Miami Heat,107.0,116.0,110.01307,105.784546
+22018,2019-03-18,Dallas Mavericks,New Orleans Pelicans,125.0,129.0,108.97681,108.47532
+22018,2019-03-18,Cleveland Cavaliers,Detroit Pistons,126.0,119.0,112.62483,114.959526
+22018,2019-03-18,Portland Trail Blazers,Indiana Pacers,106.0,98.0,114.477165,109.88989
+22018,2019-03-18,Washington Wizards,Utah Jazz,95.0,116.0,108.99583,110.3594
+22018,2019-03-18,San Antonio Spurs,Golden State Warriors,111.0,105.0,109.91336,111.24713
+22018,2019-03-18,Toronto Raptors,New York Knicks,128.0,92.0,114.54392,104.318825
+22018,2019-03-18,Boston Celtics,Denver Nuggets,105.0,114.0,117.209915,114.73279
+22018,2019-03-19,LA Clippers,Indiana Pacers,115.0,109.0,109.99885,109.43395
+22018,2019-03-19,Atlanta Hawks,Houston Rockets,105.0,121.0,118.55463,124.24747
+22018,2019-03-19,Charlotte Hornets,Philadelphia 76ers,114.0,118.0,111.85301,114.101395
+22018,2019-03-19,Minnesota Timberwolves,Golden State Warriors,107.0,117.0,115.12992,118.24115
+22018,2019-03-19,Milwaukee Bucks,Los Angeles Lakers,115.0,101.0,112.85484,104.300316
+22018,2019-03-19,Sacramento Kings,Brooklyn Nets,121.0,123.0,115.02157,115.163765
+22018,2019-03-20,New York Knicks,Utah Jazz,116.0,137.0,110.27003,116.19373
+22018,2019-03-20,Cleveland Cavaliers,Milwaukee Bucks,107.0,102.0,115.01605,121.2736
+22018,2019-03-20,Orlando Magic,New Orleans Pelicans,119.0,96.0,109.01921,106.277245
+22018,2019-03-20,Portland Trail Blazers,Dallas Mavericks,126.0,118.0,113.52465,105.25724
+22018,2019-03-20,Memphis Grizzlies,Houston Rockets,126.0,125.0,119.194885,123.773056
+22018,2019-03-20,Philadelphia 76ers,Boston Celtics,118.0,115.0,110.763855,109.95894
+22018,2019-03-20,Oklahoma City Thunder,Toronto Raptors,114.0,123.0,113.142044,112.388725
+22018,2019-03-20,Chicago Bulls,Washington Wizards,126.0,120.0,110.89201,113.50505
+22018,2019-03-20,San Antonio Spurs,Miami Heat,105.0,110.0,104.945625,102.055466
+22018,2019-03-21,Charlotte Hornets,Minnesota Timberwolves,113.0,106.0,112.87334,112.36582
+22018,2019-03-21,Atlanta Hawks,Utah Jazz,117.0,114.0,105.48596,110.1742
+22018,2019-03-21,Phoenix Suns,Detroit Pistons,98.0,118.0,117.759056,121.27582
+22018,2019-03-21,Golden State Warriors,Indiana Pacers,112.0,89.0,117.42117,110.41106
+22018,2019-03-21,Sacramento Kings,Dallas Mavericks,116.0,100.0,107.111755,104.52233
+22018,2019-03-21,Washington Wizards,Denver Nuggets,108.0,113.0,120.65578,121.41101
+22018,2019-03-22,Orlando Magic,Memphis Grizzlies,123.0,119.0,107.09463,103.75152
+22018,2019-03-22,New York Knicks,Denver Nuggets,93.0,111.0,119.35393,124.81619
+22018,2019-03-22,Toronto Raptors,Oklahoma City Thunder,109.0,116.0,112.27123,108.14742
+22018,2019-03-22,Houston Rockets,San Antonio Spurs,111.0,105.0,118.94153,113.166374
+22018,2019-03-22,Cleveland Cavaliers,LA Clippers,108.0,110.0,117.88508,119.086784
+22018,2019-03-22,Los Angeles Lakers,Brooklyn Nets,106.0,111.0,118.22108,118.02902
+22018,2019-03-22,Milwaukee Bucks,Miami Heat,116.0,87.0,107.26361,101.806496
+22018,2019-03-23,Sacramento Kings,Phoenix Suns,112.0,103.0,112.803665,107.39329
+22018,2019-03-23,Chicago Bulls,Utah Jazz,83.0,114.0,107.06804,112.643875
+22018,2019-03-23,Golden State Warriors,Dallas Mavericks,91.0,126.0,115.2515,105.27391
+22018,2019-03-23,Memphis Grizzlies,Minnesota Timberwolves,99.0,112.0,110.49223,109.47337
+22018,2019-03-23,Portland Trail Blazers,Detroit Pistons,117.0,112.0,115.55729,109.75828
+22018,2019-03-23,Charlotte Hornets,Boston Celtics,124.0,117.0,113.23729,116.11595
+22018,2019-03-23,Washington Wizards,Miami Heat,108.0,113.0,112.73718,111.47825
+22018,2019-03-23,Atlanta Hawks,Philadelphia 76ers,129.0,127.0,111.07518,114.867905
+22018,2019-03-24,Los Angeles Lakers,Sacramento Kings,111.0,106.0,117.357834,116.48103
+22018,2019-03-24,Indiana Pacers,Denver Nuggets,124.0,88.0,116.39565,116.86508
+22018,2019-03-24,Boston Celtics,San Antonio Spurs,96.0,115.0,112.06566,107.55979
+22018,2019-03-24,Toronto Raptors,Charlotte Hornets,114.0,115.0,111.38734,105.0152
+22018,2019-03-24,New York Knicks,LA Clippers,113.0,124.0,117.228645,120.30915
+22018,2019-03-24,New Orleans Pelicans,Houston Rockets,90.0,113.0,123.736626,128.0042
+22018,2019-03-24,Milwaukee Bucks,Cleveland Cavaliers,127.0,105.0,119.48522,109.6456
+22018,2019-03-24,Golden State Warriors,Detroit Pistons,121.0,114.0,116.76276,110.4298
+22018,2019-03-25,Memphis Grizzlies,Oklahoma City Thunder,115.0,103.0,110.23986,112.112404
+22018,2019-03-25,Utah Jazz,Phoenix Suns,125.0,92.0,112.86345,102.738396
+22018,2019-03-25,Portland Trail Blazers,Brooklyn Nets,148.0,144.0,119.721214,114.389946
+22018,2019-03-25,Orlando Magic,Philadelphia 76ers,119.0,98.0,110.55368,111.1596
+22018,2019-03-26,Milwaukee Bucks,Houston Rockets,108.0,94.0,119.309,117.247345
+22018,2019-03-26,Denver Nuggets,Detroit Pistons,95.0,92.0,116.15939,111.573814
+22018,2019-03-26,Dallas Mavericks,Sacramento Kings,121.0,125.0,113.12892,112.85953
+22018,2019-03-26,New Orleans Pelicans,Atlanta Hawks,120.0,130.0,113.70844,110.666
+22018,2019-03-26,Toronto Raptors,Chicago Bulls,112.0,103.0,115.84721,106.20238
+22018,2019-03-26,Minnesota Timberwolves,LA Clippers,111.0,122.0,117.4281,115.907166
+22018,2019-03-26,Charlotte Hornets,San Antonio Spurs,125.0,116.0,109.26079,109.78133
+22018,2019-03-26,Cleveland Cavaliers,Boston Celtics,106.0,116.0,115.33339,119.67056
+22018,2019-03-26,Miami Heat,Orlando Magic,99.0,104.0,116.67748,114.2386
+22018,2019-03-26,Los Angeles Lakers,Washington Wizards,124.0,106.0,116.64654,114.8698
+22018,2019-03-27,Memphis Grizzlies,Golden State Warriors,103.0,118.0,111.6819,114.890526
+22018,2019-03-27,Utah Jazz,Los Angeles Lakers,115.0,100.0,108.46271,101.630455
+22018,2019-03-27,Phoenix Suns,Washington Wizards,121.0,124.0,120.0472,122.38717
+22018,2019-03-27,Chicago Bulls,Portland Trail Blazers,98.0,118.0,113.50839,118.6259
+22018,2019-03-27,Oklahoma City Thunder,Indiana Pacers,107.0,99.0,114.44559,111.16026
+22018,2019-03-28,Miami Heat,Dallas Mavericks,105.0,99.0,109.32061,104.377655
+22018,2019-03-28,New York Knicks,Toronto Raptors,92.0,117.0,114.954155,120.807106
+22018,2019-03-28,Houston Rockets,Denver Nuggets,112.0,85.0,122.95329,119.47731
+22018,2019-03-28,Philadelphia 76ers,Brooklyn Nets,123.0,110.0,115.47358,112.48606
+22018,2019-03-28,Detroit Pistons,Orlando Magic,115.0,98.0,116.51248,114.82524
+22018,2019-03-28,Milwaukee Bucks,LA Clippers,128.0,118.0,114.90553,108.44617
+22018,2019-03-28,San Antonio Spurs,Cleveland Cavaliers,116.0,110.0,115.447586,107.9257
+22018,2019-03-28,New Orleans Pelicans,Sacramento Kings,121.0,118.0,117.31218,116.442566
+22018,2019-03-29,Boston Celtics,Indiana Pacers,114.0,112.0,114.806145,111.50506
+22018,2019-03-29,Atlanta Hawks,Portland Trail Blazers,98.0,118.0,112.39118,115.69861
+22018,2019-03-29,Los Angeles Lakers,Charlotte Hornets,129.0,115.0,113.538635,111.90574
+22018,2019-03-29,Oklahoma City Thunder,Denver Nuggets,105.0,115.0,119.45671,117.18587
+22018,2019-03-29,Minnesota Timberwolves,Golden State Warriors,131.0,130.0,116.64527,119.479614
+22018,2019-03-29,Utah Jazz,Washington Wizards,128.0,124.0,110.72932,103.702515
+22018,2019-03-30,Indiana Pacers,Orlando Magic,116.0,121.0,116.80394,114.63119
+22018,2019-03-30,Minnesota Timberwolves,Philadelphia 76ers,109.0,118.0,117.81062,119.00611
+22018,2019-03-30,New York Knicks,Miami Heat,92.0,100.0,109.76706,113.84345
+22018,2019-03-30,Phoenix Suns,Memphis Grizzlies,115.0,120.0,113.53323,115.60293
+22018,2019-03-30,Houston Rockets,Sacramento Kings,119.0,108.0,123.69153,117.01873
+22018,2019-03-30,Brooklyn Nets,Boston Celtics,110.0,96.0,117.77129,119.13863
+22018,2019-03-30,LA Clippers,Cleveland Cavaliers,132.0,108.0,117.27315,111.319984
+22018,2019-03-30,Detroit Pistons,Portland Trail Blazers,99.0,90.0,115.269684,115.05894
+22018,2019-03-30,Chicago Bulls,Toronto Raptors,101.0,124.0,113.736946,119.38886
+22018,2019-03-31,San Antonio Spurs,Sacramento Kings,106.0,113.0,113.25133,108.84961
+22018,2019-03-31,Oklahoma City Thunder,Dallas Mavericks,103.0,106.0,111.154526,105.10807
+22018,2019-03-31,Atlanta Hawks,Milwaukee Bucks,136.0,135.0,110.36371,115.78184
+22018,2019-03-31,Denver Nuggets,Washington Wizards,90.0,95.0,120.390724,114.11797
+22018,2019-03-31,Golden State Warriors,Charlotte Hornets,137.0,90.0,116.74161,108.863594
+22018,2019-03-31,New Orleans Pelicans,Los Angeles Lakers,102.0,130.0,114.58966,112.855446
+22018,2019-03-31,LA Clippers,Memphis Grizzlies,113.0,96.0,109.93416,106.52447
+22018,2019-04-01,Phoenix Suns,Cleveland Cavaliers,122.0,113.0,124.59804,123.77919
+22018,2019-04-01,Dallas Mavericks,Philadelphia 76ers,122.0,102.0,113.09652,115.2768
+22018,2019-04-01,New York Knicks,Chicago Bulls,113.0,105.0,111.57989,110.32014
+22018,2019-04-01,Brooklyn Nets,Milwaukee Bucks,121.0,131.0,113.97034,116.757034
+22018,2019-04-01,Toronto Raptors,Orlando Magic,121.0,109.0,116.58733,111.666405
+22018,2019-04-01,Minnesota Timberwolves,Portland Trail Blazers,122.0,132.0,117.13541,119.321266
+22018,2019-04-01,Boston Celtics,Miami Heat,110.0,105.0,110.53728,107.188354
+22018,2019-04-01,Indiana Pacers,Detroit Pistons,111.0,102.0,114.85374,112.08775
+22018,2019-04-01,Utah Jazz,Charlotte Hornets,111.0,102.0,108.89718,101.87313
+22018,2019-04-02,Sacramento Kings,Houston Rockets,105.0,130.0,120.1468,125.328415
+22018,2019-04-02,San Antonio Spurs,Atlanta Hawks,117.0,111.0,112.02383,106.117485
+22018,2019-04-02,Oklahoma City Thunder,Los Angeles Lakers,119.0,103.0,117.96604,112.9179
+22018,2019-04-02,Golden State Warriors,Denver Nuggets,116.0,102.0,121.73704,116.84638
+22018,2019-04-03,LA Clippers,Houston Rockets,103.0,135.0,120.0703,124.09743
+22018,2019-04-03,Brooklyn Nets,Toronto Raptors,105.0,115.0,114.05518,115.50891
+22018,2019-04-03,Denver Nuggets,San Antonio Spurs,113.0,85.0,116.44176,111.818726
+22018,2019-04-03,Portland Trail Blazers,Memphis Grizzlies,116.0,89.0,115.220474,107.40504
+22018,2019-04-03,Orlando Magic,New York Knicks,114.0,100.0,113.55542,106.08799
+22018,2019-04-03,Detroit Pistons,Indiana Pacers,89.0,108.0,116.37981,113.42087
+22018,2019-04-03,Washington Wizards,Chicago Bulls,114.0,115.0,118.09114,111.008705
+22018,2019-04-03,New Orleans Pelicans,Charlotte Hornets,109.0,115.0,113.143555,111.782906
+22018,2019-04-03,Dallas Mavericks,Minnesota Timberwolves,108.0,110.0,113.677216,111.8479
+22018,2019-04-03,Atlanta Hawks,Philadelphia 76ers,130.0,122.0,113.29168,115.44701
+22018,2019-04-03,Miami Heat,Boston Celtics,102.0,112.0,114.618774,114.184
+22018,2019-04-03,Phoenix Suns,Utah Jazz,97.0,118.0,116.0091,122.49815
+22018,2019-04-04,Sacramento Kings,Cleveland Cavaliers,117.0,104.0,117.970825,113.30088
+22018,2019-04-04,Los Angeles Lakers,Golden State Warriors,90.0,108.0,116.529625,119.561066
+22018,2019-04-04,Philadelphia 76ers,Milwaukee Bucks,122.0,128.0,109.545555,111.731606
+22018,2019-04-05,Golden State Warriors,Cleveland Cavaliers,120.0,114.0,129.03065,116.87457
+22018,2019-04-05,Houston Rockets,New York Knicks,120.0,96.0,125.38141,112.83151
+22018,2019-04-05,Washington Wizards,San Antonio Spurs,112.0,129.0,115.78642,114.597176
+22018,2019-04-05,Oklahoma City Thunder,Detroit Pistons,123.0,110.0,115.18427,111.55334
+22018,2019-04-05,Orlando Magic,Atlanta Hawks,149.0,113.0,110.93781,106.60109
+22018,2019-04-05,Charlotte Hornets,Toronto Raptors,113.0,111.0,113.67958,116.9784
+22018,2019-04-05,Utah Jazz,Sacramento Kings,119.0,98.0,112.17379,105.298454
+22018,2019-04-05,LA Clippers,Los Angeles Lakers,117.0,122.0,115.09492,112.12617
+22018,2019-04-05,Minnesota Timberwolves,Miami Heat,111.0,109.0,110.01156,109.95328
+22018,2019-04-05,Phoenix Suns,New Orleans Pelicans,133.0,126.0,116.90544,118.43811
+22018,2019-04-05,Indiana Pacers,Boston Celtics,97.0,117.0,113.49377,113.1036
+22018,2019-04-05,Dallas Mavericks,Memphis Grizzlies,112.0,122.0,107.20817,105.10074
+22018,2019-04-05,Denver Nuggets,Portland Trail Blazers,119.0,110.0,119.62979,117.82186
+22018,2019-04-06,Chicago Bulls,Philadelphia 76ers,96.0,116.0,113.179016,118.047264
+22018,2019-04-06,Milwaukee Bucks,Brooklyn Nets,128.0,133.0,118.23885,111.868706
+22018,2019-04-07,Memphis Grizzlies,Dallas Mavericks,127.0,129.0,104.581375,102.232666
+22018,2019-04-07,Houston Rockets,Phoenix Suns,149.0,113.0,130.30075,118.58982
+22018,2019-04-07,Toronto Raptors,Miami Heat,117.0,109.0,109.72559,105.14819
+22018,2019-04-07,Milwaukee Bucks,Atlanta Hawks,115.0,107.0,115.08047,106.36495
+22018,2019-04-07,New York Knicks,Washington Wizards,113.0,110.0,113.20177,115.365685
+22018,2019-04-07,Golden State Warriors,LA Clippers,131.0,104.0,122.38186,114.129326
+22018,2019-04-07,Minnesota Timberwolves,Oklahoma City Thunder,126.0,132.0,113.59433,114.40268
+22018,2019-04-07,Los Angeles Lakers,Utah Jazz,113.0,109.0,109.018974,112.09606
+22018,2019-04-07,Sacramento Kings,New Orleans Pelicans,129.0,133.0,112.62496,110.30952
+22018,2019-04-07,Detroit Pistons,Charlotte Hornets,91.0,104.0,112.25572,108.343544
+22018,2019-04-07,Boston Celtics,Orlando Magic,108.0,116.0,115.95663,112.47784
+22018,2019-04-07,Indiana Pacers,Brooklyn Nets,96.0,108.0,118.244705,116.13593
+22018,2019-04-07,Cleveland Cavaliers,San Antonio Spurs,90.0,112.0,111.893394,114.92486
+22018,2019-04-07,Portland Trail Blazers,Denver Nuggets,115.0,108.0,119.08155,115.77191
+22018,2019-04-09,Detroit Pistons,Memphis Grizzlies,100.0,93.0,110.09063,105.91683
+22018,2019-04-09,Miami Heat,Philadelphia 76ers,122.0,99.0,117.01962,115.77894
+22018,2019-04-09,Utah Jazz,Denver Nuggets,118.0,108.0,109.11656,105.95111
+22018,2019-04-09,Los Angeles Lakers,Portland Trail Blazers,101.0,104.0,114.91043,116.52943
+22018,2019-04-09,Cleveland Cavaliers,Charlotte Hornets,97.0,124.0,111.00806,113.62107
+22018,2019-04-09,Oklahoma City Thunder,Houston Rockets,112.0,111.0,124.55158,126.28412
+22018,2019-04-09,Dallas Mavericks,Phoenix Suns,120.0,109.0,113.28147,107.645836
+22018,2019-04-09,Minnesota Timberwolves,Toronto Raptors,100.0,120.0,115.57999,118.96469
+22018,2019-04-09,New Orleans Pelicans,Golden State Warriors,103.0,112.0,116.980896,121.94035
+22018,2019-04-09,Washington Wizards,Boston Celtics,110.0,116.0,118.76222,121.02385
+22018,2019-04-09,Chicago Bulls,New York Knicks,86.0,96.0,107.13499,105.699196
+22018,2019-04-10,Denver Nuggets,Minnesota Timberwolves,99.0,95.0,120.34302,113.726166
+22018,2019-04-10,Atlanta Hawks,Indiana Pacers,134.0,135.0,112.283714,112.65075
+22018,2019-04-10,Memphis Grizzlies,Golden State Warriors,132.0,117.0,112.09845,116.63557
+22018,2019-04-10,Milwaukee Bucks,Oklahoma City Thunder,116.0,127.0,110.21726,105.1278
+22018,2019-04-10,Philadelphia 76ers,Chicago Bulls,125.0,109.0,114.13217,105.50234
+22018,2019-04-10,Portland Trail Blazers,Sacramento Kings,136.0,131.0,119.85988,112.48635
+22018,2019-04-10,Charlotte Hornets,Orlando Magic,114.0,122.0,114.836044,114.91225
+22018,2019-04-10,Brooklyn Nets,Miami Heat,113.0,94.0,113.57628,112.12507
+22018,2019-04-10,San Antonio Spurs,Dallas Mavericks,105.0,94.0,106.14454,100.83153
+22018,2019-04-10,New York Knicks,Detroit Pistons,89.0,115.0,111.72855,115.06101
+22018,2019-04-10,LA Clippers,Utah Jazz,143.0,137.0,106.846954,110.30381
+42018,2019-04-13,Golden State Warriors,LA Clippers,121.0,104.0,109.70275,103.14145
+42018,2019-04-13,Toronto Raptors,Orlando Magic,101.0,104.0,99.91846,96.95979
+42018,2019-04-13,Philadelphia 76ers,Brooklyn Nets,102.0,111.0,103.4668,101.64462
+42018,2019-04-13,Denver Nuggets,San Antonio Spurs,96.0,101.0,108.109184,103.76437
+42018,2019-04-14,Boston Celtics,Indiana Pacers,84.0,74.0,106.41454,102.45312
+42018,2019-04-14,Portland Trail Blazers,Oklahoma City Thunder,104.0,99.0,103.00524,99.88347
+42018,2019-04-14,Milwaukee Bucks,Detroit Pistons,121.0,86.0,99.808876,96.12826
+42018,2019-04-14,Houston Rockets,Utah Jazz,122.0,90.0,103.23291,99.733154
+42018,2019-04-15,Philadelphia 76ers,Brooklyn Nets,145.0,123.0,103.072105,101.52063
+42018,2019-04-15,Golden State Warriors,LA Clippers,131.0,135.0,109.64993,103.01735
+42018,2019-04-16,Toronto Raptors,Orlando Magic,111.0,82.0,99.78086,96.86231
+42018,2019-04-16,Denver Nuggets,San Antonio Spurs,114.0,105.0,107.84951,103.799614
+42018,2019-04-16,Portland Trail Blazers,Oklahoma City Thunder,114.0,94.0,103.08258,99.9092
+42018,2019-04-17,Boston Celtics,Indiana Pacers,99.0,91.0,106.25716,102.23169
+42018,2019-04-17,Houston Rockets,Utah Jazz,118.0,98.0,103.018394,99.35706
+42018,2019-04-17,Milwaukee Bucks,Detroit Pistons,120.0,99.0,99.4955,95.66959
+42018,2019-04-18,LA Clippers,Golden State Warriors,105.0,132.0,109.18112,110.808556
+42018,2019-04-18,San Antonio Spurs,Denver Nuggets,118.0,108.0,105.877884,105.06382
+42018,2019-04-18,Brooklyn Nets,Philadelphia 76ers,115.0,131.0,105.47579,103.69826
+42018,2019-04-19,Oklahoma City Thunder,Portland Trail Blazers,120.0,108.0,107.595924,105.82192
+42018,2019-04-19,Orlando Magic,Toronto Raptors,93.0,98.0,98.73547,98.49779
+42018,2019-04-19,Indiana Pacers,Boston Celtics,96.0,104.0,100.4417,100.96492
+42018,2019-04-20,San Antonio Spurs,Denver Nuggets,103.0,117.0,105.86855,104.97229
+42018,2019-04-20,Brooklyn Nets,Philadelphia 76ers,108.0,112.0,105.555466,104.02617
+42018,2019-04-20,Detroit Pistons,Milwaukee Bucks,103.0,119.0,103.889275,104.05309
+42018,2019-04-20,Utah Jazz,Houston Rockets,101.0,104.0,101.72093,101.66597
+42018,2019-04-21,Indiana Pacers,Boston Celtics,106.0,110.0,100.45969,101.10373
+42018,2019-04-21,LA Clippers,Golden State Warriors,105.0,113.0,109.37215,111.250244
+42018,2019-04-21,Orlando Magic,Toronto Raptors,85.0,107.0,98.80115,98.524155
+42018,2019-04-21,Oklahoma City Thunder,Portland Trail Blazers,98.0,111.0,107.6845,105.734665
+42018,2019-04-22,Utah Jazz,Houston Rockets,107.0,91.0,101.9658,101.98037
+42018,2019-04-22,Detroit Pistons,Milwaukee Bucks,104.0,127.0,103.96857,104.27938
+42018,2019-04-23,Toronto Raptors,Orlando Magic,115.0,96.0,100.01893,96.56878
+42018,2019-04-23,Philadelphia 76ers,Brooklyn Nets,122.0,100.0,102.75321,100.74976
+42018,2019-04-23,Portland Trail Blazers,Oklahoma City Thunder,118.0,115.0,102.93067,99.55791
+42018,2019-04-23,Denver Nuggets,San Antonio Spurs,108.0,90.0,107.449875,103.27729
+42018,2019-04-24,Golden State Warriors,LA Clippers,121.0,129.0,109.71509,103.15612
+42018,2019-04-24,Houston Rockets,Utah Jazz,100.0,93.0,103.16713,99.60008
+42018,2019-04-25,San Antonio Spurs,Denver Nuggets,120.0,103.0,105.90192,105.44663
+42018,2019-04-26,LA Clippers,Golden State Warriors,110.0,129.0,109.76134,111.41662
+42018,2019-04-27,Toronto Raptors,Philadelphia 76ers,108.0,95.0,100.83346,97.23042
+42018,2019-04-27,Denver Nuggets,San Antonio Spurs,90.0,86.0,107.442825,103.3609
+42018,2019-04-28,Milwaukee Bucks,Boston Celtics,90.0,112.0,99.64468,97.68339
+42018,2019-04-28,Golden State Warriors,Houston Rockets,104.0,100.0,110.213684,108.79915
+42018,2019-04-29,Toronto Raptors,Philadelphia 76ers,89.0,94.0,101.07585,97.42248
+42018,2019-04-29,Denver Nuggets,Portland Trail Blazers,121.0,113.0,107.52529,104.985374
+42018,2019-04-30,Golden State Warriors,Houston Rockets,115.0,109.0,110.35659,108.9619
+42018,2019-04-30,Milwaukee Bucks,Boston Celtics,123.0,102.0,99.65442,98.00332
+42018,2019-05-01,Denver Nuggets,Portland Trail Blazers,90.0,97.0,110.5421,107.727516
+42018,2019-05-02,Philadelphia 76ers,Toronto Raptors,116.0,95.0,101.56618,100.793396
+42018,2019-05-03,Boston Celtics,Milwaukee Bucks,116.0,123.0,107.319984,106.077805
+42018,2019-05-03,Portland Trail Blazers,Denver Nuggets,140.0,137.0,109.41818,106.20952
+42018,2019-05-04,Houston Rockets,Golden State Warriors,126.0,121.0,111.92086,108.85553
+42018,2019-05-05,Portland Trail Blazers,Denver Nuggets,112.0,116.0,109.24954,106.16022
+42018,2019-05-05,Philadelphia 76ers,Toronto Raptors,96.0,101.0,101.00223,100.03029
+42018,2019-05-06,Boston Celtics,Milwaukee Bucks,101.0,113.0,106.84759,105.67121
+42018,2019-05-06,Houston Rockets,Golden State Warriors,112.0,108.0,111.55376,108.37638
+42018,2019-05-07,Toronto Raptors,Philadelphia 76ers,125.0,89.0,102.09543,98.62341
+42018,2019-05-07,Denver Nuggets,Portland Trail Blazers,124.0,98.0,109.42984,106.89407
+42018,2019-05-08,Golden State Warriors,Houston Rockets,104.0,99.0,110.58093,108.858215
+42018,2019-05-08,Milwaukee Bucks,Boston Celtics,116.0,91.0,101.223175,99.277466
+42018,2019-05-09,Portland Trail Blazers,Denver Nuggets,119.0,108.0,108.86236,105.93321
+42018,2019-05-09,Philadelphia 76ers,Toronto Raptors,112.0,101.0,100.324,99.69284
+42018,2019-05-10,Houston Rockets,Golden State Warriors,113.0,118.0,111.22802,108.18026
+42018,2019-05-12,Denver Nuggets,Portland Trail Blazers,96.0,100.0,108.75067,106.36056
+42018,2019-05-12,Toronto Raptors,Philadelphia 76ers,92.0,90.0,101.52743,98.08421
+42018,2019-05-14,Golden State Warriors,Portland Trail Blazers,116.0,94.0,108.45782,104.126
+42018,2019-05-15,Milwaukee Bucks,Toronto Raptors,108.0,100.0,98.98675,96.6887
+42018,2019-05-16,Golden State Warriors,Portland Trail Blazers,114.0,111.0,108.45817,103.94431
+42018,2019-05-17,Milwaukee Bucks,Toronto Raptors,125.0,103.0,99.0702,96.63803
+42018,2019-05-18,Portland Trail Blazers,Golden State Warriors,99.0,110.0,107.45372,106.37116
+42018,2019-05-19,Toronto Raptors,Milwaukee Bucks,118.0,112.0,100.95306,99.42766
+42018,2019-05-20,Portland Trail Blazers,Golden State Warriors,117.0,119.0,107.39668,106.44149
+42018,2019-05-21,Toronto Raptors,Milwaukee Bucks,120.0,102.0,100.79156,99.09121
+42018,2019-05-23,Milwaukee Bucks,Toronto Raptors,99.0,105.0,98.677216,96.3326
+42018,2019-05-25,Toronto Raptors,Milwaukee Bucks,100.0,94.0,100.770966,98.786575
+42018,2019-05-30,Toronto Raptors,Golden State Warriors,118.0,109.0,103.425446,102.10372
+42018,2019-06-02,Toronto Raptors,Golden State Warriors,104.0,109.0,104.66602,103.103615
+42018,2019-06-05,Golden State Warriors,Toronto Raptors,109.0,123.0,104.53048,100.58865
+42018,2019-06-07,Golden State Warriors,Toronto Raptors,92.0,105.0,104.11184,100.444565
+42018,2019-06-10,Toronto Raptors,Golden State Warriors,105.0,106.0,103.56846,101.82678
+42018,2019-06-13,Golden State Warriors,Toronto Raptors,110.0,114.0,103.55064,99.99252
