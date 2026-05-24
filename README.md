@@ -1,4 +1,4 @@
-# Experimento D2
+# Experimento D2 (D2.py)
 
 Este experimento representa una evolución directa del Experimento D1. Mientras que el enfoque inicial se centraba en una arquitectura de red neuronal sencilla con variables limitadas, el D2 amplía significativamente el análisis mediante la implementación de modelos de clasificación tipo ensamble y un sistema de calibración basado en rating Elo.
 
