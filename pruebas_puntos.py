@@ -5,13 +5,13 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import os
 
-# --- Columnas ---
+# Columnas
 cols_fecha = ['year', 'month', 'day']
 cols_elo = ['elo_h', 'elo_a']
 cols_equipos = []
 
 
-# --- Preparar datos con One-Hot Encoding ---
+# Preparar datos con One-Hot Encoding
 def preparar_datos_ohe(df, cols_equipos):
     df_copy = df.copy()
     df_copy['game_date'] = pd.to_datetime(df_copy['game_date'])
@@ -25,7 +25,7 @@ def preparar_datos_ohe(df, cols_equipos):
     return df_copy, cols_equipos
 
 
-# --- Escalar datos ---
+# Escalar datos
 def escalar_datos(df, df_test, cols_no_escalables, cols_escalables):
     scaler = StandardScaler()
     scaler.fit(df[cols_escalables])
@@ -38,12 +38,12 @@ def escalar_datos(df, df_test, cols_no_escalables, cols_escalables):
     return data_entrada, data_entrada_test
 
 
-# --- Preparar salida para regresión de puntuaciones ---
+# Preparar salida para regresión de puntuaciones
 def preparar_datos_salida_puntuacion(df):
     return df[['pts_home', 'pts_away']].values.astype(float)
 
 
-# --- Crear modelo de regresión ---
+# Crear modelo de regresión
 def crear_modelo_puntuacion(n_input):
     modelo = tf.keras.Sequential([
         tf.keras.layers.Dense(128, activation='relu', input_shape=[n_input]),
@@ -60,7 +60,7 @@ def crear_modelo_puntuacion(n_input):
     return modelo
 
 
-# --- Evaluar modelo de puntuación ---
+# Evaluar modelo de puntuación
 def evaluar_modelo_puntuacion(modelo, entrada, salida_real, nombre_modelo):
     predicciones = modelo.predict(entrada)
     mse = mean_squared_error(salida_real, predicciones)
@@ -72,7 +72,7 @@ def evaluar_modelo_puntuacion(modelo, entrada, salida_real, nombre_modelo):
     return mse, mae
 
 
-# --- Guardar resultados ---
+# Guardar resultados
 def guardar_resultados_csv_puntuacion(df, modelo, entrada, nombre_archivo):
     if not os.path.exists('resultados2'):
         os.makedirs('resultados2')
@@ -86,7 +86,7 @@ def guardar_resultados_csv_puntuacion(df, modelo, entrada, nombre_archivo):
     df.to_csv('resultados2/' + nombre_archivo, index=False)
 
 
-# --- Lectura y preparación de datos ---
+# Lectura y preparación de datos
 df_partidos = pd.read_csv('csv_red/partidos.csv')
 df_partidos, cols_equipos = preparar_datos_ohe(df_partidos, cols_equipos)
 
@@ -97,7 +97,7 @@ data_entrada, data_entrada_test = escalar_datos(partidos, partidos_test, cols_eq
 data_salida, data_salida_test = preparar_datos_salida_puntuacion(partidos), preparar_datos_salida_puntuacion(
     partidos_test)
 
-# --- Crear y entrenar modelo ---
+# Crear y entrenar modelo
 modelo = crear_modelo_puntuacion(data_entrada.shape[1])
 history = modelo.fit(
     data_entrada, data_salida,
@@ -111,8 +111,8 @@ history = modelo.fit(
     )]
 )
 
-# --- Evaluación ---
+# Evaluación
 mse, mae = evaluar_modelo_puntuacion(modelo, data_entrada_test, data_salida_test, "Modelo Puntuación")
 
-# --- Guardar resultados ---
+# Guardar resultados
 guardar_resultados_csv_puntuacion(partidos_test, modelo, data_entrada_test, 'resultados_modelo_puntuacion.csv')
