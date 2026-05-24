@@ -1,6 +1,6 @@
 # Experimento D1
 Este experimento representa una evolución importate sobre el Experimento D. Mientras que el modelo base (D) se centraba en estadísticas simples de rendimiento, el Experimento D1 introduce métricas de fuerza relativa y ventanas temporales para capturar la dinámica de la competición.
-## 1. Comparativa de Modelos: D vs. D1
+## 1. Comparativa de Modelos D con D1
 
 ### Experimento D (Línea Base)
 *   **Enfoque**: Clasificación binaria basada en estadísticas puntuales del partido (rebotes, asistencias, porcentajes de tiro).
