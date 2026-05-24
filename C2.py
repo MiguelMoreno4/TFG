@@ -141,7 +141,7 @@ model.compile(
     optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
     loss={'winner': 'binary_crossentropy', 'points': 'mae'},
     loss_weights={'winner': 1.0, 'points': 0.1},
-    metrics={'winner': 'accuracy', 'points': 'mae'}
+    metrics={'winner': 'accuracy'}
 )
 
 model.fit(
