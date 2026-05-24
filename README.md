@@ -32,6 +32,6 @@ Una de las grandes aportaciones de D2 es la interpretabilidad. El análisis de i
 2. **Win Pct 10:** El porcentaje de victorias en los últimos 10 partidos (racha reciente).
 3. **Puntos en la pintura (promedio):** Métrica que refleja el dominio físico reciente en la zona.
 
-## Conclusión
+## 4. Conclusión
 
 El experimento D2 confirma que en la predicción de la NBA, la calidad y el contexto de las variables (como el rating Elo) tienen un impacto más significativo que la complejidad arquitectónica del modelo. Este enfoque no solo logra superar la barrera del azar, sino que proporciona una base sólida para sistemas de predicción deportiva profesional.
