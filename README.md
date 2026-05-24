@@ -1,6 +1,5 @@
 # Experimento D1
 Este experimento representa una evolución importate sobre el Experimento D. Mientras que el modelo base (D) se centraba en estadísticas simples de rendimiento, el Experimento D1 introduce métricas de fuerza relativa y ventanas temporales para capturar la dinámica de la competición.
-
 ## 1. Comparativa de Modelos: D vs. D1
 
 ### Experimento D (Línea Base)
@@ -33,5 +32,5 @@ Los resultados obtenidos en el Experimento D1 muestran un salto grande respecto 
 | **Variables** | 5 (Estadísticas simples) | 100+ (Elo + Historial) |
 | **Metodología** | Red Neuronal Simple | Ensamble / Boosting |
 
-### Análisis de Importancia
+### 4. Análisis de Importancia
 El análisis mediante Feature Importance revela que el Elo Diff (Diferencia de Rating Elo) y el Win Pct 10 (Porcentaje de victorias recientes) son los predictores más potentes, validando la hipótesis de que el contexto histórico supera a la estadística puntual del partido.
