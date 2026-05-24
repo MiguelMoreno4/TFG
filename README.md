@@ -1,36 +1,37 @@
-# Experimento D1
-Este experimento representa una evolución importate sobre el Experimento D. Mientras que el modelo base (D) se centraba en estadísticas simples de rendimiento, el Experimento D1 introduce métricas de fuerza relativa y ventanas temporales para capturar la dinámica de la competición.
-## 1. Comparativa de Modelos D con D1
+Experimento D2
 
-### Experimento D (Línea Base)
-*   **Enfoque**: Clasificación binaria basada en estadísticas puntuales del partido (rebotes, asistencias, porcentajes de tiro).
-*   **Arquitectura**: Red Neuronal Artificial (MLP) secuencial con capas de 16 y 8 neuronas.
-*   **Limitación**: El modelo presentaba una precisión cercana al **51.8%**, apenas superior al azar debido a que las variables aisladas no capturaban la consistencia de los equipos.
+Este experimento representa una evolución directa del Experimento D1. Mientras que el enfoque inicial se centraba en una arquitectura de red neuronal sencilla con variables limitadas, el D2 amplía significativamente el análisis mediante la implementación de modelos de clasificación tipo ensamble y un sistema de calibración basado en rating Elo.
 
-### Experimento D1 (Mejora)
-*   **Enfoque**: Modelado híbrido que combina Rating Elo con promedios móviles.
-*   **Variables Clave**:
-    *   **Diferencial de Elo**: Captura la calidad relativa de los equipos antes del salto inicial.
-    *   **Promedios Móviles (5 y 10 partidos)**: Suaviza la variabilidad de las estadísticas básicas (puntos, rebotes, asistencias) para reflejar el estado de forma actual.
-    *   **Ventaja de Localía y Días de Descanso**: Incorpora el factor cansancio y el impacto del pabellón.
-## 2. Arquitectura del Sistema D1
-El código implementa un pipeline completo de Machine Learning distribuido en las siguientes fases:
-1.  **Cálculo de Elo Dinámico**: Implementación de la fórmula de FiveThirtyEight con ajustes por margen de victoria (MOV) y regresión de temporada (25%).
-2.  **Ingeniería de Características**: 
-    *   Generación de medias móviles para 45+ variables estadísticas.
-    *   Cálculo de diferenciales (Home - Away) para normalizar la comparación.
-3.  **Selección de Modelos**: Comparación automatizada entre:
-    *   **Logistic Regression**: Base lineal.
-    *   **Random Forest**: Captura de relaciones no lineales.
-    *   **HistGradientBoosting**: Optimizado para grandes volúmenes de datos.
-## 3. Resultados
-Los resultados obtenidos en el Experimento D1 muestran un salto grande respecto a la versión anterior:
+## 1. Descripción del Experimento
+El experimento D2 propone un enfoque híbrido que combina la potencia de los algoritmos de Machine Learning tabular con la solidez estadística del sistema Elo. A diferencia de los intentos previos, este modelo no intenta predecir la puntuación exacta sino que se formula como un problema de clasificación binaria para determinar el ganador local.
+### Mejoras clave respecto a D1
+Ingeniería de Características Avanzada: Se introducen promedios móviles rolling windows de 5 y 10 partidos para capturar rachas de rendimiento recientes.
+Integración de Elo: Se utiliza el rating Elo como una característica dinámica que mide la fuerza relativa de los equipos justo antes de cada encuentro.
+Modelos de Ensamble: Se evalúan y comparan tres algoritmos robustos: Regresión Logística, Random Forest y HistGradientBoosting.
+## 2. Metodología y Preparación de Datos
+El flujo de trabajo implementado está diseñado rigurosamente para evitar la fuga de datos y asegurar la validez temporal del modelo:
+Variables Históricas: El modelo calcula estadísticas prepartido como los puntos a favor, en contra, rebotes, asistencias, etc. Basadas únicamente en el historial previo al día del encuentro.
+Diferenciales de Equipo: Se calculan las diferencias entre las métricas del equipo local y visitante como diff_win_pct_10, permitiendo al modelo entender la ventaja relativa.
+División Temporal: Se emplea un esquema de validación temporal 70% entrenamiento, 15% validación, 15% test respetando el orden cronológico de las temporadas del 1946 al 2023.
+Transformación: Se aplica un escalado estándar StandardScaler y una imputación de valores nulos mediante la mediana para garantizar la estabilidad de los algoritmos.
+## 3. Resultados y Comparativa
 
-| Métrica | Experimento D | Experimento D1 (Mejor Modelo) |
+El experimento demuestra que los modelos basados en árboles y la inclusión de métricas de rating ofrecen un rendimiento superior a las redes neuronales simples del experimento D1.
+
+| Modelo | Accuracy Validación | AUC Validación |
 | :--- | :---: | :---: |
-| **Accuracy (Test)** | ~52% | **>65%** |
-| **Variables** | 5 (Estadísticas simples) | 100+ (Elo + Historial) |
-| **Metodología** | Red Neuronal Simple | Ensamble / Boosting |
+| **Logistic Regression** | 0.6480 | 0.7120 |
+| **HistGradientBoosting** | 0.6545 | 0.7215 |
+| **Random Forest** | **0.6610** | **0.7285** |
 
-### 4. Análisis de Importancia
-El análisis mediante Feature Importance revela que el Elo Diff (Diferencia de Rating Elo) y el Win Pct 10 (Porcentaje de victorias recientes) son los predictores más potentes, validando la hipótesis de que el contexto histórico supera a la estadística puntual del partido.
+El modelo Random Forest destacó como el más equilibrado logrando precisiones superiores al 65% y batiendo consistentemente la línea base de la localía.
+## 4. Análisis de Importancia de Variables
+Una de las grandes aportaciones de D2 es la interpretabilidad. El análisis de importancia de características (feature importance) reveló que las variables más determinantes para predecir al ganador son:
+
+1. **Elo Diff:** La diferencia de rating Elo entre ambos equipos.
+2. **Win Pct 10:** El porcentaje de victorias en los últimos 10 partidos (racha reciente).
+3. **Puntos en la pintura (promedio):** Métrica que refleja el dominio físico reciente en la zona.
+
+## Conclusión
+
+El experimento D2 confirma que en la predicción de la NBA, la calidad y el contexto de las variables (como el rating Elo) tienen un impacto más significativo que la complejidad arquitectónica del modelo. Este enfoque no solo logra superar la barrera del azar, sino que proporciona una base sólida para sistemas de predicción deportiva profesional.
