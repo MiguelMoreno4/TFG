@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from elo2 import SOURCE_FOLDER
 
 def historial_5temporadas(df, fecha_objetivo):
     df['game_date'] = pd.to_datetime(df['game_date'])
@@ -171,18 +172,18 @@ def calcular_elos_fg(df_games, df_equipos, fecha, k=20):
         
     return elo_ofensivo, elo_defensivo
 
-df_partidos = pd.read_csv('csv/game.csv')
-df_equipos = pd.read_csv('csv/team.csv')
+df_partidos = pd.read_csv(SOURCE_FOLDER + 'game.csv')
+df_equipos = pd.read_csv(SOURCE_FOLDER + 'team.csv')
 
 # Descartar partidos que no sean Regular Season o Playoffs
 df_partidos = df_partidos[df_partidos['season_type'].isin(['Regular Season', 'Playoffs'])]
 
-fecha = '2018-12-25'
+FECHA = '2018-12-25'
 # Obtener los ELOs justo antes de esa fecha
-elos1 = calcular_elo_nba(df_partidos, df_equipos, fecha)
-elos2 = calcular_elo_nba_2(df_partidos, df_equipos, fecha)
-elos_off_fg3, elos_def_fg3 = calcular_elos_fg3(df_partidos, df_equipos, fecha)
-elos_off_fg, elos_def_fg = calcular_elos_fg(df_partidos, df_equipos, fecha)
+elos1 = calcular_elo_nba(df_partidos, df_equipos, FECHA)
+elos2 = calcular_elo_nba_2(df_partidos, df_equipos, FECHA)
+elos_off_fg3, elos_def_fg3 = calcular_elos_fg3(df_partidos, df_equipos, FECHA)
+elos_off_fg, elos_def_fg = calcular_elos_fg(df_partidos, df_equipos, FECHA)
 
 # Ranking de equipos según los distintos ELOs
 df_1 = pd.DataFrame(list(elos1.items()), columns=['id', 'elo'])
@@ -202,22 +203,22 @@ df_def_fg = pd.DataFrame(list(elos_def_fg.items()), columns=['id', 'elo_def_fg']
 df_def_fg = df_def_fg.merge(df_equipos[['id', 'full_name']], on='id').sort_values('elo_def_fg', ascending=False)
 
 #Rankings elo1
-print(f"Ranking equipos según elo1 el {fecha}:")
+print(f"Ranking equipos según elo1 el {FECHA}:")
 print(df_1[['full_name', 'elo']].to_string(index=False))
 
 #Rankings elo2
-print(f"\nRanking equipos según elo2 el {fecha}:")
+print(f"\nRanking equipos según elo2 el {FECHA}:")
 print(df_2[['full_name', 'elo']].to_string(index=False))
 
 #Rankings FG3
-print(f"\nRanking equipos según elo ofensivo FG3 el {fecha}:")
+print(f"\nRanking equipos según elo ofensivo FG3 el {FECHA}:")
 print(df_off_fg3[['full_name', 'elo_off_fg3']].to_string(index=False))
-print(f"\nRanking equipos según elo defensivo FG3 el {fecha}:")
+print(f"\nRanking equipos según elo defensivo FG3 el {FECHA}:")
 print(df_def_fg3[['full_name', 'elo_def_fg3']].to_string(index=False))
 
 #Rankings FG
-print(f"\nRanking equipos según elo ofensivo FG el {fecha}:")
+print(f"\nRanking equipos según elo ofensivo FG el {FECHA}:")
 print(df_off_fg[['full_name', 'elo_off_fg']].to_string(index=False))
-print(f"\nRanking equipos según elo defensivo FG el {fecha}:")
+print(f"\nRanking equipos según elo defensivo FG el {FECHA}:")
 print(df_def_fg[['full_name', 'elo_def_fg']].to_string(index=False))
 

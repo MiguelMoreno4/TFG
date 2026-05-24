@@ -4,10 +4,12 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 # Evaluación de Modelos
 from sklearn.metrics import mean_absolute_error
+# Carpeta con los CSV de partidos
+from elo2 import FOLDER
 
 cols_fecha = ['year', 'month', 'day']
-cols_elo = ['elo_h', 'elo_a']#, 'elo_h_ofg', 'elo_a_ofg', 'elo_h_dfg', 'elo_a_dfg', 
-            #'elo_h_ofg3', 'elo_a_ofg3', 'elo_h_dfg3', 'elo_a_dfg3']
+cols_elo = ['elo_h', 'elo_a', 'elo_h_ofg', 'elo_a_ofg', 'elo_h_dfg', 'elo_a_dfg', 
+            'elo_h_ofg3', 'elo_a_ofg3', 'elo_h_dfg3', 'elo_a_dfg3']
 cols_equipos = []
 
 #One-Hot Encoding de los equipos 
@@ -50,60 +52,47 @@ def preparar_datos_salida(df):
 
     return np.column_stack((home_win, away_win))
 
-# Partidos con datos básicos
-df_partidos = pd.read_csv('csv_red/partidos.csv')
-ultima_fecha = pd.to_datetime(df_partidos['game_date'].max())
-df_partidos, cols_equipos = preparar_datos_ohe(df_partidos, cols_equipos)
+def procesar_partidos(df, cols_cat, cols_num, corte_test=2017):
+    # Filtrar partidos anteriores a 2018 para entrenamiento y posteriores para test
+    temporada = df['season_id'].astype(str).str[-4:].astype(int)
+    df_train = df[temporada <= corte_test]
+    df_test = df[temporada > corte_test]
+    
+    data_entrada, data_entrada_test = escalar_datos(df_train, df_test, cols_cat, cols_num)
+    
+    data_salida = preparar_datos_salida(df_train)
+    data_salida_test = preparar_datos_salida(df_test)
+    
+    return df_test, data_entrada, data_entrada_test, data_salida, data_salida_test
 
-# Filtrar partidos anteriores al último mes de datos para entrenamiento
-partidos = df_partidos[df_partidos['season_id'].astype(str).str[-4:].astype(int) <= 2017] #[df_partidos['game_date'] < ultima_fecha - pd.Timedelta(days=30)]
-partidos_test = df_partidos[df_partidos['season_id'].astype(str).str[-4:].astype(int) > 2017] #[df_partidos['game_date'] >= ultima_fecha - pd.Timedelta(days=30)]
-data_entrada, data_entrada_test = escalar_datos(partidos, partidos_test, cols_equipos, cols_fecha)
-data_salida, data_salida_test = preparar_datos_salida(partidos), preparar_datos_salida(partidos_test)
 
-#Partidos con ELO1
-df_partidos_elo1 = pd.read_csv('csv_red/partidos_elo1.csv')
-df_partidos_elo1, cols_equipos = preparar_datos_ohe(df_partidos_elo1, cols_equipos)
+def cargar_procesar_elo(ruta_csv, cols_equipos_actuales, cols_cat, cols_num):
+    df = pd.read_csv(ruta_csv)
+    df, nuevas_cols_equipos = preparar_datos_ohe(df, cols_equipos_actuales)
+    
+    df, entrada_train, entrada_test, salida_train, salida_test = procesar_partidos(df, cols_cat, cols_num)
+    
+    return df, entrada_train, entrada_test, salida_train, salida_test, nuevas_cols_equipos
 
-partidos_elo1 = df_partidos_elo1[df_partidos_elo1['season_id'].astype(str).str[-4:].astype(int) <= 2017] #[df_partidos_elo1['game_date'] < ultima_fecha - pd.Timedelta(days=30)]
-partidos_elo1_test = df_partidos_elo1[df_partidos_elo1['season_id'].astype(str).str[-4:].astype(int) > 2017] #[df_partidos_elo1['game_date'] >= ultima_fecha - pd.Timedelta(days=30)]
-data_entrada_elo1, data_entrada_elo1_test = escalar_datos(partidos_elo1, partidos_elo1_test, [], cols_fecha + cols_elo)
-data_salida_elo1, data_salida_elo1_test = preparar_datos_salida(partidos_elo1), preparar_datos_salida(partidos_elo1_test)
 
-#Partidos con ELO2
-df_partidos_elo2 = pd.read_csv('csv_red/partidos_elo2.csv')
-df_partidos_elo2, cols_equipos = preparar_datos_ohe(df_partidos_elo2, cols_equipos)
+# Partidos Base
+(partidos_test, data_entrada, data_entrada_test, data_salida, 
+ data_salida_test, cols_equipos) = cargar_procesar_elo(FOLDER + 'partidos.csv', cols_equipos, [], cols_fecha)
 
-partidos_elo2 = df_partidos_elo2[df_partidos_elo2['season_id'].astype(str).str[-4:].astype(int) <= 2017] #[df_partidos_elo2['game_date'] < ultima_fecha - pd.Timedelta(days=30)]
-partidos_elo2_test = df_partidos_elo2[df_partidos_elo2['season_id'].astype(str).str[-4:].astype(int) > 2017] #[df_partidos_elo2['game_date'] >= ultima_fecha - pd.Timedelta(days=30)]
-data_entrada_elo2, data_entrada_elo2_test = escalar_datos(partidos_elo2, partidos_elo2_test, [], cols_fecha + cols_elo)
-data_salida_elo2, data_salida_elo2_test = preparar_datos_salida(partidos_elo2), preparar_datos_salida(partidos_elo2_test)
+# Partidos con Elo1
+(partidos_elo1_test, data_entrada_elo1, data_entrada_elo1_test, data_salida_elo1, 
+ data_salida_elo1_test, cols_equipos) = cargar_procesar_elo(FOLDER + 'partidos_elo1.csv', cols_equipos, [], cols_fecha + cols_elo)
 
-# Partidos con ELO3
-df_partidos_elo3 = pd.read_csv('csv_red/partidos_elo3.csv')
-df_partidos_elo3, cols_equipos = preparar_datos_ohe(df_partidos_elo3, cols_equipos)
-partidos_elo3 = df_partidos_elo3[df_partidos_elo3['season_id'].astype(str).str[-4:].astype(int) <= 2017] #[df_partidos_elo3['game_date'] < ultima_fecha - pd.Timedelta(days=30)]
-partidos_elo3_test = df_partidos_elo3[df_partidos_elo3['season_id'].astype(str).str[-4:].astype(int) > 2017] #[df_partidos_elo3['game_date'] >= ultima_fecha - pd.Timedelta(days=30)]
-data_entrada_elo3, data_entrada_elo3_test = escalar_datos(partidos_elo3, partidos_elo3_test,['playoffs'], cols_fecha + cols_elo)
-data_salida_elo3, data_salida_elo3_test = preparar_datos_salida(partidos_elo3), preparar_datos_salida(partidos_elo3_test)
+# Partidos con Elo2
+(partidos_elo2_test, data_entrada_elo2, data_entrada_elo2_test, data_salida_elo2, 
+ data_salida_elo2_test, cols_equipos) = cargar_procesar_elo(FOLDER + 'partidos_elo2.csv', cols_equipos, [], cols_fecha + cols_elo)
 
-# Redes Neuronales
+# Partidos con Elo3
+(partidos_elo3_test, data_entrada_elo3, data_entrada_elo3_test, data_salida_elo3, 
+ data_salida_elo3_test, cols_equipos) = cargar_procesar_elo(FOLDER + 'partidos_elo3.csv', cols_equipos, ['playoffs'], cols_fecha + cols_elo)
 
+# Red Neuronal
 def crear_modelo(n_input):
-    modelo = tf.keras.Sequential([
-        tf.keras.layers.Dense(64, activation='relu', input_shape=[n_input]),
-        tf.keras.layers.Dense(32, activation='relu'),
-        tf.keras.layers.Dense(2, activation= 'softmax')
-    ])
-    modelo.compile(
-        optimizer=tf.keras.optimizers.Adam(0.001),
-        #una poca cantidad de errores grandes es peor que muchos errores pequeños
-        loss='mean_squared_error' 
-    )
-
-    return modelo
-
-def crear_modelo_2(n_input):
     modelo = tf.keras.Sequential([
         tf.keras.layers.Dense(128, activation='relu', input_shape=[n_input]),
         tf.keras.layers.Dropout(0.3), 
@@ -112,6 +101,7 @@ def crear_modelo_2(n_input):
     ])
     modelo.compile(
         optimizer=tf.keras.optimizers.Adam(0.01),
+        #una poca cantidad de errores grandes es peor que muchos errores pequeños
         loss='mean_squared_error' 
     )
     return modelo
@@ -139,78 +129,58 @@ results_elo1 = []
 results_elo2 = []
 results_elo3 = []
 
-# Parar el entrenamiento sí la pérdida no mejora despúes de 20 épocas
-
 ### for i in range(20):
+
+#callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)]-> Parar el entrenamiento sí la pérdida no mejora despúes de 20 épocas
 
 # Modelo base
 modelo = crear_modelo(data_entrada.shape[1])
-modelo_2 = crear_modelo_2(data_entrada.shape[1])
 print("entrenando modelo...")
 history = modelo.fit(data_entrada, data_salida, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
-history_2 = modelo_2.fit(data_entrada, data_salida, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
 print("modelo entrenado")
 # Pérdida del modelo base
 loss = modelo.evaluate(data_entrada_test, data_salida_test, verbose=0)
-loss_2 = modelo_2.evaluate(data_entrada_test, data_salida_test, verbose=0)
 print(f'Pérdida del modelo base: {loss:.4f}')
-print(f'Pérdida del modelo base_2: {loss_2:.4f}')
 
-# Modelo con ELO1
+# Modelo con Elo1
 modelo_elo1 = crear_modelo(data_entrada_elo1.shape[1])
-modelo_elo1_2 = crear_modelo_2(data_entrada_elo1.shape[1])
-print("entrenando modelo con ELO1 ...")
+print("entrenando modelo con Elo1 ...")
 history_elo1 = modelo_elo1.fit(data_entrada_elo1, data_salida_elo1, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
-history_elo1_2 = modelo_elo1_2.fit(data_entrada_elo1, data_salida_elo1, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
-print("modelo con ELO1 entrenado")
-# Pérdida del modelo con ELO1
+print("modelo con Elo1 entrenado")
+# Pérdida del modelo con Elo1
 loss_elo1 = modelo_elo1.evaluate(data_entrada_elo1_test, data_salida_elo1_test, verbose=0)
-loss_elo1_2 = modelo_elo1_2.evaluate(data_entrada_elo1_test, data_salida_elo1_test, verbose=0)
-print(f"Pérdida del modelo con ELO1: {loss_elo1:.4f}")
-print(f"Pérdida del modelo con ELO1_2: {loss_elo1_2:.4f}")
+print(f"Pérdida del modelo con Elo1: {loss_elo1:.4f}")
 
-# Modelo con ELO2
+# Modelo con Elo2
 modelo_elo2 = crear_modelo(data_entrada_elo2.shape[1])
-modelo_elo2_2 = crear_modelo_2(data_entrada_elo2.shape[1])
-print("entrenando modelo con ELO2 ...")
+print("entrenando modelo con Elo2 ...")
 history_elo2 = modelo_elo2.fit(data_entrada_elo2, data_salida_elo2, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
-history_elo2_2 = modelo_elo2_2.fit(data_entrada_elo2, data_salida_elo2, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
-print("modelo con ELO2 entrenado")
-# Pérdida del modelo con ELO2
+print("modelo con Elo2 entrenado")
+# Pérdida del modelo con Elo2
 loss_elo2 = modelo_elo2.evaluate(data_entrada_elo2_test, data_salida_elo2_test, verbose=0)
-loss_elo2_2 = modelo_elo2_2.evaluate(data_entrada_elo2_test, data_salida_elo2_test, verbose=0)
-print(f"Pérdida del modelo con ELO2: {loss_elo2:.4f}")
-print(f"Pérdida del modelo con ELO2_2: {loss_elo2_2:.4f}")
+print(f"Pérdida del modelo con Elo2: {loss_elo2:.4f}")
 
-# Modelo con ELO3
+# Modelo con Elo3
 modelo_elo3 = crear_modelo(data_entrada_elo3.shape[1])
-modelo_elo3_2 = crear_modelo_2(data_entrada_elo3.shape[1])
-print("entrenando modelo con ELO3 ...")
+print("entrenando modelo con Elo3 ...")
 history_elo3 = modelo_elo3.fit(data_entrada_elo3, data_salida_elo3, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
-history_elo3_2 = modelo_elo3_2.fit(data_entrada_elo3, data_salida_elo3, epochs=2000, verbose=0, callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=20, restore_best_weights=True)])
-print("modelo con ELO3 entrenado")
-# Pérdida del modelo con ELO3
+print("modelo con Elo3 entrenado")
+# Pérdida del modelo con Elo3
 loss_elo3 = modelo_elo3.evaluate(data_entrada_elo3_test, data_salida_elo3_test, verbose=0)
-loss_elo3_2 = modelo_elo3_2.evaluate(data_entrada_elo3_test, data_salida_elo3_test, verbose=0)
-print(f"Pérdida del modelo con ELO3: {loss_elo3:.4f}")
-print(f"Pérdida del modelo con ELO3_2: {loss_elo3_2:.4f}")
+print(f"Pérdida del modelo con Elo3: {loss_elo3:.4f}")
+
 
 # Evaluar los modelos
 # Precisión de cada modelo con los partidos de la última fecha
 acc_base, mae_base = evaluar_precision(modelo, data_entrada_test, data_salida_test, "Modelo Base")
-acc_base_2, mae_base_2 = evaluar_precision(modelo_2, data_entrada_test, data_salida_test, "Modelo Base_2")
-acc_elo1, mae_elo1 = evaluar_precision(modelo_elo1, data_entrada_elo1_test, data_salida_elo1_test, "Modelo ELO1")
-acc_elo1_2, mae_elo1_2 = evaluar_precision(modelo_elo1_2, data_entrada_elo1_test, data_salida_elo1_test, "Modelo ELO1_2")
-acc_elo2, mae_elo2 = evaluar_precision(modelo_elo2, data_entrada_elo2_test, data_salida_elo2_test, "Modelo ELO2")
-acc_elo2_2, mae_elo2_2 = evaluar_precision(modelo_elo2_2, data_entrada_elo2_test, data_salida_elo2_test, "Modelo ELO2_2")
-acc_elo3, mae_elo3 = evaluar_precision(modelo_elo3, data_entrada_elo3_test, data_salida_elo3_test, "Modelo ELO3")
-acc_elo3_2, mae_elo3_2 = evaluar_precision(modelo_elo3_2, data_entrada_elo3_test, data_salida_elo3_test, "Modelo ELO3_2")
+acc_elo1, mae_elo1 = evaluar_precision(modelo_elo1, data_entrada_elo1_test, data_salida_elo1_test, "Modelo Elo1")
+acc_elo2, mae_elo2 = evaluar_precision(modelo_elo2, data_entrada_elo2_test, data_salida_elo2_test, "Modelo Elo2")
+acc_elo3, mae_elo3 = evaluar_precision(modelo_elo3, data_entrada_elo3_test, data_salida_elo3_test, "Modelo Elo3")
 
 
 # Guardar resultados en CSV
 def guardar_resultados_csv(df, modelo, entrada, nombre_archivo):
     df = df.copy()
-    df = df_partidos[df_partidos['season_id'].astype(str).str[-4:].astype(int) > 2017]
     df = df[['season_id', 'game_date', 'team_name_home', 'team_name_away', 'pts_home', 'pts_away']]
     df['home_win'] = df['pts_home'] > df['pts_away']
     predicciones = modelo.predict(entrada)
@@ -218,19 +188,15 @@ def guardar_resultados_csv(df, modelo, entrada, nombre_archivo):
     df.to_csv('resultados2/' + nombre_archivo, index=False)
 
 guardar_resultados_csv(partidos_test, modelo, data_entrada_test, 'resultados_modelo_base.csv')
-guardar_resultados_csv(partidos_test, modelo_2, data_entrada_test, 'resultados_modelo_base_2.csv')
 guardar_resultados_csv(partidos_elo1_test, modelo_elo1, data_entrada_elo1_test, 'resultados_modelo_elo1.csv')
-guardar_resultados_csv(partidos_elo1_test, modelo_elo1_2, data_entrada_elo1_test, 'resultados_modelo_elo1_2.csv')
 guardar_resultados_csv(partidos_elo2_test, modelo_elo2, data_entrada_elo2_test, 'resultados_modelo_elo2.csv')
-guardar_resultados_csv(partidos_elo2_test, modelo_elo2_2, data_entrada_elo2_test, 'resultados_modelo_elo2_2.csv')
 guardar_resultados_csv(partidos_elo3_test, modelo_elo3, data_entrada_elo3_test, 'resultados_modelo_elo3.csv')
-guardar_resultados_csv(partidos_elo3_test, modelo_elo3_2, data_entrada_elo3_test, 'resultados_modelo_elo3_2.csv')
 
-"""
-    results_base.append((acc_base, mae_base))
-    results_elo1.append((acc_elo1, mae_elo1))
-    results_elo2.append((acc_elo2, mae_elo2))
-    results_elo3.append((acc_elo3, mae_elo3))
+
+results_base.append((acc_base, mae_base))
+results_elo1.append((acc_elo1, mae_elo1))
+results_elo2.append((acc_elo2, mae_elo2))
+results_elo3.append((acc_elo3, mae_elo3))
 
 # Resultados Promedio
 def calcular_promedios_y_mejor(nombre_modelo, results):
@@ -246,7 +212,6 @@ def calcular_promedios_y_mejor(nombre_modelo, results):
     print(f"Mejor Error (MAE): {best_mae[1]:.2f} puntos")
 
 calcular_promedios_y_mejor("Modelo Base", results_base)
-calcular_promedios_y_mejor("Modelo ELO1", results_elo1)
-calcular_promedios_y_mejor("Modelo ELO2", results_elo2)
-calcular_promedios_y_mejor("Modelo ELO3", results_elo3)
-"""
+calcular_promedios_y_mejor("Modelo Elo1", results_elo1)
+calcular_promedios_y_mejor("Modelo Elo2", results_elo2)
+calcular_promedios_y_mejor("Modelo Elo3", results_elo3)

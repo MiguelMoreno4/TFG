@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
 
+FECHA = '2019-06-13' #Fecha final temporada 2018-2019
+SOURCE_FOLDER = 'csv/'
+FOLDER = 'csv_red/'
+
 def historial_5temporadas(df, fecha_objetivo):
     df['game_date'] = pd.to_datetime(df['game_date'])
     fecha_obj = pd.to_datetime(fecha_objetivo)
@@ -18,7 +22,7 @@ def prob_esperada(ra, rb):
 def calcular_elos_fg(df_games, elo_ofensivo, elo_defensivo, i, partido, k, playoffs_factor=1.0):
     cols = ['fg_pct_home', 'fg_pct_away', 'fgm_home', 'fgm_away'] 
     df = df_games.copy().dropna(subset=cols) # Asegurarse de que no haya NaN en las columnas necesarias
-    # Si no existen las columnas de ELO, inicializarlas
+    # Si no existen las columnas de Elo, inicializarlas
     for c in ['elo_h_ofg', 'elo_a_ofg', 'elo_h_dfg', 'elo_a_dfg']:
         if c not in df.columns:
             df[c] = 0.0
@@ -67,7 +71,7 @@ def calcular_elos_fg(df_games, elo_ofensivo, elo_defensivo, i, partido, k, playo
     return df
 
 def calcular_elos_fg3(df, elo_ofensivo, elo_defensivo, i, partido, k, playoffs_factor=1.0):
-    # Si no existen las columnas de ELO, inicializarlas
+    # Si no existen las columnas de Elo, inicializarlas
     for c in ['elo_h_ofg3', 'elo_a_ofg3', 'elo_h_dfg3', 'elo_a_dfg3']:
         if c not in df.columns:
             df[c] = 0.0
@@ -128,7 +132,7 @@ def calcular_elo_nba(df_games, df_equipos, fecha, k=20):
     elo_defensivo_fg3 = dict.fromkeys(df_equipos['id'], 1500.0)
     elo_ofensivo_fg3 = dict.fromkeys(df_equipos['id'], 1500.0)
 
-    # Inicialización de columnas de ELO
+    # Inicialización de columnas de Elo
     for c in ['elo_h', 'elo_a']:
         df[c] = 0.0
 
@@ -179,7 +183,7 @@ def calcular_elo_nba_2(df_games, df_equipos, fecha, k=20):
     # Valor de season_id en la primera fila
     temporada_actual = df.iloc[0]['season_id']
 
-    # Inicialización de columnas de ELO
+    # Inicialización de columnas de Elo
     for c in ['elo_h', 'elo_a']:
         df[c] = 0.0
 
@@ -203,7 +207,7 @@ def calcular_elo_nba_2(df_games, df_equipos, fecha, k=20):
         exp_home = prob_esperada(elos[id_h] + 100, elos[id_a]) # Ventaja de 100 puntos Elo para el equipo local
         real_home = 1 if fila['wl_home'] == 'W' else 0
         
-         # Factor de margen de victoria (FiveThirtyEight)
+        # Factor de margen de victoria (FiveThirtyEight)
         mov = abs(pts_h - pts_a)
         multiplicador_mov = (mov + 3) ** 0.8 / (7.5 + 0.006 * mov)
 
@@ -211,7 +215,6 @@ def calcular_elo_nba_2(df_games, df_equipos, fecha, k=20):
         puntos = k * (real_home - exp_home) * multiplicador_mov
         elos[id_h] += puntos
         elos[id_a] -= puntos  
-    #sustituir 
     return df
 
 def calcular_elo_nba_3(df_games, df_equipos, fecha, k=20): 
@@ -234,7 +237,7 @@ def calcular_elo_nba_3(df_games, df_equipos, fecha, k=20):
     # Valor de season_id en la primera fila
     temporada_actual = df.iloc[0]['season_id']
 
-    # Inicialización de columnas de ELO
+    # Inicialización de columnas de Elo
     for c in ['elo_h', 'elo_a']:
         df[c] = 0.0
 
@@ -268,12 +271,10 @@ def calcular_elo_nba_3(df_games, df_equipos, fecha, k=20):
         puntos = k * (real_home - exp_home) * multiplicador_mov * playoffs
         elos[id_h] += puntos
         elos[id_a] -= puntos  
-    #sustituir 
     return df
 
-
-df_partidos = pd.read_csv('csv/game.csv')
-df_equipos = pd.read_csv('csv/team.csv')
+df_partidos = pd.read_csv(SOURCE_FOLDER + 'game.csv')
+df_equipos = pd.read_csv(SOURCE_FOLDER + 'team.csv')
 
 # Descartar partidos que no sean Regular Season o Playoffs
 df_partidos = df_partidos[df_partidos['season_type'].isin(['Regular Season', 'Playoffs'])]
@@ -302,19 +303,18 @@ df_partidos = df_partidos[[
     'season_type'
 ]]
 
-fecha = '2019-06-13' 
-# Obtener los ELOs justo antes de esa fecha
-#ELO 1
-df_partidos_elo1 = calcular_elo_nba(df_partidos, df_equipos, fecha)
+# Obtener los Elos de las 5 temporadas anteriores a la fecha indicada
+#Elo 1
+df_partidos_elo1 = calcular_elo_nba(df_partidos, df_equipos, FECHA)
 
-#ELO 2
-df_partidos_elo2 = calcular_elo_nba_2(df_partidos, df_equipos, fecha)
+#Elo 2
+df_partidos_elo2 = calcular_elo_nba_2(df_partidos, df_equipos, FECHA)
 
-#ELO 3
-df_partidos_elo3 = calcular_elo_nba_3(df_partidos, df_equipos, fecha)
+#Elo 3
+df_partidos_elo3 = calcular_elo_nba_3(df_partidos, df_equipos, FECHA)
 
-# Mostrar las últimas 5 filas con los nuevos ELOs calculados
-print("ELO Modelo 1:")
+# Mostrar las últimas 5 filas con los nuevos Elos calculados
+print("Elo Modelo 1:")
 #print partidos sin indexar y sin team_id
 print(df_partidos_elo1.drop(columns=['team_id_home', 'team_id_away', 'pts_home', 'pts_away', 'wl_home','season_id','fg_pct_home',
     'fg_pct_away',
@@ -324,7 +324,7 @@ print(df_partidos_elo1.drop(columns=['team_id_home', 'team_id_away', 'pts_home',
     'fg3_pct_away',
     'fg3m_home',
     'fg3m_away']).tail(5))
-print("\nELO Modelo 2:")
+print("\nElo Modelo 2:")
 print(df_partidos_elo2.drop(columns=['team_id_home', 'team_id_away', 'pts_home', 'pts_away', 'wl_home','season_id', 'fg_pct_home',
     'fg_pct_away',
     'fgm_home',
@@ -334,7 +334,7 @@ print(df_partidos_elo2.drop(columns=['team_id_home', 'team_id_away', 'pts_home',
     'fg3m_home',
     'fg3m_away']).tail(5))
 
-print("\nELO Modelo 3:")
+print("\nElo Modelo 3:")
 print(df_partidos_elo3.drop(columns=['team_id_home', 'team_id_away', 'pts_home', 'pts_away', 'wl_home','season_id', 'fg_pct_home',
     'fg_pct_away',
     'fgm_home',
@@ -347,13 +347,13 @@ print(df_partidos_elo3.drop(columns=['team_id_home', 'team_id_away', 'pts_home',
 cols = ['season_id', 'team_id_home', 'team_id_away','team_name_home','team_name_away','team_abbreviation_home','team_abbreviation_away', 'game_date', 'pts_home', 'pts_away']
 cols2 = ['elo_h', 'elo_a', 'elo_h_ofg', 'elo_a_ofg', 'elo_h_dfg', 'elo_a_dfg', 'elo_h_ofg3', 'elo_a_ofg3', 'elo_h_dfg3', 'elo_a_dfg3']
 
-df_partidos = historial_5temporadas(df_partidos, fecha)[cols]
+df_partidos = historial_5temporadas(df_partidos, FECHA)[cols]
 df_partidos_elo1 = df_partidos_elo1[cols + cols2]
 df_partidos_elo2 = df_partidos_elo2[cols + cols2]
 df_partidos_elo3 = df_partidos_elo3[cols + cols2 + ['playoffs']]
 
-# Guardar los 3 DataFrames en archivos CSV
-df_partidos.to_csv('csv_red/partidos.csv', index=False)
-df_partidos_elo1.to_csv('csv_red/partidos_elo1.csv', index=False)
-df_partidos_elo2.to_csv('csv_red/partidos_elo2.csv', index=False)
-df_partidos_elo3.to_csv('csv_red/partidos_elo3.csv', index=False)
+# Guardar los 4 DataFrames en archivos CSV
+df_partidos.to_csv(FOLDER + 'partidos.csv', index=False)
+df_partidos_elo1.to_csv(FOLDER + 'partidos_elo1.csv', index=False)
+df_partidos_elo2.to_csv(FOLDER + 'partidos_elo2.csv', index=False)
+df_partidos_elo3.to_csv(FOLDER + 'partidos_elo3.csv', index=False)
