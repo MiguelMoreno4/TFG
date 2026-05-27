@@ -1,0 +1,14 @@
+## Experimentos de Miguel
+
+Todos los experimentos detallados a continuación han sido desarrollados utilizando **Python 3.8.8**.
+
+La relación entre los documentos del repositorio y los experimentos es la siguiente:
+
+* **Experimento A1:** Se encuentra en el notebook `game+line.ipynb`.
+
+* **Experimento A2:** Se encuentra en el notebook `game+line+other.ipynb`.
+
+* **Experimento C3:** Se compone de los archivos `V1_2 Four Factors mejorado.ipynb` y `elo2.py`.
+  > *Nota: El archivo `elo2.py` es idéntico al de la carpeta de Gonzalo; se incluye en este directorio porque es una dependencia necesaria para la ejecución del notebook.*
+
+* **Experimento E3:** Se encuentra en el notebook `LSTM.ipynb`.

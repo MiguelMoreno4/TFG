@@ -1,0 +1,5 @@
+venv/
+csv/
+resultados/
+resultados2/
+__pycache__/

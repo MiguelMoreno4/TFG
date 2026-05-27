@@ -1,0 +1,7 @@
+## Experimentos de Fernando Vieites
+
+Todos los experimentos detallados a continuación han sido desarrollados utilizando **Python 3.11.9**. La relación entre los documentos del repositorio y los experimentos es la siguiente:
+
+* **Experimento B1:** Se encuentra en el archivo `B1.py`.
+* **Experimento B2:** Se encuentra en el archivo `B2.py`.
+* **Experimento C2:** Se encuentra en el archivo `C2.py`.
