@@ -25,3 +25,34 @@
 * `elo.py` -> Versión beta de las variantes de Elo 1 y 2, cálculos de defensa/ataque y preprocesamiento de datos. Muestra el ranking de Elo ordenado para cada tipo de Elo.
 
 * `v1_1.py` -> Clon de `v1.py`. Sustituye la red neuronal original por un simple predictor de ganadores. Muestra los resultados y guarda cada predicción para cada modelo en formato csv dentro de la carpeta `/resultados2`. El % de Precisión del Ganador es muy similar al de la red neuronal original de `v1.py`, por lo que se excluyó del experimento principal.
+
+
+# English
+
+**Python version used:** `3.12.10`
+
+## Requirements
+
+1. **Dataset:** Download the CSV datasets found at: [Kaggle - Basketball Dataset](https://www.kaggle.com/datasets/wyattowalsh/basketball)
+2. **Environment:** Create a Python virtual environment and install the required dependencies. You can install them using:
+   ```bash
+   pip install pandas numpy tensorflow scikit-learn
+   ```
+
+## Contents
+
+### Experiment C1
+
+* `elo2.py` -> Elo variants calculation and data preprocessing.
+    * **Constants:**
+        * `FECHA`: Contains the date of the last 2018-2019 season match. Elo calculations will be done for all Regular Season and PlayOff matches 5 seasons prior to this date.
+        * `SOURCE_FOLDER`: Contains the route to the folder containing the CSVs from the Kaggle dataset.
+        * `FOLDER`: Contains the destination route for the generated CSV with the preprocessed data.
+
+* `v1.py` -> Neural network model execution. Shows results and saves each prediction for each model in CSV format inside the `/resultados` folder.
+
+### Extra
+
+* `elo.py` -> Beta version of Elo variants 1 & 2, defense/offense calculations, and data preprocessing. Shows the ordered Elo ranking for each Elo type.
+
+* `v1_1.py` -> Clone of `v1.py`. Substitutes the original neural network for a simple winner predictor.  Shows results and saves each prediction for each model in csv format inside '/resultados2' folder. The Winner Accuracy % is very similar to the original `v1.py` neural network, thus it was excluded from the main experiment.
